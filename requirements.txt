@@ -39,4 +39,4 @@ pandas>=2.0.0
 
 # Neo4j and LLM dependencies
 neo4j>=5.14.0
-google-generativeai>=0.3.0
+google-genai>=0.1.1
