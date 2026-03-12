@@ -78,14 +78,6 @@ def get_model():
     return global_model
 
 
-@app.on_event("startup")
-def startup_event():
-    print("Server đang khởi động: Tải sẵn mô hình AI và dữ liệu vào bộ nhớ (có thể tốn vài phút)...")
-    get_detector_patterns()
-    get_model()
-    print("✅ Tải mô hình AI hoàn tất! Sẵn sàng phục vụ.")
-
-
 # API /search receive JSON include: question, top_k, verbose
 class SearchRequest(BaseModel):
     question: str
