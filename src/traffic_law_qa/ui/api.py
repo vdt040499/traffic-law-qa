@@ -14,13 +14,7 @@ from pydantic import BaseModel
 project_root = Path(__file__).parent.parent.parent.parent
 sys.path.insert(0, str(project_root))
 
-from system.model import Model
-from scripts.category_detector import VehicleCategoryDetector
-from system.utils import extract_entities_with_llm
 
-
-# Import the Neo4j-based QA adapter
-from system.qa_adapter import Neo4jQAAdapter
 
 
 def remove_duplicates(input_list):
@@ -48,11 +42,21 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# --------- LOAD DETECTOR & MODEL ----------
-detector = VehicleCategoryDetector()
-vehicle_patterns = [k for k in detector.vehicle_patterns]
-business_patterns = [k for k in detector.business_patterns]
-fallback_patterns = [k for k in detector.fallback_categories]
+# --------- LOAD DETECTOR ----------
+global_detector = None
+global_patterns = None
+
+def get_detector_patterns():
+    global global_detector, global_patterns
+    if global_detector is None:
+        from scripts.category_detector import VehicleCategoryDetector
+        global_detector = VehicleCategoryDetector()
+        global_patterns = (
+            [k for k in global_detector.vehicle_patterns],
+            [k for k in global_detector.business_patterns],
+            [k for k in global_detector.fallback_categories]
+        )
+    return global_patterns
 
 
 # ---------  Neo4j database connection ----------
@@ -69,6 +73,7 @@ def get_model():
     global global_model
     if global_model is None:
         print("Đang khởi tạo AI Model và tải dữ liệu (có thể mất một lúc)...")
+        from system.model import Model
         global_model = Model(uri=NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASS))
     return global_model
 
@@ -87,6 +92,8 @@ def search(req: SearchRequest):
     Nhận câu hỏi tiếng Việt tự nhiên, trả về danh sách điều luật phù hợp.
     """
     # Dùng LLM để bóc tách intent & category (chỉ để trả về cho frontend)
+    from system.utils import extract_entities_with_llm
+    vehicle_patterns, business_patterns, fallback_patterns = get_detector_patterns()
     extraction = extract_entities_with_llm(
         req.question,
         vehicle_patterns,
@@ -208,5 +215,7 @@ def serve_frontend():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("api:app", host="0.0.0.0", port=8000, reload=True)
+    port = int(os.environ.get("PORT", 8000))
+    # Trên server (như Render) thì reload=False, port được lấy ở môi trường
+    uvicorn.run("src.traffic_law_qa.ui.api:app", host="0.0.0.0", port=port, reload=False)
 
