@@ -194,6 +194,16 @@ def search(req: SearchRequest):
     }
 
 
+@app.get("/stats")
+def get_stats():
+    # Gọi hàm dummy hoặc trả về cấu trúc mà UI mong đợi
+    return {
+        "neo4j_version": "5.14.0",
+        "nodes": {"Article": 0, "Clause": 0, "Point": 0, "VehicleType": 0, "Fine": 0},
+        "relationships": 0,
+        "graph_density": 0.05
+    }
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
