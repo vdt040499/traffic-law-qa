@@ -63,7 +63,14 @@ NEO4J_URI  = os.getenv("NEO4J_URI", "neo4j+s://7aa78485.databases.neo4j.io")
 NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
 NEO4J_PASS = os.getenv("NEO4J_PASSWORD", "iX59KTgWRNyZvmkh3dDBGe0Dwbm-_XQGdP1KCW_m7rs")
 
-model = Model(uri=NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASS))
+global_model = None
+
+def get_model():
+    global global_model
+    if global_model is None:
+        print("Đang khởi tạo AI Model và tải dữ liệu (có thể mất một lúc)...")
+        global_model = Model(uri=NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASS))
+    return global_model
 
 
 # API /search receive JSON include: question, top_k, verbose
@@ -89,8 +96,11 @@ def search(req: SearchRequest):
     target_category = extraction.get("category")
     query_intent = extraction.get("intent")
 
+    # Khởi tạo mô hình (Lazy Load)
+    current_model = get_model()
+
     # Gọi hybrid_search để lấy kết quả
-    raw_results = model.hybrid_search(
+    raw_results = current_model.hybrid_search(
         req.question,
         vehicle_patterns,
         business_patterns,
