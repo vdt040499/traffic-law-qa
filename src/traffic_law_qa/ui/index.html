@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8" />
   <title>Tra Cứu Vi Phạm Luật Giao Thông</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <style>
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
+
     /* Thiết lập font, màu nền, màu chữ mặc định cho body */
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -20,8 +24,15 @@
       font-size: 15;
       transition: background 0.2s ease, color 0.2s ease;
     }
-    a { text-decoration: none; color: inherit; }
-    ul { list-style: none; }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    ul {
+      list-style: none;
+    }
 
     /* Biến CSS – theme mặc định (light) */
     :root {
@@ -53,7 +64,7 @@
 
     /* Wrapper chính, giới hạn max-width và canh giữa */
     .container {
-      width: 100%;       
+      width: 100%;
       max-width: 1400px;
       margin: 0 auto;
       padding: 0 0px;
@@ -66,19 +77,23 @@
       font-size: 13px;
       padding: 6px 0;
     }
+
     body.dark-mode .topbar {
-      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     }
+
     .topbar-inner {
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 8px;
     }
+
     .topbar-left span {
       margin-right: 20px;
       opacity: 0.9;
     }
+
     .topbar-right a {
       margin-left: 20px;
       font-weight: 500;
@@ -90,21 +105,25 @@
       border-bottom: 2px solid var(--primary);
       padding: 10px 0;
     }
+
     body.dark-mode .header {
       background: #111827;
       border-bottom-color: #374151;
     }
+
     .header-inner {
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 12px;
     }
+
     .logo-area {
       display: flex;
       align-items: center;
       gap: 18px;
     }
+
     .logo-circle {
       width: 75px;
       height: 75px;
@@ -118,21 +137,26 @@
       font-size: 13px;
       text-align: center;
     }
+
     .logo-text h1 {
       font-size: 20px;
       text-transform: uppercase;
       color: var(--primary-dark);
     }
+
     body.dark-mode .logo-text h1 {
       color: #f9fafb;
     }
+
     .logo-text span {
       font-size: 15px;
       color: #555;
     }
+
     body.dark-mode .logo-text span {
       color: var(--text-muted);
     }
+
     .header-actions {
       font-size: 13px;
       text-align: right;
@@ -141,6 +165,7 @@
       align-items: flex-end;
       gap: 6px;
     }
+
     .law-viewer {
       margin-top: 8px;
       width: 100%;
@@ -159,15 +184,18 @@
       align-items: center;
       gap: 6px;
       transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease,
-                  transform 0.08s ease, box-shadow 0.15s ease;
+        transform 0.08s ease, box-shadow 0.15s ease;
     }
+
     .dark-toggle-btn span {
       font-size: 14px;
     }
+
     .dark-toggle-btn:hover {
       transform: translateY(-1px);
-      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
     }
+
     body.dark-mode .dark-toggle-btn {
       background: #111827;
       color: #e5e7eb;
@@ -179,25 +207,30 @@
       background: var(--primary);
       border-bottom: 4px solid var(--primary-dark);
     }
+
     body.dark-mode .nav {
-      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     }
+
     .nav ul {
       display: flex;
       flex-wrap: wrap;
     }
+
     .nav li {
       padding: 10px 18px;
       font-size: 14px;
       font-weight: 500;
       color: #fff;
-      border-right: 1px solid rgba(255,255,255,0.3);
+      border-right: 1px solid rgba(255, 255, 255, 0.3);
       cursor: pointer;
       white-space: nowrap;
     }
+
     .nav li:hover {
-      background: rgba(0,0,0,0.06);
+      background: rgba(0, 0, 0, 0.06);
     }
+
     .nav li.active {
       background: #fff4e5;
       color: var(--primary-dark);
@@ -208,12 +241,14 @@
       gap: 8px;
       flex-wrap: wrap;
     }
+
     .decree-label {
       font-size: 13px;
       color: var(--text-muted);
       margin-right: 4px;
       white-space: nowrap;
     }
+
     .decree-select {
       padding: 6px 8px;
       font-size: 13px;
@@ -222,6 +257,7 @@
       background: #ffffff;
       color: var(--text-main);
     }
+
     body.dark-mode .decree-select {
       background: #111827;
       border-color: #4b5563;
@@ -234,21 +270,25 @@
       border-bottom: 1px solid var(--border);
       padding: 14px 0 10px;
     }
+
     body.dark-mode .search-bar {
       background: #111827;
       border-bottom-color: #374151;
     }
+
     .search-form {
       display: flex;
       flex-direction: column;
       gap: 8px;
     }
+
     .search-row {
       display: flex;
       gap: 8px;
       flex-wrap: wrap;
       align-items: center;
     }
+
     .search-row input {
       flex: 1;
       min-width: 220px;
@@ -259,11 +299,13 @@
       background: #ffffff;
       color: var(--text-main);
     }
+
     body.dark-mode .search-row input {
       background: #111827;
       border-color: #4b5563;
       color: #e5e7eb;
     }
+
     .search-row button {
       background: #ffdd00;
       border: 1px solid #f0c200;
@@ -274,9 +316,11 @@
       text-transform: uppercase;
       border-radius: 3px;
     }
+
     .search-row button:hover {
       filter: brightness(0.97);
     }
+
     .search-meta {
       font-size: 14px;
       color: var(--text-muted);
@@ -287,12 +331,16 @@
       margin-top: 12px;
       margin-bottom: 12px;
     }
+
     .columns {
       display: grid;
       grid-template-columns:
-        minmax(160px, 0.25fr)   /* 20% */
-        minmax(0, 0.55fr)       /* 55–60% */
-        minmax(130px, 0.20fr);  /* 20% */
+        minmax(160px, 0.25fr)
+        /* 20% */
+        minmax(0, 0.55fr)
+        /* 55–60% */
+        minmax(130px, 0.20fr);
+      /* 20% */
       gap: 16px;
     }
 
@@ -301,33 +349,37 @@
       background: var(--bg-card);
       border-radius: 3px;
       border: 1px solid var(--border);
-      box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
       padding: 10px;
       transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
     }
+
     body.dark-mode .card {
-      box-shadow: 0 1px 3px rgba(0,0,0,0.35);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
     }
 
     /* Header trong mỗi card */
     .card-header {
       border-bottom: 1px solid var(--border);
-      padding: 10px 14px;  
-      margin: -10px -10px 12px -10px;  
+      padding: 10px 14px;
+      margin: -10px -10px 12px -10px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       background: var(--bg-card);
-      border-radius: 3px 3px 0 0; 
-  }
+      border-radius: 3px 3px 0 0;
+    }
+
     body.dark-mode .card-header {
       border-bottom-color: #374151;
     }
+
     .card-header h2 {
       font-size: 14px;
       text-transform: uppercase;
       color: var(--primary-dark);
     }
+
     .badge-hot {
       background: var(--accent);
       color: #fff;
@@ -366,23 +418,25 @@
       background: #fff7ec;
       border-color: #ffe0b5;
       transform: translateX(2px);
-      box-shadow: 0 3px 6px rgba(0,0,0,0.04);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.04);
     }
+
     body.dark-mode .sidebar-item:hover {
       background: #111827;
       border-color: #4b5563;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
     }
 
     .sidebar-item.active {
       background: #fff3d4;
       border-color: #f7941d;
-      box-shadow: 0 3px 8px rgba(247,148,29,0.18);
+      box-shadow: 0 3px 8px rgba(247, 148, 29, 0.18);
     }
+
     body.dark-mode .sidebar-item.active {
       background: #111827;
       border-color: #f59e0b;
-      box-shadow: 0 3px 10px rgba(245,158,11,0.35);
+      box-shadow: 0 3px 10px rgba(245, 158, 11, 0.35);
     }
 
     .sidebar-icon-wrapper {
@@ -404,7 +458,7 @@
     .sidebar-item:hover .sidebar-icon-wrapper,
     .sidebar-item.active .sidebar-icon-wrapper {
       transform: scale(1.05) rotate(-2deg);
-      box-shadow: 0 3px 6px rgba(249,115,22,0.35);
+      box-shadow: 0 3px 6px rgba(249, 115, 22, 0.35);
       background: linear-gradient(135deg, #fb923c, #f97316);
     }
 
@@ -442,64 +496,80 @@
       color: var(--text-muted);
       margin-bottom: 6px;
     }
+
     .highlight {
       color: var(--primary-dark);
       font-weight: 600;
     }
+
     body.dark-mode .highlight {
       color: #fbbf24;
     }
+
     .result-list {
       margin-top: 4px;
     }
+
     .result-item {
       padding: 8px 4px;
       border-bottom: 1px solid #f3f3f3;
       font-size: 13px;
     }
+
     body.dark-mode .result-item {
       border-bottom-color: #374151;
     }
+
     .result-item:last-child {
       border-bottom: none;
     }
+
     .result-title {
       font-weight: 600;
       color: #d17015;
       margin-bottom: 2px;
     }
+
     body.dark-mode .result-title {
       color: #d17015;
     }
+
     .result-law {
       font-size: 12px;
       color: #555;
       margin-top: 2px;
     }
+
     body.dark-mode .result-law {
       color: #af6d41;
     }
+
     .result-penalty {
       font-size: 12px;
       color: #333;
       margin-top: 2px;
     }
+
     body.dark-mode .result-penalty {
       color: #e5e7eb;
     }
+
     .result-extra {
       font-size: 12px;
       color: #aa0000;
       margin-top: 2px;
     }
+
     body.dark-mode .result-extra {
       color: #fca5a5;
     }
+
     .no-result {
       font-style: italic;
       color: #888;
       padding: 4px 0;
     }
+
     body.dark-mode .no-result {
       color: #9ca3af;
     }
@@ -511,6 +581,7 @@
       gap: 8px;
       margin: 4px 0;
     }
+
     .score-bar {
       flex: 1;
       height: 6px;
@@ -518,25 +589,30 @@
       background: #eee;
       overflow: hidden;
     }
+
     body.dark-mode .score-bar {
       background: #111827;
     }
+
     .score-bar-fill {
       height: 100%;
       border-radius: 4px;
-      background: var(--score-bar);       /* xanh biển */
+      background: var(--score-bar);
+      /* xanh biển */
       transition: width 0.25s ease-out;
     }
+
     .score-text {
       font-size: 12px;
       color: #555;
       white-space: nowrap;
     }
+
     body.dark-mode .score-text {
       color: #e5e7eb;
     }
 
-     /* Filter loại phương tiện (dropdown) */
+    /* Filter loại phương tiện (dropdown) */
     .filter-row {
       display: flex;
       align-items: center;
@@ -546,9 +622,11 @@
       margin-bottom: 6px;
       flex-wrap: wrap;
     }
+
     .filter-row label {
       font-weight: 500;
     }
+
     .filter-select {
       padding: 4px 8px;
       font-size: 12px;
@@ -557,6 +635,7 @@
       background: #ffffff;
       color: var(--text-main);
     }
+
     body.dark-mode .filter-select {
       background: #111827;
       border-color: #4b5563;
@@ -571,26 +650,32 @@
       border-radius: 3px;
       border: 1px dashed #f1b770;
     }
+
     body.dark-mode .info-banner {
       background: #111827;
       border-color: #4b5563;
       color: #e5e7eb;
     }
+
     .info-banner strong {
       color: var(--primary-dark);
     }
+
     .history-item {
       padding: 6px 0;
       border-bottom: 1px solid #f3f3f3;
       cursor: pointer;
       font-size: 12px;
     }
+
     body.dark-mode .history-item {
       border-bottom-color: #374151;
     }
+
     .history-item:hover {
       background: #fff8ec;
     }
+
     body.dark-mode .history-item:hover {
       background: #111827;
     }
@@ -603,6 +688,7 @@
       color: #666;
       padding: 12px 0 18px;
     }
+
     body.dark-mode .footer {
       background: #111827;
       border-top-color: #374151;
@@ -613,6 +699,7 @@
     .tab-content {
       display: block;
     }
+
     .tab-content.active {
       display: block;
     }
@@ -626,32 +713,39 @@
       text-align: center;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
+
     .stat-box:hover {
       transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
+
     body.dark-mode .stat-box:hover {
-      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     }
+
     .stat-icon {
       font-size: 32px;
       margin-bottom: 8px;
     }
+
     .stat-value {
       font-size: 28px;
       font-weight: 700;
       color: var(--primary-dark);
       margin-bottom: 4px;
     }
+
     body.dark-mode .stat-value {
       color: var(--primary);
     }
+
     .stat-label {
       font-size: 13px;
       font-weight: 600;
       color: var(--text-main);
       margin-bottom: 4px;
     }
+
     .stat-help {
       font-size: 11px;
       color: var(--text-muted);
@@ -665,10 +759,12 @@
       padding: 12px;
       text-align: center;
     }
+
     .capability-icon {
       font-size: 24px;
       margin-bottom: 6px;
     }
+
     .capability-name {
       font-size: 12px;
       font-weight: 600;
@@ -685,13 +781,16 @@
       border-radius: 4px;
       transition: background 0.2s ease, transform 0.2s ease;
     }
+
     .refresh-btn:hover {
-      background: rgba(0,0,0,0.05);
+      background: rgba(0, 0, 0, 0.05);
       transform: rotate(90deg);
     }
+
     body.dark-mode .refresh-btn:hover {
-      background: rgba(255,255,255,0.1);
+      background: rgba(255, 255, 255, 0.1);
     }
+
     .refresh-btn:active {
       transform: rotate(180deg);
     }
@@ -703,6 +802,7 @@
       gap: 8px;
       padding: 4px;
     }
+
     .mini-stat-item {
       display: flex;
       align-items: center;
@@ -713,30 +813,37 @@
       border: 1px solid var(--border);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
+
     .mini-stat-item:hover {
       transform: translateY(-1px);
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     }
+
     body.dark-mode .mini-stat-item:hover {
-      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     }
+
     .mini-stat-icon {
       font-size: 20px;
       flex-shrink: 0;
     }
+
     .mini-stat-content {
       flex: 1;
       min-width: 0;
     }
+
     .mini-stat-value {
       font-size: 16px;
       font-weight: 700;
       color: var(--primary-dark);
       line-height: 1.2;
     }
+
     body.dark-mode .mini-stat-value {
       color: var(--primary);
     }
+
     .mini-stat-label {
       font-size: 10px;
       color: var(--text-muted);
@@ -760,27 +867,33 @@
         grid-template-columns: 1fr;
       }
     }
+
     /* Responsive dưới 720px: điều chỉnh header, nav, search button, ... */
     @media (max-width: 720px) {
       .header-inner {
         flex-direction: column;
         align-items: flex-start;
       }
+
       .nav ul {
         overflow-x: auto;
       }
+
       .search-row {
         flex-direction: column;
       }
+
       .search-row button {
         width: 100%;
       }
+
       .header-actions {
         align-items: flex-start;
       }
     }
   </style>
 </head>
+
 <body>
   <!-- TOPBAR -->
   <div class="topbar">
@@ -801,7 +914,7 @@
     <div class="header-inner container">
       <div class="logo-area">
         <div class="logo-circle">
-          TRAFFIC<br/>LAW
+          TRAFFIC<br />LAW
         </div>
         <div class="logo-text">
           <h1>Thư Viện Luật Giao Thông</h1>
@@ -848,11 +961,8 @@
 
         <!-- Ô TÌM KIẾM -->
         <div class="search-row">
-          <input
-            id="query-input"
-            type="text"
-            placeholder="Nhập hành vi vi phạm hoặc câu hỏi. Ví dụ: 'Chạy quá tốc độ 15km/h trong khu dân cư bị phạt bao nhiêu?'"
-          />
+          <input id="query-input" type="text"
+            placeholder="Nhập hành vi vi phạm hoặc câu hỏi. Ví dụ: 'Chạy quá tốc độ 15km/h trong khu dân cư bị phạt bao nhiêu?'" />
           <button id="search-btn" type="button">Tìm kiếm</button>
         </div>
 
@@ -867,239 +977,201 @@
   <main class="layout">
     <!-- TAB: Tra cứu vi phạm -->
     <div id="tab-search" class="tab-content active">
-    <div class="container columns">
-      <!-- CỘT TRÁI: SIDEBAR -->
-      <aside class="card">
-        <div class="card-header">
-          <h2>Nhóm lỗi phổ biến</h2>
-        </div>
-
-        <div class="sidebar-menu">
-          <!-- 1. Tốc độ / Làn đường -->
-          <button class="sidebar-item" type="button"
-                  data-query="chạy quá tốc độ trong khu dân cư thì bị phạt gì?">
-            <span class="sidebar-number">1.</span>
-            <div class="sidebar-icon-wrapper">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="3" y="11" width="14" height="6" rx="2"
-                      fill="none" stroke="currentColor" stroke-width="1.6"/>
-                <circle cx="7" cy="18" r="2"
-                        fill="none" stroke="currentColor" stroke-width="1.6"/>
-                <circle cx="15" cy="18" r="2"
-                        fill="none" stroke="currentColor" stroke-width="1.6"/>
-                <line x1="2" y1="6" x2="22" y2="6"
-                      stroke="currentColor" stroke-width="1.4"
-                      stroke-linecap="round" />
-                <line x1="8" y1="6" x2="12" y2="6"
-                      stroke="#ffffff" stroke-width="1.4"
-                      stroke-linecap="round" />
-              </svg>
-            </div>
-            <div class="sidebar-content">
-              <div class="sidebar-label">Tốc độ / Làn đường</div>
-              <div class="sidebar-sub">Chạy quá tốc độ, đi sai làn, vào đường cấm…</div>
-            </div>
-          </button>
-
-          <!-- 2. Nồng độ cồn / Ma túy -->
-          <button class="sidebar-item" type="button"
-                  data-query="uống rượu, bia khi lái xe máy thì bị phạt gì?">
-            <span class="sidebar-number">2.</span>
-            <div class="sidebar-icon-wrapper">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M7 3h10v5a5 5 0 0 1-5 5 5 5 0 0 1-5-5V3z"
-                      fill="none" stroke="currentColor" stroke-width="1.6"
-                      stroke-linejoin="round"/>
-                <line x1="12" y1="13" x2="12" y2="19"
-                      stroke="currentColor" stroke-width="1.6"
-                      stroke-linecap="round" />
-                <line x1="9" y1="19" x2="15" y2="19"
-                      stroke="currentColor" stroke-width="1.6"
-                      stroke-linecap="round" />
-                <path d="M8 5h8" stroke="#ffffff" stroke-width="1.2"
-                      stroke-linecap="round" />
-              </svg>
-            </div>
-            <div class="sidebar-content">
-              <div class="sidebar-label">Nồng độ cồn / Ma túy</div>
-              <div class="sidebar-sub">Uống rượu bia, chất kích thích khi điều khiển xe.</div>
-            </div>
-          </button>
-
-          <!-- 3. Dừng / Đỗ xe -->
-          <button class="sidebar-item" type="button"
-                  data-query="dừng đỗ xe sai quy định trên phố thì bị phạt gì?">
-            <span class="sidebar-number">3.</span>
-            <div class="sidebar-icon-wrapper">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="4" y="3" width="16" height="18" rx="2"
-                      fill="none" stroke="currentColor" stroke-width="1.6"/>
-                <path d="M10 16V8h3a3 3 0 0 1 0 6h-3"
-                      fill="none" stroke="currentColor" stroke-width="1.6"
-                      stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </div>
-            <div class="sidebar-content">
-              <div class="sidebar-label">Dừng đỗ / Đỗ xe</div>
-              <div class="sidebar-sub">Dừng, đỗ sai nơi quy định, gây cản trở giao thông.</div>
-            </div>
-          </button>
-
-          <!-- 4. Giấy tờ / GPLX -->
-          <button class="sidebar-item" type="button"
-                  data-query="không mang theo giấy tờ xe và giấy phép lái xe thì bị phạt gì?">
-            <span class="sidebar-number">4.</span>
-            <div class="sidebar-icon-wrapper">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="5" y="4" width="12" height="16" rx="1.8"
-                      fill="none" stroke="currentColor" stroke-width="1.6"/>
-                <line x1="8" y1="9" x2="14" y2="9"
-                      stroke="currentColor" stroke-width="1.4"
-                      stroke-linecap="round"/>
-                <line x1="8" y1="12" x2="14" y2="12"
-                      stroke="currentColor" stroke-width="1.4"
-                      stroke-linecap="round"/>
-                <line x1="8" y1="15" x2="12" y2="15"
-                      stroke="currentColor" stroke-width="1.4"
-                      stroke-linecap="round"/>
-              </svg>
-            </div>
-            <div class="sidebar-content">
-              <div class="sidebar-label">Giấy tờ / Giấy phép lái xe</div>
-              <div class="sidebar-sub">Thiếu giấy tờ, không có hoặc không mang GPLX.</div>
-            </div>
-          </button>
-
-          <!-- 5. Mũ bảo hiểm -->
-          <button class="sidebar-item" type="button"
-                  data-query="không đội mũ bảo hiểm khi đi xe máy thì bị phạt gì?">
-            <span class="sidebar-number">5.</span>
-            <div class="sidebar-icon-wrapper">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 13a8 8 0 0 1 16 0v1H4z"
-                      fill="none" stroke="currentColor" stroke-width="1.6"
-                      stroke-linejoin="round" />
-                <path d="M18 12h3"
-                      stroke="currentColor" stroke-width="1.6"
-                      stroke-linecap="round" />
-                <path d="M9 14v2a2 2 0 0 0 2 2"
-                      fill="none" stroke="currentColor" stroke-width="1.6"
-                      stroke-linecap="round" />
-              </svg>
-            </div>
-            <div class="sidebar-content">
-              <div class="sidebar-label">Không đội mũ bảo hiểm</div>
-              <div class="sidebar-sub">Không đội hoặc đội sai quy cách khi đi mô tô, xe máy.</div>
-            </div>
-          </button>
-
-          <!-- 6. Chở quá người / hàng -->
-          <button class="sidebar-item" type="button"
-                  data-query="chở quá số người quy định trên xe máy thì bị phạt gì?">
-            <span class="sidebar-number">6.</span>
-            <div class="sidebar-icon-wrapper">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <circle cx="8" cy="8" r="2.4"
-                        fill="none" stroke="currentColor" stroke-width="1.6"/>
-                <circle cx="15" cy="8" r="2.4"
-                        fill="none" stroke="currentColor" stroke-width="1.6"/>
-                <path d="M5.5 16a3.5 3.5 0 0 1 7 0v2H5.5z"
-                      fill="none" stroke="currentColor" stroke-width="1.6"
-                      stroke-linejoin="round"/>
-                <path d="M12.5 16a3.5 3.5 0 0 1 7 0v2h-7z"
-                      fill="none" stroke="currentColor" stroke-width="1.6"
-                      stroke-linejoin="round"/>
-              </svg>
-            </div>
-            <div class="sidebar-content">
-              <div class="sidebar-label">Chở người / chở hàng quá quy định</div>
-              <div class="sidebar-sub">Chở quá người, quá tải hoặc hàng cồng kềnh.</div>
-            </div>
-          </button>
-
-          <!-- 7. Đèn đỏ / tín hiệu -->
-          <button class="sidebar-item" type="button"
-                  data-query="vượt đèn đỏ khi tham gia giao thông thì bị phạt gì?">
-            <span class="sidebar-number">7.</span>
-            <div class="sidebar-icon-wrapper">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="9" y="3" width="6" height="14" rx="2"
-                      fill="none" stroke="currentColor" stroke-width="1.6"/>
-                <circle cx="12" cy="7" r="1.6"
-                        fill="none" stroke="currentColor" stroke-width="1.4"/>
-                <circle cx="12" cy="11" r="1.6"
-                        fill="none" stroke="currentColor" stroke-width="1.4"/>
-                <circle cx="12" cy="15" r="1.6"
-                        fill="none" stroke="currentColor" stroke-width="1.4"/>
-                <line x1="12" y1="17" x2="12" y2="20"
-                      stroke="currentColor" stroke-width="1.6"
-                      stroke-linecap="round"/>
-                <line x1="9" y1="20" x2="15" y2="20"
-                      stroke="currentColor" stroke-width="1.6"
-                      stroke-linecap="round"/>
-              </svg>
-            </div>
-            <div class="sidebar-content">
-              <div class="sidebar-label">Vượt đèn đỏ / Tín hiệu giao thông</div>
-              <div class="sidebar-sub">Không chấp hành tín hiệu đèn, biển báo, vạch kẻ đường.</div>
-            </div>
-          </button>
-
-          <!-- 8. Lỗi khác -->
-          <button class="sidebar-item" type="button"
-                  data-query="buôn bán trên vỉa hè thì bị phạt gì?">
-            <span class="sidebar-number">8.</span>
-            <div class="sidebar-icon-wrapper">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 19h16L12 4z"
-                      fill="none" stroke="currentColor" stroke-width="1.6"
-                      stroke-linejoin="round"/>
-                <line x1="12" y1="10" x2="12" y2="14"
-                      stroke="currentColor" stroke-width="1.6"
-                      stroke-linecap="round"/>
-                <circle cx="12" cy="17" r="1"
-                        fill="currentColor"/>
-              </svg>
-            </div>
-            <div class="sidebar-content">
-              <div class="sidebar-label">Các lỗi khác</div>
-              <div class="sidebar-sub">Các hành vi vi phạm khác trong Luật giao thông.</div>
-            </div>
-          </button>
-        </div>
-      </aside>
-
-      <!-- CỘT GIỮA: KẾT QUẢ -->
-      <section class="card">
-        <div class="card-header">
-          <h2>Kết quả tra cứu</h2>
-          <span class="badge-hot" id="status-label">Sẵn sàng</span>
-        </div>
-
-        <!-- Filter loại xe -->
-        <div class="filter-row">
-          <label for="vehicle-filter">Lọc theo loại xe:</label>
-          <select id="vehicle-filter" class="filter-select">
-            <option value="all">Tất cả phương tiện</option>
-          </select>
-        </div>
-
-        <div class="answer-meta" id="meta-line">
-          Chưa có truy vấn nào.
-        </div>
-
-        <div class="answer-meta" id="intent-line" style="margin-bottom:8px;"></div>
-
-        <div class="result-list" id="result-list">
-          <div class="no-result">
-            Hãy nhập mô tả hành vi vi phạm ở trên và bấm "Tìm kiếm".
+      <div class="container columns">
+        <!-- CỘT TRÁI: SIDEBAR -->
+        <aside class="card">
+          <div class="card-header">
+            <h2>Nhóm lỗi phổ biến</h2>
           </div>
-        </div>
-      </section>
 
-      <!-- CỘT PHẢI: THỐNG KÊ / LỊCH SỬ / LƯU Ý -->
-      <aside>
-        <!-- Thống kê hệ thống
+          <div class="sidebar-menu">
+            <!-- 1. Tốc độ / Làn đường -->
+            <button class="sidebar-item" type="button" data-query="chạy quá tốc độ trong khu dân cư thì bị phạt gì?">
+              <span class="sidebar-number">1.</span>
+              <div class="sidebar-icon-wrapper">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="11" width="14" height="6" rx="2" fill="none" stroke="currentColor"
+                    stroke-width="1.6" />
+                  <circle cx="7" cy="18" r="2" fill="none" stroke="currentColor" stroke-width="1.6" />
+                  <circle cx="15" cy="18" r="2" fill="none" stroke="currentColor" stroke-width="1.6" />
+                  <line x1="2" y1="6" x2="22" y2="6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
+                  <line x1="8" y1="6" x2="12" y2="6" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round" />
+                </svg>
+              </div>
+              <div class="sidebar-content">
+                <div class="sidebar-label">Tốc độ / Làn đường</div>
+                <div class="sidebar-sub">Chạy quá tốc độ, đi sai làn, vào đường cấm…</div>
+              </div>
+            </button>
+
+            <!-- 2. Nồng độ cồn / Ma túy -->
+            <button class="sidebar-item" type="button" data-query="uống rượu, bia khi lái xe máy thì bị phạt gì?">
+              <span class="sidebar-number">2.</span>
+              <div class="sidebar-icon-wrapper">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 3h10v5a5 5 0 0 1-5 5 5 5 0 0 1-5-5V3z" fill="none" stroke="currentColor"
+                    stroke-width="1.6" stroke-linejoin="round" />
+                  <line x1="12" y1="13" x2="12" y2="19" stroke="currentColor" stroke-width="1.6"
+                    stroke-linecap="round" />
+                  <line x1="9" y1="19" x2="15" y2="19" stroke="currentColor" stroke-width="1.6"
+                    stroke-linecap="round" />
+                  <path d="M8 5h8" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" />
+                </svg>
+              </div>
+              <div class="sidebar-content">
+                <div class="sidebar-label">Nồng độ cồn / Ma túy</div>
+                <div class="sidebar-sub">Uống rượu bia, chất kích thích khi điều khiển xe.</div>
+              </div>
+            </button>
+
+            <!-- 3. Dừng / Đỗ xe -->
+            <button class="sidebar-item" type="button" data-query="dừng đỗ xe sai quy định trên phố thì bị phạt gì?">
+              <span class="sidebar-number">3.</span>
+              <div class="sidebar-icon-wrapper">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor"
+                    stroke-width="1.6" />
+                  <path d="M10 16V8h3a3 3 0 0 1 0 6h-3" fill="none" stroke="currentColor" stroke-width="1.6"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <div class="sidebar-content">
+                <div class="sidebar-label">Dừng đỗ / Đỗ xe</div>
+                <div class="sidebar-sub">Dừng, đỗ sai nơi quy định, gây cản trở giao thông.</div>
+              </div>
+            </button>
+
+            <!-- 4. Giấy tờ / GPLX -->
+            <button class="sidebar-item" type="button"
+              data-query="không mang theo giấy tờ xe và giấy phép lái xe thì bị phạt gì?">
+              <span class="sidebar-number">4.</span>
+              <div class="sidebar-icon-wrapper">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="5" y="4" width="12" height="16" rx="1.8" fill="none" stroke="currentColor"
+                    stroke-width="1.6" />
+                  <line x1="8" y1="9" x2="14" y2="9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
+                  <line x1="8" y1="12" x2="14" y2="12" stroke="currentColor" stroke-width="1.4"
+                    stroke-linecap="round" />
+                  <line x1="8" y1="15" x2="12" y2="15" stroke="currentColor" stroke-width="1.4"
+                    stroke-linecap="round" />
+                </svg>
+              </div>
+              <div class="sidebar-content">
+                <div class="sidebar-label">Giấy tờ / Giấy phép lái xe</div>
+                <div class="sidebar-sub">Thiếu giấy tờ, không có hoặc không mang GPLX.</div>
+              </div>
+            </button>
+
+            <!-- 5. Mũ bảo hiểm -->
+            <button class="sidebar-item" type="button" data-query="không đội mũ bảo hiểm khi đi xe máy thì bị phạt gì?">
+              <span class="sidebar-number">5.</span>
+              <div class="sidebar-icon-wrapper">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 13a8 8 0 0 1 16 0v1H4z" fill="none" stroke="currentColor" stroke-width="1.6"
+                    stroke-linejoin="round" />
+                  <path d="M18 12h3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                  <path d="M9 14v2a2 2 0 0 0 2 2" fill="none" stroke="currentColor" stroke-width="1.6"
+                    stroke-linecap="round" />
+                </svg>
+              </div>
+              <div class="sidebar-content">
+                <div class="sidebar-label">Không đội mũ bảo hiểm</div>
+                <div class="sidebar-sub">Không đội hoặc đội sai quy cách khi đi mô tô, xe máy.</div>
+              </div>
+            </button>
+
+            <!-- 6. Chở quá người / hàng -->
+            <button class="sidebar-item" type="button"
+              data-query="chở quá số người quy định trên xe máy thì bị phạt gì?">
+              <span class="sidebar-number">6.</span>
+              <div class="sidebar-icon-wrapper">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="8" cy="8" r="2.4" fill="none" stroke="currentColor" stroke-width="1.6" />
+                  <circle cx="15" cy="8" r="2.4" fill="none" stroke="currentColor" stroke-width="1.6" />
+                  <path d="M5.5 16a3.5 3.5 0 0 1 7 0v2H5.5z" fill="none" stroke="currentColor" stroke-width="1.6"
+                    stroke-linejoin="round" />
+                  <path d="M12.5 16a3.5 3.5 0 0 1 7 0v2h-7z" fill="none" stroke="currentColor" stroke-width="1.6"
+                    stroke-linejoin="round" />
+                </svg>
+              </div>
+              <div class="sidebar-content">
+                <div class="sidebar-label">Chở người / chở hàng quá quy định</div>
+                <div class="sidebar-sub">Chở quá người, quá tải hoặc hàng cồng kềnh.</div>
+              </div>
+            </button>
+
+            <!-- 7. Đèn đỏ / tín hiệu -->
+            <button class="sidebar-item" type="button" data-query="vượt đèn đỏ khi tham gia giao thông thì bị phạt gì?">
+              <span class="sidebar-number">7.</span>
+              <div class="sidebar-icon-wrapper">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="9" y="3" width="6" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6" />
+                  <circle cx="12" cy="7" r="1.6" fill="none" stroke="currentColor" stroke-width="1.4" />
+                  <circle cx="12" cy="11" r="1.6" fill="none" stroke="currentColor" stroke-width="1.4" />
+                  <circle cx="12" cy="15" r="1.6" fill="none" stroke="currentColor" stroke-width="1.4" />
+                  <line x1="12" y1="17" x2="12" y2="20" stroke="currentColor" stroke-width="1.6"
+                    stroke-linecap="round" />
+                  <line x1="9" y1="20" x2="15" y2="20" stroke="currentColor" stroke-width="1.6"
+                    stroke-linecap="round" />
+                </svg>
+              </div>
+              <div class="sidebar-content">
+                <div class="sidebar-label">Vượt đèn đỏ / Tín hiệu giao thông</div>
+                <div class="sidebar-sub">Không chấp hành tín hiệu đèn, biển báo, vạch kẻ đường.</div>
+              </div>
+            </button>
+
+            <!-- 8. Lỗi khác -->
+            <button class="sidebar-item" type="button" data-query="buôn bán trên vỉa hè thì bị phạt gì?">
+              <span class="sidebar-number">8.</span>
+              <div class="sidebar-icon-wrapper">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 19h16L12 4z" fill="none" stroke="currentColor" stroke-width="1.6"
+                    stroke-linejoin="round" />
+                  <line x1="12" y1="10" x2="12" y2="14" stroke="currentColor" stroke-width="1.6"
+                    stroke-linecap="round" />
+                  <circle cx="12" cy="17" r="1" fill="currentColor" />
+                </svg>
+              </div>
+              <div class="sidebar-content">
+                <div class="sidebar-label">Các lỗi khác</div>
+                <div class="sidebar-sub">Các hành vi vi phạm khác trong Luật giao thông.</div>
+              </div>
+            </button>
+          </div>
+        </aside>
+
+        <!-- CỘT GIỮA: KẾT QUẢ -->
+        <section class="card">
+          <div class="card-header">
+            <h2>Kết quả tra cứu</h2>
+            <span class="badge-hot" id="status-label">Sẵn sàng</span>
+          </div>
+
+          <!-- Filter loại xe -->
+          <div class="filter-row">
+            <label for="vehicle-filter">Lọc theo loại xe:</label>
+            <select id="vehicle-filter" class="filter-select">
+              <option value="all">Tất cả phương tiện</option>
+            </select>
+          </div>
+
+          <div class="answer-meta" id="meta-line">
+            Chưa có truy vấn nào.
+          </div>
+
+          <div class="answer-meta" id="intent-line" style="margin-bottom:8px;"></div>
+
+          <div class="result-list" id="result-list">
+            <div class="no-result">
+              Hãy nhập mô tả hành vi vi phạm ở trên và bấm "Tìm kiếm".
+            </div>
+          </div>
+        </section>
+
+        <!-- CỘT PHẢI: THỐNG KÊ / LỊCH SỬ / LƯU Ý -->
+        <aside>
+          <!-- Thống kê hệ thống
         <div class="card" style="margin-bottom: 10px;">
           <div class="card-header">
             <h2>📊 Thống kê hệ thống</h2>
@@ -1137,24 +1209,24 @@
           </div>
         </div> -->
 
-        <!-- Lịch sử tra cứu -->
-        <div class="card">
-          <div class="card-header">
-            <h2>Lịch sử tra cứu</h2>
+          <!-- Lịch sử tra cứu -->
+          <div class="card">
+            <div class="card-header">
+              <h2>Lịch sử tra cứu</h2>
+            </div>
+            <div id="history-list">
+              <!-- render bằng JS -->
+            </div>
           </div>
-          <div id="history-list">
-            <!-- render bằng JS -->
-          </div>
-        </div>
 
-        <div class="card info-banner" style="margin-top:10px;">
-          <strong>Lưu ý:</strong><br/>
-          Kết quả được trích xuất tự động từ đồ thị Neo4j trong các Nghị định 100/2019/NĐ-CP và 168/2024/NĐ-CP.
-          Trong trường hợp có nhiều điều luật liên quan, bạn nên đọc kỹ nội dung
-          điều khoản trước khi áp dụng.
-        </div>
-      </aside>
-    </div>
+          <div class="card info-banner" style="margin-top:10px;">
+            <strong>Lưu ý:</strong><br />
+            Kết quả được trích xuất tự động từ đồ thị Neo4j trong các Nghị định 100/2019/NĐ-CP và 168/2024/NĐ-CP.
+            Trong trường hợp có nhiều điều luật liên quan, bạn nên đọc kỹ nội dung
+            điều khoản trước khi áp dụng.
+          </div>
+        </aside>
+      </div>
     </div>
     <!-- End tab-search -->
 
@@ -1162,35 +1234,36 @@
     <div id="tab-stats" class="tab-content" style="display: none;">
       <div class="container">
         <h2 style="color: var(--primary-dark); margin-bottom: 20px;">📊 Dashboard Hệ thống</h2>
-        
+
         <!-- System Overview -->
         <div class="card" style="margin-bottom: 16px;">
           <div class="card-header">
             <h2>🏗️ Tổng quan hệ thống</h2>
           </div>
-          
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; padding: 10px;">
+
+          <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; padding: 10px;">
             <div class="stat-box">
               <div class="stat-icon">📝</div>
               <div class="stat-value" id="stat-violations">-</div>
               <div class="stat-label">Tổng Vi phạm</div>
               <div class="stat-help">Số lượng hành vi vi phạm trong cơ sở dữ liệu</div>
             </div>
-            
+
             <div class="stat-box">
               <div class="stat-icon">🧠</div>
               <div class="stat-value" id="stat-nodes">-</div>
               <div class="stat-label">Knowledge Nodes</div>
               <div class="stat-help">Tổng số nodes trong knowledge graph</div>
             </div>
-            
+
             <div class="stat-box">
               <div class="stat-icon">🔗</div>
               <div class="stat-value" id="stat-relations">-</div>
               <div class="stat-label">Relations</div>
               <div class="stat-help">Tổng số mối quan hệ giữa các nodes</div>
             </div>
-            
+
             <div class="stat-box">
               <div class="stat-icon">📊</div>
               <div class="stat-value" id="stat-density">-</div>
@@ -1205,8 +1278,9 @@
           <div class="card-header">
             <h2>🚀 Khả năng hệ thống</h2>
           </div>
-          
-          <div id="capabilities-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; padding: 10px;">
+
+          <div id="capabilities-container"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; padding: 10px;">
             <!-- Capabilities will be rendered here by JavaScript -->
           </div>
         </div>
@@ -1244,19 +1318,14 @@
                 <option value="ND168" selected>NĐ 168/2024/NĐ-CP</option>
               </select>
             </div>
-        
+
             <!-- Viewer PDF -->
             <div class="law-viewer">
-              <iframe
-                id="law-pdf-frame"
-                src=""
-                width="100%"
-                height="600"
-                style="border: 1px solid var(--border); border-radius: 4px;"
-              ></iframe>
+              <iframe id="law-pdf-frame" src="" width="100%" height="600"
+                style="border: 1px solid var(--border); border-radius: 4px;"></iframe>
             </div>
 
-          <!-- <div style="padding: 20px; text-align: center; color: var(--text-muted);">
+            <!-- <div style="padding: 20px; text-align: center; color: var(--text-muted);">
             <p>Tính năng đang được phát triển...</p> -->
           </div>
         </div>
@@ -1268,7 +1337,7 @@
   <footer class="footer">
     <div class="container">
       © 2025 Hệ thống Tra Cứu Vi Phạm Giao Thông.
-Đồ án môn học “Mô hình tri thức quan hệ và ứng dụng” – Nhóm 10 – GVHD: PGS.TS. Nguyễn Đình Hiển.
+      Đồ án môn học “Mô hình tri thức quan hệ và ứng dụng” – Nhóm 10 – GVHD: PGS.TS. Nguyễn Đình Hiển.
     </div>
   </footer>
 
@@ -1277,89 +1346,39 @@
     // Auto-detect API URL based on environment
     // ============================================
     function getApiUrl() {
-      const hostname = window.location.hostname;
-      
-      // Local development
-      if (hostname === 'localhost' || hostname === '127.0.0.1') {
+      // Nếu mở file HTML trực tiếp tĩnh trên máy tính
+      if (window.location.protocol === 'file:') {
         return 'http://localhost:8000';
       }
-      
-      // Ngrok deployment
-      if (hostname.includes('ngrok-free.app') || hostname.includes('ngrok.io')) {
-        // TODO: Update this URL after deploying with ngrok
-        // Run: ngrok http 8000
-        // Then copy the URL here (e.g., 'https://abc123.ngrok-free.app')
-        const ngrokBackendUrl = 'https://YOUR_BACKEND_URL.ngrok-free.app';
-        if (ngrokBackendUrl.includes('YOUR_BACKEND_URL')) {
-          console.warn('⚠️ NGROK: Please update the backend URL in index.html!');
-          // Fallback to localhost
-          return 'http://localhost:8000';
-        }
-        return ngrokBackendUrl;
-      }
-      
-      // Railway deployment
-      if (hostname.includes('railway.app')) {
-        // TODO: Update this URL after deploying to Railway
-        const railwayBackendUrl = 'https://traffic-law-api-production.up.railway.app';
-        if (railwayBackendUrl.includes('traffic-law-api-production')) {
-          console.warn('⚠️ RAILWAY: Please update the backend URL in index.html!');
-        }
-        return railwayBackendUrl;
-      }
-      
-      // Render deployment
-      if (hostname.includes('onrender.com')) {
-        // TODO: Update this URL after deploying to Render
-        const renderBackendUrl = 'https://traffic-law-api.onrender.com';
-        if (renderBackendUrl.includes('traffic-law-api.onrender')) {
-          console.warn('⚠️ RENDER: Please update the backend URL in index.html!');
-        }
-        return renderBackendUrl;
-      }
-      
-      // Vercel or other platforms
-      if (hostname.includes('vercel.app')) {
-        // TODO: Update this URL to point to your backend
-        const vercelBackendUrl = 'https://YOUR_BACKEND_URL.up.railway.app';
-        if (vercelBackendUrl.includes('YOUR_BACKEND_URL')) {
-          console.warn('⚠️ VERCEL: Please update the backend URL in index.html!');
-          // Fallback to localhost for testing
-          return 'http://localhost:8000';
-        }
-        return vercelBackendUrl;
-      }
-      
-      // Default fallback
-      console.warn('⚠️ Unknown hosting environment. Using localhost.');
-      return 'http://localhost:8000';
+      // Nếu đang chạy trên Server (như Render, Localhost, Ngrok...) thì tự động lấy đúng tên miền hiện tại
+      return window.location.origin;
     }
 
     // Get API base URL and construct endpoint
     const API_BASE_URL = getApiUrl();
     const API_ENDPOINT = `${API_BASE_URL}/search`;
     const API_STATS_ENDPOINT = `${API_BASE_URL}/stats`;
-    
+
     // Log for debugging
     console.log('🌐 Hostname:', window.location.hostname);
     console.log('🔗 API Base URL:', API_BASE_URL);
     console.log('📡 API Endpoint:', API_ENDPOINT);
     console.log('📊 Stats Endpoint:', API_STATS_ENDPOINT);
 
-    const queryInput   = document.getElementById("query-input");
+    const queryInput = document.getElementById("query-input");
     const searchBar = document.getElementById("search-bar");
-    const searchBtn    = document.getElementById("search-btn");
-    const statusLabel  = document.getElementById("status-label");
-    const metaLine     = document.getElementById("meta-line");
-    const intentLine   = document.getElementById("intent-line");
-    const resultList   = document.getElementById("result-list");
-    const historyList  = document.getElementById("history-list");
+    const searchBtn = document.getElementById("search-btn");
+    const statusLabel = document.getElementById("status-label");
+    const metaLine = document.getElementById("meta-line");
+    const intentLine = document.getElementById("intent-line");
+    const resultList = document.getElementById("result-list");
+    const historyList = document.getElementById("history-list");
     const vehicleFilter = document.getElementById("vehicle-filter");
-    const decreeSelect  = document.getElementById("decree-select");
+    const decreeSelect = document.getElementById("decree-select");
 
-    const darkToggleBtn   = document.getElementById("dark-toggle");
-    const darkToggleIcon  = document.getElementById("dark-toggle-icon");
-    const darkToggleText  = document.getElementById("dark-toggle-text");
+    const darkToggleBtn = document.getElementById("dark-toggle");
+    const darkToggleIcon = document.getElementById("dark-toggle-icon");
+    const darkToggleText = document.getElementById("dark-toggle-text");
 
     const historyData = [];
 
@@ -1408,7 +1427,7 @@
         // Cập nhật dropdown filter vehicle
         const data = await res.json();
         lastQuery = q;
-        lastData  = data;
+        lastData = data;
         currentFilter = "all";
         lastDecree = decree;
 
@@ -1446,7 +1465,7 @@
         results = results.filter(r => (r.vehicle_category || "") === currentFilter);
       }
 
-      const intent   = data.detected_intent;
+      const intent = data.detected_intent;
       const category = data.detected_category;
 
       metaLine.innerHTML =
@@ -1612,9 +1631,9 @@
         div.className = "history-item";
         // Click lên item lịch sử → hiển thị lại kết quả đã lưu
         div.onclick = () => {
-          lastQuery   = item.query;
-          lastData    = item.data;
-          lastDecree  = item.decree || "";
+          lastQuery = item.query;
+          lastData = item.data;
+          lastDecree = item.decree || "";
           currentFilter = "all";
 
           // Điền lại câu hỏi lên input
@@ -1764,45 +1783,45 @@
     // TAB NAVIGATION
     // ============================================
     function setupTabs() {
-    const navTabs = document.querySelectorAll(".nav-tab");
-    const tabContents = document.querySelectorAll(".tab-content");
-    
-    navTabs.forEach(tab => {
-      tab.addEventListener("click", () => {
-        const targetTab = tab.dataset.tab;
-        
-        // Update active nav tab
-        navTabs.forEach(t => t.classList.remove("active"));
-        tab.classList.add("active");
-        
-        // Show target tab content
-        tabContents.forEach(content => {
-          content.style.display = "none";
-        });
-        
-        const targetContent = document.getElementById(`tab-${targetTab}`);
-        if (targetContent) {
-          targetContent.style.display = "block";
-        }
+      const navTabs = document.querySelectorAll(".nav-tab");
+      const tabContents = document.querySelectorAll(".tab-content");
 
-        // 🔹 Ẩn/hiện thanh tìm kiếm:
-        // - Hiện ở tab "Tra cứu vi phạm" (search)
-        // - Ẩn ở tab "Tra cứu mức phạt" (fine) và "Văn bản pháp luật" (law)
-        if (searchBar) {
-          if (targetTab === "search") {
-            searchBar.style.display = "block";
-          } else {
-            searchBar.style.display = "none";
+      navTabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+          const targetTab = tab.dataset.tab;
+
+          // Update active nav tab
+          navTabs.forEach(t => t.classList.remove("active"));
+          tab.classList.add("active");
+
+          // Show target tab content
+          tabContents.forEach(content => {
+            content.style.display = "none";
+          });
+
+          const targetContent = document.getElementById(`tab-${targetTab}`);
+          if (targetContent) {
+            targetContent.style.display = "block";
           }
-        }
-        
-        // Load stats nếu mở tab thống kê
-        if (targetTab === "stats") {
-          loadSystemStats(false); // false = dùng cache
-        }
+
+          // 🔹 Ẩn/hiện thanh tìm kiếm:
+          // - Hiện ở tab "Tra cứu vi phạm" (search)
+          // - Ẩn ở tab "Tra cứu mức phạt" (fine) và "Văn bản pháp luật" (law)
+          if (searchBar) {
+            if (targetTab === "search") {
+              searchBar.style.display = "block";
+            } else {
+              searchBar.style.display = "none";
+            }
+          }
+
+          // Load stats nếu mở tab thống kê
+          if (targetTab === "stats") {
+            loadSystemStats(false); // false = dùng cache
+          }
+        });
       });
-    });
-  }
+    }
 
     // ============================================
     // LOAD SYSTEM STATISTICS
@@ -1819,11 +1838,11 @@
 
       try {
         const res = await fetch(API_STATS_ENDPOINT);
-        
+
         if (!res.ok) {
           throw new Error("HTTP " + res.status);
         }
-        
+
         const stats = await res.json();
         cachedStats = stats; // Cache the results
         renderSystemStats(stats);
@@ -1838,19 +1857,19 @@
     function renderSystemStats(stats) {
       const kg = stats.knowledge_graph || {};
       const info = stats.system_info || {};
-      
+
       // System Overview
       // Support both 'behavior' and 'violation' labels
-      document.getElementById("stat-violations").textContent = 
-        kg.node_types?.behavior || kg.node_types?.violation || 
+      document.getElementById("stat-violations").textContent =
+        kg.node_types?.behavior || kg.node_types?.violation ||
         kg.node_types?.Behavior || kg.node_types?.Violation || 0;
-      document.getElementById("stat-nodes").textContent = 
+      document.getElementById("stat-nodes").textContent =
         kg.total_nodes || 0;
-      document.getElementById("stat-relations").textContent = 
+      document.getElementById("stat-relations").textContent =
         kg.total_relations || 0;
-      document.getElementById("stat-density").textContent = 
+      document.getElementById("stat-density").textContent =
         (kg.graph_density || 0).toFixed(3);
-      
+
       // Capabilities
       renderCapabilities(info.capabilities || {});
     }
@@ -1858,19 +1877,19 @@
     function renderCapabilities(capabilities) {
       const container = document.getElementById("capabilities-container");
       container.innerHTML = "";
-      
+
       for (const [name, enabled] of Object.entries(capabilities)) {
         const box = document.createElement("div");
         box.className = "capability-box";
-        
+
         const icon = document.createElement("div");
         icon.className = "capability-icon";
         icon.textContent = enabled ? "✅" : "❌";
-        
+
         const label = document.createElement("div");
         label.className = "capability-name";
         label.textContent = name.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
-        
+
         box.appendChild(icon);
         box.appendChild(label);
         container.appendChild(box);
@@ -1879,14 +1898,14 @@
 
     function renderMiniStats(stats) {
       const kg = stats.knowledge_graph || {};
-      
+
       // Update mini stats in sidebar
-      const violations = kg.node_types?.behavior || kg.node_types?.violation || 
-                        kg.node_types?.Behavior || kg.node_types?.Violation || 0;
+      const violations = kg.node_types?.behavior || kg.node_types?.violation ||
+        kg.node_types?.Behavior || kg.node_types?.Violation || 0;
       const totalNodes = kg.total_nodes || 0;
       const totalRelations = kg.total_relations || 0;
       const density = (kg.graph_density || 0).toFixed(3);
-      
+
       document.getElementById("mini-stat-violations").textContent = violations.toLocaleString();
       document.getElementById("mini-stat-nodes").textContent = totalNodes.toLocaleString();
       document.getElementById("mini-stat-relations").textContent = totalRelations.toLocaleString();
@@ -1898,7 +1917,7 @@
       document.getElementById("stat-nodes").textContent = "Error";
       document.getElementById("stat-relations").textContent = "Error";
       document.getElementById("stat-density").textContent = "Error";
-      
+
       const capContainer = document.getElementById("capabilities-container");
       capContainer.innerHTML = '<p style="text-align: center; color: var(--text-muted);">Không thể tải dữ liệu. Vui lòng kiểm tra kết nối API.</p>';
     }
@@ -1921,7 +1940,7 @@
     // ============================================
     // LAW PDF VIEWER
     // ============================================
-    const lawSelect   = document.getElementById("law-select");
+    const lawSelect = document.getElementById("law-select");
     const lawPdfFrame = document.getElementById("law-pdf-frame");
     // const lawFileInput = document.getElementById("law-file-input"); // nếu dùng upload
 
@@ -1946,7 +1965,7 @@
     // Đổi văn bản trong dropdown -> đổi file PDF
     if (lawSelect && lawPdfFrame) {
       lawSelect.addEventListener("change", updateLawPdf);
-      
+
       // Load mặc định khi mở trang
       updateLawPdf();
     }
@@ -1970,9 +1989,10 @@
     setupSidebar();
     setupTabs();
     applyThemeFromStorage();
-    
+
     // Load mini stats on page load
     loadSystemStats();
   </script>
 </body>
+
 </html>
