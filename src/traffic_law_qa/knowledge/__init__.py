@@ -1,0 +1,1 @@
+"""Knowledge representation module for Vietnamese Traffic Law QA System."""

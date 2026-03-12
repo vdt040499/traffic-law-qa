@@ -1,0 +1,58 @@
+{
+  "extraction_config": {
+    "supported_formats": [".docx", ".pdf", ".txt", ".json"],
+    "output_dir": "data/processed",
+    "backup_dir": "data/backups",
+    "main_document": "data/raw/legal_documents/nghi_dinh_100_2019.json",
+    "update_strategy": "smart_merge",
+    "auto_detect_changes": true,
+    "create_backups": true
+  },
+  
+  "document_patterns": {
+    "decree_identifiers": {
+      "ND100-2019": ["nghị định 100/2019", "100/2019/nđ-cp"],
+      "ND123-2021": ["nghị định 123/2021", "123/2021/nđ-cp"],
+      "ND168-2024": ["nghị định 168/2024", "168/2024/nđ-cp"]
+    },
+    
+    "article_patterns": [
+      "Điều\\s+(\\d+)\\.\\s*(.*)",
+      "Điều\\s+(\\d+):\\s*(.*)",
+      "ĐIỀU\\s+(\\d+)\\.\\s*(.*)"
+    ],
+    
+    "section_patterns": [
+      "(\\d+)\\.\\s*Phạt tiền từ\\s*([\\d.,]+)\\s*đồng đến\\s*([\\d.,]+)\\s*đồng.*:",
+      "(\\d+)\\.\\s*Phạt tiền từ\\s*([\\d.,]+)\\s*VNĐ đến\\s*([\\d.,]+)\\s*VNĐ.*:",
+      "Khoản\\s+(\\d+)\\.\\s*Phạt tiền từ\\s*([\\d.,]+)\\s*đến\\s*([\\d.,]+).*:"
+    ],
+    
+    "violation_indicators": [
+      "^([a-z]|đ)\\)\\s*(.*)",
+      "^-\\s*(.*)",
+      "^\\+\\s*(.*)",
+      "^\\*\\s*(.*)",
+      "^\\d+\\.\\s*(.*)"
+    ]
+  },
+  
+  "merge_strategies": {
+    "default": "smart_merge",
+    "for_amendments": "version_control",
+    "for_new_decrees": "append",
+    "for_corrections": "replace"
+  },
+  
+  "watch_directories": [
+    "docs/new_documents",
+    "docs/amendments", 
+    "docs/updates"
+  ],
+  
+  "notification_settings": {
+    "email_on_updates": false,
+    "log_level": "INFO",
+    "report_format": "summary"
+  }
+}

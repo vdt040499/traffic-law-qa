@@ -1,0 +1,16 @@
+{
+  "file_hashes": {
+    "ND100-2019.docx": "9f72a277ee8f58ac066bc4b18fb15989"
+  },
+  "update_history": [
+    {
+      "source_file": "ND100-2019.docx",
+      "source_hash": "9f72a277ee8f58ac066bc4b18fb15989",
+      "extraction_date": "2025-11-19T00:21:29.703130",
+      "document_type": "unknown",
+      "articles_count": 82,
+      "total_violations": 1034
+    }
+  ],
+  "last_check": "2025-11-19T00:21:29.722733"
+}

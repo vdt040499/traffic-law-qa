@@ -1,0 +1,1668 @@
+{
+  "metadata": {
+    "total_violations": 54,
+    "processed_date": "2025-11-25T11:26:56.531554",
+    "source_documents": [
+      "Nghị định 123/2021/NĐ-CP"
+    ],
+    "data_sources": [
+      "nghi_dinh_123_2021.json"
+    ],
+    "processing_pipeline": "complete_extraction_with_amendments",
+    "validation_summary": {
+      "total_violations": 54,
+      "valid_legal_references": 54,
+      "duplicates_removed": 0,
+      "categories": 6
+    },
+    "categories": [
+      "Kinh doanh vận tải",
+      "Vi phạm giấy tờ",
+      "Vi phạm khác",
+      "Vi phạm tốc độ",
+      "Xe mô tô, xe máy",
+      "Xe ô tô"
+    ],
+    "severity_levels": [
+      "Nhẹ",
+      "Trung bình",
+      "Nặng",
+      "Rất nặng"
+    ]
+  },
+  "violations": [
+    {
+      "id": 1,
+      "description": "c) Thực hiện hành vi quy định tại điểm a khoản 6; điểm a, điểm b khoản 7; điểm a, điểm b, điểm c, điểm d khoản 8 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 1000000,
+        "fine_max": 2000000,
+        "currency": "VNĐ",
+        "fine_text": "1000000 - 2000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+        "Tịch thu phương tiện trong trường hợp tái phạm"
+      ],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 1",
+        "point": "Điểm a",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 1, Điểm a"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "giấy phép lái xe",
+        "tước quyền"
+      ],
+      "search_text": "a) Sửa đổi điểm c khoản 10 Điều 6 như sau: \"c) Thực hiện hành vi quy định tại điểm a khoản 6; điểm a, điểm b khoản 7; điểm a, điểm b, điểm c, điểm d khoản 8 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng\" Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 2,
+      "description": "Tái phạm hoặc vi phạm nhiều lần hành vi quy định tại điểm a, điểm b, điểm c, điểm d khoản 8 Điều này bị tịch thu phương tiện",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 1000000,
+        "fine_max": 2000000,
+        "currency": "VNĐ",
+        "fine_text": "1000000 - 2000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+        "Tịch thu phương tiện trong trường hợp tái phạm"
+      ],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 1",
+        "point": "Điểm b",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 1, Điểm b"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "tái phạm",
+        "tịch thu"
+      ],
+      "search_text": "b) Tái phạm hoặc vi phạm nhiều lần hành vi quy định tại điểm a, điểm b, điểm c, điểm d khoản 8 Điều này bị tịch thu phương tiện Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 3,
+      "description": "Thực hiện hành vi quy định tại một trong các điểm, khoản sau của Điều này mà gây tai nạn giao thông thì bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 1000000,
+        "fine_max": 2000000,
+        "currency": "VNĐ",
+        "fine_text": "1000000 - 2000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+        "Tịch thu phương tiện trong trường hợp tái phạm"
+      ],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 1",
+        "point": "Điểm c",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 1, Điểm c"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "giấy phép lái xe",
+        "tước quyền"
+      ],
+      "search_text": "c) Thực hiện hành vi quy định tại một trong các điểm, khoản sau của Điều này mà gây tai nạn giao thông thì bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 4,
+      "description": "Điểm a, điểm g, điểm h, điểm k, điểm l, điểm m, điểm n, điểm q khoản 1",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 1000000,
+        "fine_max": 2000000,
+        "currency": "VNĐ",
+        "fine_text": "1000000 - 2000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+        "Tịch thu phương tiện trong trường hợp tái phạm"
+      ],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 1",
+        "point": "Điểm d",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 1, Điểm d"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "d) Điểm a, điểm g, điểm h, điểm k, điểm l, điểm m, điểm n, điểm q khoản 1 Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 5,
+      "description": "Điểm b, điểm d, điểm e, điểm g, điểm l, điểm m khoản 2",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 1000000,
+        "fine_max": 2000000,
+        "currency": "VNĐ",
+        "fine_text": "1000000 - 2000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+        "Tịch thu phương tiện trong trường hợp tái phạm"
+      ],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 1",
+        "point": "Điểm đ",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 1, Điểm đ"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "đ) Điểm b, điểm d, điểm e, điểm g, điểm l, điểm m khoản 2 Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 6,
+      "description": "Điểm a, điểm b, điểm c, điểm k, điểm m khoản 3",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 1000000,
+        "fine_max": 2000000,
+        "currency": "VNĐ",
+        "fine_text": "1000000 - 2000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+        "Tịch thu phương tiện trong trường hợp tái phạm"
+      ],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 1",
+        "point": "Điểm e",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 1, Điểm e"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "e) Điểm a, điểm b, điểm c, điểm k, điểm m khoản 3 Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 7,
+      "description": "Điểm e, điểm g, điểm h khoản 4",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 1000000,
+        "fine_max": 2000000,
+        "currency": "VNĐ",
+        "fine_text": "1000000 - 2000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+        "Tịch thu phương tiện trong trường hợp tái phạm"
+      ],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 1",
+        "point": "Điểm g",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 1, Điểm g"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "g) Điểm e, điểm g, điểm h khoản 4 Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 8,
+      "description": "Điểm b khoản 5 Điều này",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 1000000,
+        "fine_max": 2000000,
+        "currency": "VNĐ",
+        "fine_text": "1000000 - 2000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+        "Tịch thu phương tiện trong trường hợp tái phạm"
+      ],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 1",
+        "point": "Điểm h",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 1, Điểm h"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "h) Điểm b khoản 5 Điều này Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 9,
+      "description": "Chở người ngồi trên xe đạp máy không đội \"mũ bảo hiểm cho người đi mô tô, xe máy",
+      "category": "Xe mô tô, xe máy",
+      "penalty": {
+        "fine_min": 400000,
+        "fine_max": 600000,
+        "currency": "VNĐ",
+        "fine_text": "400000 - 600000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 2",
+        "point": "Điểm a",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 2, Điểm a"
+      },
+      "severity": "Nhẹ",
+      "keywords": [
+        "mũ bảo hiểm",
+        "bảo hiểm"
+      ],
+      "search_text": "a) Chở người ngồi trên xe đạp máy không đội \"mũ bảo hiểm cho người đi mô tô, xe máy\" Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 10,
+      "description": "Đội \"mũ bảo hiểm cho người đi mô tô, xe máy\" không cài quai đúng quy cách",
+      "category": "Xe mô tô, xe máy",
+      "penalty": {
+        "fine_min": 400000,
+        "fine_max": 600000,
+        "currency": "VNĐ",
+        "fine_text": "400000 - 600000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 2",
+        "point": "Điểm b",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 2, Điểm b"
+      },
+      "severity": "Nhẹ",
+      "keywords": [
+        "mũ bảo hiểm",
+        "bảo hiểm"
+      ],
+      "search_text": "b) Đội \"mũ bảo hiểm cho người đi mô tô, xe máy\" không cài quai đúng quy cách Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 11,
+      "description": "Trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 400000,
+        "fine_max": 600000,
+        "currency": "VNĐ",
+        "fine_text": "400000 - 600000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 2",
+        "point": "Điểm c",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 2, Điểm c"
+      },
+      "severity": "Nhẹ",
+      "keywords": [],
+      "search_text": "c) Trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 12,
+      "description": "Áp giải người có hành vi vi phạm pháp luật",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 400000,
+        "fine_max": 600000,
+        "currency": "VNĐ",
+        "fine_text": "400000 - 600000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 2",
+        "point": "Điểm d",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 2, Điểm d"
+      },
+      "severity": "Nhẹ",
+      "keywords": [],
+      "search_text": "d) Áp giải người có hành vi vi phạm pháp luật Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 13,
+      "description": "Bám, kéo, đẩy xe khác, vật khác, dẫn dắt súc vật",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 400000,
+        "fine_max": 600000,
+        "currency": "VNĐ",
+        "fine_text": "400000 - 600000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 3",
+        "point": "Điểm a",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 3, Điểm a"
+      },
+      "severity": "Nhẹ",
+      "keywords": [],
+      "search_text": "a) Bám, kéo, đẩy xe khác, vật khác, dẫn dắt súc vật Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 14,
+      "description": "Mang vác vật cồng kềnh, đứng trên yên, giá đèo hàng",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 400000,
+        "fine_max": 600000,
+        "currency": "VNĐ",
+        "fine_text": "400000 - 600000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 3",
+        "point": "Điểm b",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 3, Điểm b"
+      },
+      "severity": "Nhẹ",
+      "keywords": [],
+      "search_text": "b) Mang vác vật cồng kềnh, đứng trên yên, giá đèo hàng Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 15,
+      "description": "Ngồi trên tay lái",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 400000,
+        "fine_max": 600000,
+        "currency": "VNĐ",
+        "fine_text": "400000 - 600000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 3",
+        "point": "Điểm c",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 3, Điểm c"
+      },
+      "severity": "Nhẹ",
+      "keywords": [],
+      "search_text": "c) Ngồi trên tay lái Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 16,
+      "description": "Không đội \"mũ bảo hiểm cho người đi mô tô, xe máy\" hoặc đội \"mũ bảo hiểm cho người đi mô tô, xe máy\" không cài quai đúng quy cách khi tham gia giao thông trên đường bộ",
+      "category": "Xe mô tô, xe máy",
+      "penalty": {
+        "fine_min": 400000,
+        "fine_max": 600000,
+        "currency": "VNĐ",
+        "fine_text": "400000 - 600000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 3",
+        "point": "Điểm d",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 3, Điểm d"
+      },
+      "severity": "Nhẹ",
+      "keywords": [
+        "mũ bảo hiểm",
+        "bảo hiểm"
+      ],
+      "search_text": "d) Không đội \"mũ bảo hiểm cho người đi mô tô, xe máy\" hoặc đội \"mũ bảo hiểm cho người đi mô tô, xe máy\" không cài quai đúng quy cách khi tham gia giao thông trên đường bộ Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 17,
+      "description": "Điều khiển phương tiện, chủ phương tiện trốn tránh, không trả tiền dịch vụ sử dụng đường bộ khi phương tiện tham gia giao thông qua các trạm thu phí",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 400000,
+        "fine_max": 600000,
+        "currency": "VNĐ",
+        "fine_text": "400000 - 600000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 3",
+        "point": "Điểm đ",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3, Khoản 3, Điểm đ"
+      },
+      "severity": "Nhẹ",
+      "keywords": [],
+      "search_text": "đ) Điều khiển phương tiện, chủ phương tiện trốn tránh, không trả tiền dịch vụ sử dụng đường bộ khi phương tiện tham gia giao thông qua các trạm thu phí Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 18,
+      "description": "Điều khiển xe ô tô kinh doanh vận tải hành khách không lắp camera theo quy định hoặc có lắp camera nhưng không ghi, không lưu trữ được hình ảnh trên xe trong quá trình xe tham gia giao thông theo quy định hoặc sử dụng biện pháp kỹ thuật, trang thiết bị ngoại vi, các biện pháp khác làm sai lệch dữ liệu của camera lắp trên xe ô tô",
+      "category": "Kinh doanh vận tải",
+      "penalty": {
+        "fine_min": 0,
+        "fine_max": 0,
+        "currency": "VNĐ",
+        "fine_text": "Theo quy định ND100/2019"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 3",
+        "section": "Khoản 5",
+        "point": "Điểm p",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 3"
+      },
+      "severity": "Nặng",
+      "keywords": [
+        "camera",
+        "xe ô tô",
+        "vận tải"
+      ],
+      "search_text": "Điều khiển xe ô tô kinh doanh vận tải hành khách không lắp camera theo quy định hoặc có lắp camera nhưng không ghi, không lưu trữ được hình ảnh trên xe trong quá trình xe tham gia giao thông theo quy định hoặc sử dụng biện pháp kỹ thuật, trang thiết bị ngoại vi, các biện pháp khác làm sai lệch dữ liệu của camera lắp trên xe ô tô Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "amendment_extraction"
+      },
+      "amendments": [
+        {
+          "location": "Điểm p khoản 5 Điều 23",
+          "instruction": "sua_doi",
+          "instruction_text": "Sửa đổi điểm p khoản 5 Điều 23 như sau",
+          "content": "Điều khiển xe ô tô kinh doanh vận tải hành khách không lắp camera theo quy định hoặc có lắp camera nhưng không ghi, không lưu trữ được hình ảnh trên xe trong quá trình xe tham gia giao thông theo quy định hoặc sử dụng biện pháp kỹ thuật, trang thiết bị ngoại vi, các biện pháp khác làm sai lệch dữ liệu của camera lắp trên xe ô tô",
+          "old_content": "Điều khiển xe ô tô kinh doanh vận tải hành khách không lắp camera theo quy định",
+          "new_content": "Điều khiển xe ô tô kinh doanh vận tải hành khách không lắp camera theo quy định hoặc có lắp camera nhưng không ghi, không lưu trữ được hình ảnh trên xe trong quá trình xe tham gia giao thông theo quy định hoặc sử dụng biện pháp kỹ thuật, trang thiết bị ngoại vi, các biện pháp khác làm sai lệch dữ liệu của camera lắp trên xe ô tô",
+          "impact": "high",
+          "priority": 5,
+          "affects_violations": true,
+          "reference_article": "Điều 23 ND100/2019",
+          "raw_text": "Sửa đổi điểm p khoản 5 Điều 23 như sau: p) Điều khiển xe ô tô kinh doanh vận tải hành khách không lắp camera..."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "description": "Người điều khiển xe mô tô, xe gắn máy không có hoặc không mang theo Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 100000,
+        "fine_max": 200000,
+        "currency": "VNĐ",
+        "fine_text": "100000 - 200000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 1",
+        "point": "Điểm a",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 1, Điểm a"
+      },
+      "severity": "Nhẹ",
+      "keywords": [
+        "bảo hiểm"
+      ],
+      "search_text": "a) Người điều khiển xe mô tô, xe gắn máy không có hoặc không mang theo Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 20,
+      "description": "Không mang theo Giấy đăng ký xe",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 100000,
+        "fine_max": 200000,
+        "currency": "VNĐ",
+        "fine_text": "100000 - 200000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 1",
+        "point": "Điểm b",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 1, Điểm b"
+      },
+      "severity": "Nhẹ",
+      "keywords": [
+        "giấy đăng ký"
+      ],
+      "search_text": "b) Không mang theo Giấy đăng ký xe Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 21,
+      "description": "Không mang theo Giấy phép lái xe, trừ hành vi vi phạm quy định tại điểm b khoản 5, điểm c khoản 7 Điều này",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 100000,
+        "fine_max": 200000,
+        "currency": "VNĐ",
+        "fine_text": "100000 - 200000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 1",
+        "point": "Điểm c",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 1, Điểm c"
+      },
+      "severity": "Nhẹ",
+      "keywords": [
+        "giấy phép lái xe"
+      ],
+      "search_text": "c) Không mang theo Giấy phép lái xe, trừ hành vi vi phạm quy định tại điểm b khoản 5, điểm c khoản 7 Điều này Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 22,
+      "description": "Điều khiển xe không có đủ đèn chiếu sáng, đèn soi biển số, đèn báo hãm",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 300000,
+        "fine_max": 400000,
+        "currency": "VNĐ",
+        "fine_text": "300000 - 400000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 2",
+        "point": "Điểm a",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 2, Điểm a"
+      },
+      "severity": "Nhẹ",
+      "keywords": [
+        "biển số",
+        "đèn"
+      ],
+      "search_text": "a) Điều khiển xe không có đủ đèn chiếu sáng, đèn soi biển số, đèn báo hãm Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 23,
+      "description": "Không có đèn tín hiệu, cần gạt nước, gương chiếu hậu, dây an toàn",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 300000,
+        "fine_max": 400000,
+        "currency": "VNĐ",
+        "fine_text": "300000 - 400000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 2",
+        "point": "Điểm b",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 2, Điểm b"
+      },
+      "severity": "Nhẹ",
+      "keywords": [
+        "đèn"
+      ],
+      "search_text": "b) Không có đèn tín hiệu, cần gạt nước, gương chiếu hậu, dây an toàn Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 24,
+      "description": "Không có dụng cụ thoát hiểm, thiết bị chữa cháy, đồng hồ báo áp lực hơi",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 300000,
+        "fine_max": 400000,
+        "currency": "VNĐ",
+        "fine_text": "300000 - 400000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 2",
+        "point": "Điểm c",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 2, Điểm c"
+      },
+      "severity": "Nhẹ",
+      "keywords": [],
+      "search_text": "c) Không có dụng cụ thoát hiểm, thiết bị chữa cháy, đồng hồ báo áp lực hơi Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 25,
+      "description": "Không có đồng hồ báo tốc độ của xe hoặc có những thiết bị đó nhưng không có tác dụng, không đúng tiêu chuẩn thiết kế",
+      "category": "Vi phạm tốc độ",
+      "penalty": {
+        "fine_min": 300000,
+        "fine_max": 400000,
+        "currency": "VNĐ",
+        "fine_text": "300000 - 400000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 2",
+        "point": "Điểm d",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 2, Điểm d"
+      },
+      "severity": "Nhẹ",
+      "keywords": [
+        "tốc độ"
+      ],
+      "search_text": "d) Không có đồng hồ báo tốc độ của xe hoặc có những thiết bị đó nhưng không có tác dụng, không đúng tiêu chuẩn thiết kế Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 26,
+      "description": "Điều khiển xe không có còi hoặc có nhưng còi không có tác dụng",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 300000,
+        "fine_max": 400000,
+        "currency": "VNĐ",
+        "fine_text": "300000 - 400000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 2",
+        "point": "Điểm đ",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 2, Điểm đ"
+      },
+      "severity": "Nhẹ",
+      "keywords": [
+        "còi"
+      ],
+      "search_text": "đ) Điều khiển xe không có còi hoặc có nhưng còi không có tác dụng Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 27,
+      "description": "Điều khiển xe không có bộ phận giảm thanh, giảm khói hoặc có nhưng không có tác dụng, không bảo đảm quy chuẩn môi trường về khí thải, tiếng ồn",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 300000,
+        "fine_max": 400000,
+        "currency": "VNĐ",
+        "fine_text": "300000 - 400000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 2",
+        "point": "Điểm e",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 2, Điểm e"
+      },
+      "severity": "Nhẹ",
+      "keywords": [],
+      "search_text": "e) Điều khiển xe không có bộ phận giảm thanh, giảm khói hoặc có nhưng không có tác dụng, không bảo đảm quy chuẩn môi trường về khí thải, tiếng ồn Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 28,
+      "description": "Điều khiển xe lắp thêm đèn phía trước, phía sau, trên nóc, dưới gầm, một hoặc cả hai bên thành xe",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 1000000,
+        "fine_max": 2000000,
+        "currency": "VNĐ",
+        "fine_text": "1000000 - 2000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tịch thu đèn lắp thêm, còi vượt quá âm lượng",
+        "Buộc phải lắp đầy đủ thiết bị hoặc thay thế thiết bị đủ tiêu chuẩn an toàn kỹ thuật theo quy định"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 3",
+        "point": "Điểm a",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 3, Điểm a"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "đèn"
+      ],
+      "search_text": "a) Điều khiển xe lắp thêm đèn phía trước, phía sau, trên nóc, dưới gầm, một hoặc cả hai bên thành xe Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 29,
+      "description": "Điều khiển xe có hệ thống chuyển hướng của xe không đúng tiêu chuẩn an toàn kỹ thuật",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 1000000,
+        "fine_max": 2000000,
+        "currency": "VNĐ",
+        "fine_text": "1000000 - 2000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tịch thu đèn lắp thêm, còi vượt quá âm lượng",
+        "Buộc phải lắp đầy đủ thiết bị hoặc thay thế thiết bị đủ tiêu chuẩn an toàn kỹ thuật theo quy định"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 3",
+        "point": "Điểm b",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 3, Điểm b"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "b) Điều khiển xe có hệ thống chuyển hướng của xe không đúng tiêu chuẩn an toàn kỹ thuật Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 30,
+      "description": "Điều khiển xe không lắp đủ bánh lốp hoặc lắp bánh lốp không đúng kích cỡ hoặc không bảo đảm tiêu chuẩn kỹ thuật",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 1000000,
+        "fine_max": 2000000,
+        "currency": "VNĐ",
+        "fine_text": "1000000 - 2000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tịch thu đèn lắp thêm, còi vượt quá âm lượng",
+        "Buộc phải lắp đầy đủ thiết bị hoặc thay thế thiết bị đủ tiêu chuẩn an toàn kỹ thuật theo quy định"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 3",
+        "point": "Điểm c",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 3, Điểm c"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "c) Điều khiển xe không lắp đủ bánh lốp hoặc lắp bánh lốp không đúng kích cỡ hoặc không bảo đảm tiêu chuẩn kỹ thuật Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 31,
+      "description": "Điều khiển xe ô tô kinh doanh vận tải hành khách lắp thêm hoặc tháo bớt ghế, giường nằm hoặc có kích thước khoang chở hành lý không đúng với thông số kỹ thuật được ghi trong Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe",
+      "category": "Xe ô tô",
+      "penalty": {
+        "fine_min": 1000000,
+        "fine_max": 2000000,
+        "currency": "VNĐ",
+        "fine_text": "1000000 - 2000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tịch thu đèn lắp thêm, còi vượt quá âm lượng",
+        "Buộc phải lắp đầy đủ thiết bị hoặc thay thế thiết bị đủ tiêu chuẩn an toàn kỹ thuật theo quy định"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 3",
+        "point": "Điểm d",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 3, Điểm d"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "xe ô tô",
+        "vận tải"
+      ],
+      "search_text": "d) Điều khiển xe ô tô kinh doanh vận tải hành khách lắp thêm hoặc tháo bớt ghế, giường nằm hoặc có kích thước khoang chở hành lý không đúng với thông số kỹ thuật được ghi trong Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 32,
+      "description": "Điều khiển xe không có Giấy đăng ký xe theo quy định hoặc sử dụng Giấy đăng ký xe đã hết hạn sử dụng",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 2000000,
+        "fine_max": 3000000,
+        "currency": "VNĐ",
+        "fine_text": "2000000 - 3000000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 4",
+        "point": "Điểm a",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 4, Điểm a"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "giấy đăng ký"
+      ],
+      "search_text": "a) Điều khiển xe không có Giấy đăng ký xe theo quy định hoặc sử dụng Giấy đăng ký xe đã hết hạn sử dụng Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 33,
+      "description": "Điều khiển xe không gắn biển số",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 2000000,
+        "fine_max": 3000000,
+        "currency": "VNĐ",
+        "fine_text": "2000000 - 3000000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 4",
+        "point": "Điểm b",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 4, Điểm b"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "biển số"
+      ],
+      "search_text": "b) Điều khiển xe không gắn biển số Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 34,
+      "description": "Điều khiển xe ô tô tải có kích thước thùng xe không đúng với thông số kỹ thuật được ghi trong Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe",
+      "category": "Xe ô tô",
+      "penalty": {
+        "fine_min": 2000000,
+        "fine_max": 3000000,
+        "currency": "VNĐ",
+        "fine_text": "2000000 - 3000000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 4",
+        "point": "Điểm c",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 4, Điểm c"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "xe ô tô"
+      ],
+      "search_text": "c) Điều khiển xe ô tô tải có kích thước thùng xe không đúng với thông số kỹ thuật được ghi trong Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 35,
+      "description": "Điều khiển xe lắp đặt, sử dụng còi vượt quá âm lượng theo quy định",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 2000000,
+        "fine_max": 3000000,
+        "currency": "VNĐ",
+        "fine_text": "2000000 - 3000000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 4",
+        "point": "Điểm d",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 4, Điểm d"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "còi"
+      ],
+      "search_text": "d) Điều khiển xe lắp đặt, sử dụng còi vượt quá âm lượng theo quy định Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 36,
+      "description": "Điều khiển xe có Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường nhưng đã hết hạn sử dụng dưới 01 tháng",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 3000000,
+        "fine_max": 4000000,
+        "currency": "VNĐ",
+        "fine_text": "3000000 - 4000000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 5",
+        "point": "Điểm a",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 5, Điểm a"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "a) Điều khiển xe có Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường nhưng đã hết hạn sử dụng dưới 01 tháng Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 37,
+      "description": "Điều khiển xe không đủ hệ thống hãm hoặc có đủ hệ thống hãm nhưng không có tác dụng, không đúng tiêu chuẩn an toàn kỹ thuật",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 3000000,
+        "fine_max": 4000000,
+        "currency": "VNĐ",
+        "fine_text": "3000000 - 4000000 VNĐ"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 5",
+        "point": "Điểm b",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 5, Điểm b"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "b) Điều khiển xe không đủ hệ thống hãm hoặc có đủ hệ thống hãm nhưng không có tác dụng, không đúng tiêu chuẩn an toàn kỹ thuật Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 38,
+      "description": "Điều khiển xe gắn biển số không đúng với Giấy đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 4000000,
+        "fine_max": 6000000,
+        "currency": "VNĐ",
+        "fine_text": "4000000 - 6000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tịch thu Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường, Giấy đăng ký xe, biển số không đúng quy định hoặc bị tẩy xóa",
+        "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 6",
+        "point": "Điểm a",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 6, Điểm a"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "biển số",
+        "giấy đăng ký"
+      ],
+      "search_text": "a) Điều khiển xe gắn biển số không đúng với Giấy đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 39,
+      "description": "Sử dụng Giấy đăng ký xe, Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 4000000,
+        "fine_max": 6000000,
+        "currency": "VNĐ",
+        "fine_text": "4000000 - 6000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tịch thu Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường, Giấy đăng ký xe, biển số không đúng quy định hoặc bị tẩy xóa",
+        "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 6",
+        "point": "Điểm b",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 6, Điểm b"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "giấy đăng ký"
+      ],
+      "search_text": "b) Sử dụng Giấy đăng ký xe, Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 40,
+      "description": "Sử dụng Giấy đăng ký xe không đúng số khung, số máy của xe",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 4000000,
+        "fine_max": 6000000,
+        "currency": "VNĐ",
+        "fine_text": "4000000 - 6000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tịch thu Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường, Giấy đăng ký xe, biển số không đúng quy định hoặc bị tẩy xóa",
+        "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 6",
+        "point": "Điểm c",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 6, Điểm c"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "giấy đăng ký"
+      ],
+      "search_text": "c) Sử dụng Giấy đăng ký xe không đúng số khung, số máy của xe Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 41,
+      "description": "Điều khiển xe không có Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 4000000,
+        "fine_max": 6000000,
+        "currency": "VNĐ",
+        "fine_text": "4000000 - 6000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tịch thu Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường, Giấy đăng ký xe, biển số không đúng quy định hoặc bị tẩy xóa",
+        "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 6",
+        "point": "Điểm d",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 6, Điểm d"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "d) Điều khiển xe không có Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 42,
+      "description": "Điều khiển xe không gắn đủ biển số hoặc gắn biển số không đúng vị trí",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 4000000,
+        "fine_max": 6000000,
+        "currency": "VNĐ",
+        "fine_text": "4000000 - 6000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tịch thu Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường, Giấy đăng ký xe, biển số không đúng quy định hoặc bị tẩy xóa",
+        "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 6",
+        "point": "Điểm đ",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 6, Điểm đ"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "biển số"
+      ],
+      "search_text": "đ) Điều khiển xe không gắn đủ biển số hoặc gắn biển số không đúng vị trí Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 43,
+      "description": "Gắn biển số không rõ chữ, số; gắn biển số bị bẻ cong, bị che lấp, bị hỏng",
+      "category": "Vi phạm giấy tờ",
+      "penalty": {
+        "fine_min": 4000000,
+        "fine_max": 6000000,
+        "currency": "VNĐ",
+        "fine_text": "4000000 - 6000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tịch thu Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường, Giấy đăng ký xe, biển số không đúng quy định hoặc bị tẩy xóa",
+        "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 6",
+        "point": "Điểm e",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 6, Điểm e"
+      },
+      "severity": "Trung bình",
+      "keywords": [
+        "biển số"
+      ],
+      "search_text": "e) Gắn biển số không rõ chữ, số; gắn biển số bị bẻ cong, bị che lấp, bị hỏng Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 44,
+      "description": "Sơn, dán thêm làm thay đổi chữ, số hoặc thay đổi màu sắc của chữ, số, nền biển",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 4000000,
+        "fine_max": 6000000,
+        "currency": "VNĐ",
+        "fine_text": "4000000 - 6000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tịch thu Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường, Giấy đăng ký xe, biển số không đúng quy định hoặc bị tẩy xóa",
+        "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 6",
+        "point": "Điểm g",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 6, Điểm g"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "g) Sơn, dán thêm làm thay đổi chữ, số hoặc thay đổi màu sắc của chữ, số, nền biển Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 45,
+      "description": "Điều khiển xe đăng ký tạm, xe có phạm vi hoạt động hạn chế hoạt động quá phạm vi, thời hạn cho phép",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 10000000,
+        "fine_max": 12000000,
+        "currency": "VNĐ",
+        "fine_text": "10000000 - 12000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+        "Tịch thu phương tiện",
+        "Buộc phải lắp đầy đủ thiết bị hoặc khôi phục lại tính năng kỹ thuật của thiết bị theo quy định"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 7",
+        "point": "Điểm a",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 7, Điểm a"
+      },
+      "severity": "Nặng",
+      "keywords": [],
+      "search_text": "a) Điều khiển xe đăng ký tạm, xe có phạm vi hoạt động hạn chế hoạt động quá phạm vi, thời hạn cho phép Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 46,
+      "description": "Điều khiển xe quá niên hạn sử dụng tham gia giao thông",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 10000000,
+        "fine_max": 12000000,
+        "currency": "VNĐ",
+        "fine_text": "10000000 - 12000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+        "Tịch thu phương tiện",
+        "Buộc phải lắp đầy đủ thiết bị hoặc khôi phục lại tính năng kỹ thuật của thiết bị theo quy định"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 7",
+        "point": "Điểm b",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 7, Điểm b"
+      },
+      "severity": "Nặng",
+      "keywords": [],
+      "search_text": "b) Điều khiển xe quá niên hạn sử dụng tham gia giao thông Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 47,
+      "description": "Điều khiển loại xe sản xuất, lắp ráp trái quy định tham gia giao thông",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 10000000,
+        "fine_max": 12000000,
+        "currency": "VNĐ",
+        "fine_text": "10000000 - 12000000 VNĐ"
+      },
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+        "Tịch thu phương tiện",
+        "Buộc phải lắp đầy đủ thiết bị hoặc khôi phục lại tính năng kỹ thuật của thiết bị theo quy định"
+      ],
+      "legal_basis": {
+        "article": "Điều 16",
+        "section": "Khoản 7",
+        "point": "Điểm c",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 16, Khoản 7, Điểm c"
+      },
+      "severity": "Nặng",
+      "keywords": [],
+      "search_text": "c) Điều khiển loại xe sản xuất, lắp ráp trái quy định tham gia giao thông Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 48,
+      "description": "h) Tổ hợp tác;",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 0,
+        "fine_max": 0,
+        "currency": "VNĐ",
+        "fine_text": "Không áp dụng"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 2",
+        "section": "Khoản 1",
+        "point": "Điểm a",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 2, Khoản 1, Điểm a"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "a) Sửa đổi điểm h khoản 2 Điều 2 như sau: \"h) Tổ hợp tác;\" Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 100/2019/NĐ-CP",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 49,
+      "description": "Bổ sung Điều 4a vào sau Điều 4 như sau: \"Điều 4a. Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 0,
+        "fine_max": 0,
+        "currency": "VNĐ",
+        "fine_text": "Không áp dụng"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 2",
+        "section": "Khoản 2",
+        "point": "Điểm a",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 2, Khoản 2, Điểm a"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "a) Bổ sung Điều 4a vào sau Điều 4 như sau: \"Điều 4a. Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện\" Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 100/2019/NĐ-CP",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 50,
+      "description": "Hành vi vi phạm hành chính đã kết thúc gồm những hành vi vi phạm sau đây:",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 0,
+        "fine_max": 0,
+        "currency": "VNĐ",
+        "fine_text": "Không áp dụng"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 2",
+        "section": "Khoản 2",
+        "point": "Điểm b",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 2, Khoản 2, Điểm b"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "b) Hành vi vi phạm hành chính đã kết thúc gồm những hành vi vi phạm sau đây: Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 100/2019/NĐ-CP",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 51,
+      "description": "Hành vi vi phạm hành chính được phát hiện trong quá trình triển khai thực hiện phương án khẩn nguy",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 0,
+        "fine_max": 0,
+        "currency": "VNĐ",
+        "fine_text": "Không áp dụng"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 2",
+        "section": "Khoản 2",
+        "point": "Điểm c",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 2, Khoản 2, Điểm c"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "c) Hành vi vi phạm hành chính được phát hiện trong quá trình triển khai thực hiện phương án khẩn nguy Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 100/2019/NĐ-CP",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 52,
+      "description": "Các hành vi vi phạm hành chính trong lĩnh vực hàng không dân dụng về an ninh, trật tự và an toàn xã hội tại các khu vực công cộng ở cảng hàng không, sân bay hoặc do các cơ quan trong ngành hàng không dân duyng chuyển giao",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 0,
+        "fine_max": 0,
+        "currency": "VNĐ",
+        "fine_text": "Không áp dụng"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 2",
+        "section": "Khoản 2",
+        "point": "Điểm d",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 2, Khoản 2, Điểm d"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "d) Các hành vi vi phạm hành chính trong lĩnh vực hàng không dân dụng về an ninh, trật tự và an toàn xã hội tại các khu vực công cộng ở cảng hàng không, sân bay hoặc do các cơ quan trong ngành hàng không dân duyng chuyển giao Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 100/2019/NĐ-CP",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "detailed_extraction"
+      }
+    },
+    {
+      "id": 53,
+      "description": "Tổ hợp tác;",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 0,
+        "fine_max": 0,
+        "currency": "VNĐ",
+        "fine_text": "Theo quy định ND100/2019"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 2",
+        "section": "Khoản 2",
+        "point": "Điểm h",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 2"
+      },
+      "severity": "Nặng",
+      "keywords": [],
+      "search_text": "Tổ hợp tác; Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 100/2019/NĐ-CP",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "amendment_extraction"
+      },
+      "amendments": [
+        {
+          "location": "Điểm h khoản 2 Điều 2",
+          "instruction": "sua_doi",
+          "instruction_text": "Sửa đổi điểm h khoản 2 Điều 2 như sau",
+          "content": "Tổ hợp tác;",
+          "old_content": "Tổ hợp tác",
+          "new_content": "Tổ hợp tác;",
+          "impact": "high",
+          "priority": 4,
+          "affects_violations": true,
+          "reference_article": "Điều 2 ND100/2019",
+          "raw_text": "1. Sửa đổi điểm h khoản 2 Điều 2 như sau: h) Tổ hợp tác;"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "description": "Điều 4a. Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện",
+      "category": "Vi phạm khác",
+      "penalty": {
+        "fine_min": 0,
+        "fine_max": 0,
+        "currency": "VNĐ",
+        "fine_text": "Theo quy định ND100/2019"
+      },
+      "additional_measures": [],
+      "legal_basis": {
+        "article": "Điều 2",
+        "section": "Không xác định",
+        "point": "Không xác định",
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "full_reference": "Nghị định 123/2021/NĐ-CP, Điều 2"
+      },
+      "severity": "Trung bình",
+      "keywords": [],
+      "search_text": "Điều 4a. Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 100/2019/NĐ-CP",
+      "metadata": {
+        "source": "ND123-2021.docx",
+        "processed_date": "2025-11-25T11:26:56.531554",
+        "pipeline_stage": "amendment_extraction"
+      },
+      "amendments": [
+        {
+          "location": "Điều 4a",
+          "instruction": "bo_sung",
+          "instruction_text": "Bổ sung Điều 4a vào sau Điều 4 như sau",
+          "content": "Điều 4a. Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện",
+          "old_content": null,
+          "new_content": "Điều 4a với các quy định về hành vi vi phạm đã kết thúc và đang thực hiện",
+          "impact": "medium",
+          "priority": 3,
+          "affects_violations": true,
+          "reference_article": "Sau Điều 4 ND100/2019",
+          "raw_text": "2. Bổ sung Điều 4a vào sau Điều 4 như sau: Điều 4a. Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1195 @@
+{
+  "document_info": {
+    "title": "Nghị định 123/2021/NĐ-CP",
+    "full_title": "Nghị định về sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt",
+    "issued_date": "2021-12-28",
+    "effective_date": "2022-01-01",
+    "issued_by": "Chính phủ",
+    "amendments": [],
+    "total_articles": 20,
+    "total_chapters": 5,
+    "description": "Nghị định sửa đổi, bổ sung Nghị định 100/2019/NĐ-CP - 20 điều với nội dung được trích xuất tự động",
+    "last_updated": "2025-11-25",
+    "update_source": "Added detailed violations with specific points and penalties",
+    "amendment_extraction": {
+      "extracted_date": "2025-11-25 11:00:39",
+      "total_amendments": 3,
+      "total_articles": 2,
+      "extraction_method": "comprehensive_restructuring_v3"
+    },
+    "amendment_correction": {
+      "corrected_date": "2025-11-25",
+      "changes": "Fixed misplaced amendments - moved Điều 23 amendment from dieu_3 to dieu_23, removed duplicate amendments",
+      "method": "manual_repositioning"
+    },
+    "detailed_extraction": {
+      "extracted_date": "2025-11-25 11:17:08",
+      "articles_updated": [
+        "dieu_2",
+        "dieu_3",
+        "dieu_16",
+        "dieu_23",
+        "dieu_24"
+      ],
+      "extraction_method": "detailed_docx_analysis_v4"
+    },
+    "format_updated": {
+      "date": "2025-11-25 12:10:02",
+      "changes": "Advanced extraction of lettered points with pattern recognition",
+      "script": "advanced_fix_violations_format_123.py"
+    },
+    "manual_fix": {
+      "date": "2025-11-25 12:14:18",
+      "changes": "Manually corrected duplicate letters in dieu_7 khoản 2 based on logical analysis",
+      "fixed_sections": [
+        "dieu_7_khoan_2"
+      ]
+    },
+    "comprehensive_fix": {
+      "date": "2025-11-25 12:15:10",
+      "changes": "Fixed duplicate letters in 46 sections",
+      "method": "comprehensive_duplicate_removal"
+    },
+    "vietnamese_letter_fix": {
+      "date": "2025-11-25 12:20:54",
+      "changes": "Fixed letter sequences to Vietnamese legal standard",
+      "alphabet_used": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "đ",
+        "e",
+        "g",
+        "h",
+        "i",
+        "k",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p"
+      ],
+      "script": "fix_vietnamese_letter_sequence.py"
+    }
+  },
+  "structure": {
+    "chapters": [
+      {
+        "chapter": 1,
+        "title": "Những quy định chung",
+        "articles": [
+          "Điều 1",
+          "Điều 2",
+          "Điều 3",
+          "Điều 4"
+        ]
+      },
+      {
+        "chapter": 2,
+        "title": "Vi phạm hành chính trong lĩnh vực giao thông đường bộ",
+        "articles": [
+          "Điều 5",
+          "Điều 6",
+          "Điều 7",
+          "Điều 8",
+          "Điều 9",
+          "Điều 10",
+          "Điều 11",
+          "Điều 12",
+          "Điều 13",
+          "Điều 14",
+          "Điều 15",
+          "Điều 16",
+          "Điều 17",
+          "Điều 18"
+        ]
+      },
+      {
+        "chapter": 3,
+        "title": "Vi phạm hành chính trong lĩnh vực giao thông đường sắt",
+        "articles": [
+          "Điều 19",
+          "Điều 20",
+          "Điều 21"
+        ]
+      },
+      {
+        "chapter": 4,
+        "title": "Thẩm quyền xử phạt và áp dụng biện pháp khắc phục hậu quả",
+        "articles": [
+          "Điều 22",
+          "Điều 23",
+          "Điều 24",
+          "Điều 25",
+          "Điều 26",
+          "Điều 27"
+        ]
+      },
+      {
+        "chapter": 5,
+        "title": "Điều khoản thi hành",
+        "articles": []
+      }
+    ]
+  },
+  "articles": {
+    "dieu_1": {
+      "title": "Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 142/2017/NĐ-CP ngày 11 tháng 12 năm 2017 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "Không áp dụng",
+          "violations": [
+            "a) Sửa đổi, bổ sung khoản 2",
+            "b) khoản 3 của Điều 1 về hành vi vi phạm hành chính trong lĩnh vực hàng hải"
+          ],
+          "amendments": [
+            {
+              "location": "Khoản 2 Điều 1",
+              "instruction": "sua_doi",
+              "content": "Hành vi vi phạm hành chính trong lĩnh vực hàng hải được quy định tại Nghị định này",
+              "impact": "medium",
+              "priority": 3
+            }
+          ]
+        }
+      ]
+    },
+    "dieu_3": {
+      "title": "Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "a) Sửa đổi điểm c khoản 10 Điều 6 như sau: c) Thực hiện hành vi quy định tại điểm a khoản 6; điểm a, điểm b khoản 7; điểm a, điểm b, điểm c, điểm d khoản 8 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+            "b) Tái phạm hoặc vi phạm nhiều lần hành vi quy định tại điểm a, điểm b, điểm c, điểm d khoản 8 Điều này bị tịch thu phương tiện",
+            "c) Thực hiện hành vi quy định tại một trong các điểm, khoản sau của Điều này mà gây tai nạn giao thông thì bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+            "d) Điểm a, điểm g, điểm h, điểm k, điểm l, điểm m, điểm n, điểm q khoản 1",
+            "đ) Điểm b, điểm d, điểm e, điểm g, điểm l, điểm m khoản 2",
+            "e) Điểm a, điểm b, điểm c, điểm k, điểm m khoản 3",
+            "g) Điểm e, điểm g, điểm h khoản 4",
+            "h) Điểm b khoản 5 Điều này"
+          ],
+          "additional_measures": [
+            "a) Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+            "a) Tịch thu phương tiện trong trường hợp tái phạm"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "400000 - 600000 VNĐ",
+          "violations": [
+            "a) Chở người ngồi trên xe đạp máy không đội mũ bảo hiểm cho người đi mô tô, xe máy",
+            "b) Đội mũ bảo hiểm cho người đi mô tô, xe máy không cài quai đúng quy cách",
+            "c) Trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi",
+            "d) Áp giải người có hành vi vi phạm pháp luật"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "400000 - 600000 VNĐ",
+          "violations": [
+            "a) Bám, kéo, đẩy xe khác, vật khác, dẫn dắt súc vật",
+            "b) Mang vác vật cồng kềnh, đứng trên yên, giá đèo hàng",
+            "c) Ngồi trên tay lái",
+            "d) Không đội mũ bảo hiểm cho người đi mô tô, xe máy hoặc đội mũ bảo hiểm cho người đi mô tô, xe máy không cài quai đúng quy cách khi tham gia giao thông trên đường bộ",
+            "đ) Điều khiển phương tiện, chủ phương tiện trốn tránh, không trả tiền dịch vụ sử dụng đường bộ khi phương tiện tham gia giao thông qua các trạm thu phí"
+          ]
+        }
+      ],
+
+      "has_detailed_violations": true,
+      "detailed_extraction_date": "2025-11-25 11:17:08"
+    },
+    "dieu_7": {
+      "title": "Vi phạm quy định về công bố mở cảng biển, cảng dầu khí ngoài khơi, bến cảng, cầu cảng",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "a) Bổ sung điểm i, điểm k vào sau điểm h khoản 5 Điều 10 với nội dung: Không thực hiện kiểm định hoặc điều khiển phương tiện, thiết bị xếp dỡ, xe, máy móc chuyên dùng trong nội bộ của cảng mà không được kiểm định theo quy định",
+            "b) Sửa đổi, bổ sung điểm d khoản 6 Điều 10 với nội dung: Không thực hiện kiểm định chất lượng kết cấu hạ tầng bến cảng đúng thời hạn quy định hoặc sau sự cố va chạm, đâm va có ảnh hưởng đến kết cấu công trình hàng hải",
+            "c) Sửa đổi, bổ sung khoản 7 Điều 10 quy định về vi phạm tại các điểm d và điểm e khoản 5 và điểm c khoản 6",
+            "d) Bổ sung khoản 8 vào sau khoản 7 Điều 10 quy định về vi phạm tại điểm e khoản 5, điểm c khoản 6, và điểm d khoản 6"
+          ]
+        }
+      ]
+    },
+    "dieu_12": {
+      "title": "Vi phạm quy định về bảo đảm an toàn hàng hải và bảo vệ môi trường khi xây dựng mới hoặc cải tạo, nâng cấp cảng biển hoặc khi xây dựng, lắp đặt các công trình, thiết bị khác ảnh hưởng đến an toàn hàng hải",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "a) Không có trang thiết bị cứu sinh hoặc trang thiết bị cứu sinh không phù hợp theo quy định",
+            "b) Không thông báo cho Cảng vụ hàng hải biết về việc xây dựng các công trình khác trong vùng nước cảng biển",
+            "c) Thiết lập báo hiệu hàng hải không đầy đủ hoặc thiết lập báo hiệu hàng hải không phù hợp theo quy định hoặc báo hiệu hàng hải không hoạt động hoặc báo hiệu sai lệch khu vực đang thi công công trình",
+            "d) Tàu công trình, tàu phục vụ thi công công trình neo đậu ngoài vùng giới hạn cho phép, gây cản trở giao thông hàng hải trên luồng hàng hải",
+            "đ) Không ghi chép kết quả giám sát về quá trình thi công nạo vét và vận chuyển đổ chất nạo vét hoặc không ghi nhật ký thi công theo quy định",
+            "e) không thực hiện báo cáo định kỳ với Cảng vụ hàng hải và Cục Hàng hải Việt Nam về tình hình, kết quả thực hiện dự án nạo vét luồng hàng hải, khu nước, vùng nước trong vùng nước cảng biển kết hợp tận thu sản phẩm theo quy định",
+            "g) Đặt lồng bè hoặc đặt các phương tiện đánh bắt, nuôi trồng thủy sản, khai thác tài nguyên trong vùng nước cảng biển, luồng hàng hải khi chưa được sự chấp thuận của Cảng vụ hàng hải hoặc không đúng vị trí hoặc không đúng thời gian đã được chấp thuận",
+            "h) Đóng đăng đáy trong vùng nước cảng biển, luồng hàng hải."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "a) Thi công sai vị trí được cấp phép",
+            "b) Thi công quá thời gian quy định ghi trong giấy phép xây dựng của cơ quan có thẩm quyền theo quy định",
+            "c) Sử dụng phương tiện, thiết bị chuyên dùng để khảo sát, nạo vét luồng, thiết lập báo hiệu hàng hải",
+            "d) tiến hành các hoạt động khác trong vùng nước cảng biển khi chưa được sự chấp thuận của Cảng vụ hàng hải theo quy định",
+            "đ) Không thu dọn, thanh thải chướng ngại vật phát sinh trong quá trình thi công sau khi công trình đã hoàn thành",
+            "e) Không thực hiện đầy đủ phương án bảo đảm an toàn hàng hải, phương án bảo đảm an toàn giao thông đã được cơ quan có thẩm quyền phê duyệt",
+            "g) Tạo ra các chướng ngại vật trong vùng nước cảng biển",
+            "h) vùng biển Việt Nam gây ảnh hưởng đến hoạt động hàng hải",
+            "i) Lắp đặt hệ thống giám sát nạo vét trên phương tiện tham gia vận chuyển đổ chất nạo vét trong hoạt động nạo vét không phù hợp theo quy định",
+            "k) hệ thống giám sát nạo vét không bảo đảm thông số kỹ thuật tối thiểu hoặc không ở trạng thái sẵn sàng hoạt động hoặc hoạt động không liên tục, ổn định theo quy định",
+            "l) Không tổ chức giám sát công tác thi công, đổ chất nạo vét theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "20000000 - 30000000 VNĐ",
+          "violations": [
+            "a) Không lắp đặt theo quy định hệ thống giám sát nạo vét trên phương tiện tham gia vận chuyển đổ bùn đất trong thi công nạo vét, duy tu luồng hàng hải, khu nước, vùng nước",
+            "b) Không thực hiện hoặc thực hiện không đúng phương án bảo đảm an toàn hàng hải, phương án bảo đảm an toàn giao thông đã được cơ quan có thẩm quyền phê duyệt."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "30000000 - 40000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "40000000 - 50000000 VNĐ",
+          "violations": [
+            "a) Tổ chức thi công công trình thuộc trường hợp phải lập báo cáo kinh tế - kỹ thuật xây dựng công trình hoặc lập dự án đầu tư xây dựng công trình khi chưa có giấy phép hoặc văn bản chấp thuận của cơ quan có thẩm quyền theo quy định",
+            "b) Xây dựng công trình không đúng thiết kế được thẩm định, phê duyệt",
+            "c) Không có phương án bảo đảm an toàn hàng hải, phương án bảo đảm an toàn giao thông theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "50000000 - 60000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "80000000 - 100000000 VNĐ",
+          "violations": [
+            "a) Thi công công trình khi chưa được phép của cơ quan có thẩm quyền",
+            "b) để xảy ra tai nạn",
+            "c) Thi công sai vị trí được phép",
+            "d) Không có hoặc thực hiện không đúng phương án bảo đảm an toàn hàng hải, phương án bảo đảm an toàn giao thông đã được cơ quan có thẩm quyền phê duyệt dẫn đến xảy ra tai nạn.",
+            "đ) Vi phạm quy định tại điểm a khoản 1 Điều này",
+            "e) Vi phạm quy định tại điểm c khoản 1 Điều này",
+            "g) Buộc di dời đăng đáy, lồng bè hoặc các phương tiện đánh bắt, nuôi trồng thủy sản, khai thác tài nguyên trong vùng nước cảng biển, luồng hàng hải không đúng vị trí quy định tại điểm e",
+            "h) điểm g khoản 1 Điều này",
+            "i) Buộc khôi phục lại tình trạng ban đầu đã bị thay đổi do các hành vi vi phạm quy định tại các điểm d khoản 1",
+            "k) điểm e khoản 2 Điều này",
+            "l) Vi phạm quy định tại điểm a khoản 2, khoản 4, khoản 5, khoản 6",
+            "m) điểm a",
+            "n) điểm b khoản 7 Điều này",
+            "o) Vi phạm quy định tại điểm g khoản 2 Điều này",
+            "p) Vi phạm quy định tại điểm b khoản 3 Điều này",
+            "p) Vi phạm quy định tại điểm c khoản 5 và điểm c khoản 7",
+            "q) thực hiện hoặc thực hiện đúng phương án bảo đảm an toàn hàng hải, phương án bảo đảm an toàn giao thông đã được cơ quan có thẩm quyền phê duyệt đối với hành vi vi phạm quy định tại điểm c khoản 3 và điểm c khoản 7 Điều này.”."
+          ]
+        }
+      ]
+    },
+    "dieu_15": {
+      "title": "Vi phạm quy định về cân xác nhận khối lượng toàn bộ đối với mỗi Công-te-nơ vận tải biển",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "content": "Phạt tiền từ 10.000.000 đồng đến 20.000.000 đồng đối với mỗi hành vi vi phạm sau đây:\n1. Không cân xác nhận khối lượng toàn bộ Công-te-nơ theo quy định.\n2. Không cung cấp bản xác nhận khối lượng toàn bộ Công-te-nơ theo quy định.”.\n10. Sửa đổi, bổ sung Điều 16 như sau:"
+    },
+    "dieu_16": {
+      "title": "Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "100000 - 200000 VNĐ",
+          "violations": [
+            "a) Người điều khiển xe mô tô, xe gắn máy không có hoặc không mang theo Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực",
+            "b) Không mang theo Giấy đăng ký xe",
+            "c) Không mang theo Giấy phép lái xe, trừ hành vi vi phạm quy định tại điểm b khoản 5, điểm c khoản 7 Điều này"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "300000 - 400000 VNĐ",
+          "violations": [
+            "a) Điều khiển xe không có đủ đèn chiếu sáng, đèn soi biển số, đèn báo hãm",
+            "b) Không có đèn tín hiệu, cần gạt nước, gương chiếu hậu, dây an toàn",
+            "c) Không có dụng cụ thoát hiểm, thiết bị chữa cháy, đồng hồ báo áp lực hơi",
+            "d) Không có đồng hồ báo tốc độ của xe hoặc có những thiết bị đó nhưng không có tác dụng, không đúng tiêu chuẩn thiết kế",
+            "đ) Điều khiển xe không có còi hoặc có nhưng còi không có tác dụng",
+            "e) Điều khiển xe không có bộ phận giảm thanh, giảm khói hoặc có nhưng không có tác dụng, không bảo đảm quy chuẩn môi trường về khí thải, tiếng ồn"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "a) Điều khiển xe lắp thêm đèn phía trước, phía sau, trên nóc, dưới gầm, một hoặc cả hai bên thành xe",
+            "b) Điều khiển xe có hệ thống chuyển hướng của xe không đúng tiêu chuẩn an toàn kỹ thuật",
+            "c) Điều khiển xe không lắp đủ bánh lốp hoặc lắp bánh lốp không đúng kích cỡ hoặc không bảo đảm tiêu chuẩn kỹ thuật",
+            "d) Điều khiển xe ô tô kinh doanh vận tải hành khách lắp thêm hoặc tháo bớt ghế, giường nằm hoặc có kích thước khoang chở hành lý không đúng với thông số kỹ thuật được ghi trong Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe"
+          ],
+          "additional_measures": [
+            "a) Tịch thu đèn lắp thêm, còi vượt quá âm lượng",
+            "a) Buộc phải lắp đầy đủ thiết bị hoặc thay thế thiết bị đủ tiêu chuẩn an toàn kỹ thuật theo quy định"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "2000000 - 3000000 VNĐ",
+          "violations": [
+            "a) Điều khiển xe không có Giấy đăng ký xe theo quy định hoặc sử dụng Giấy đăng ký xe đã hết hạn sử dụng",
+            "b) Điều khiển xe không gắn biển số",
+            "c) Điều khiển xe ô tô tải có kích thước thùng xe không đúng với thông số kỹ thuật được ghi trong Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe",
+            "d) Điều khiển xe lắp đặt, sử dụng còi vượt quá âm lượng theo quy định"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "3000000 - 4000000 VNĐ",
+          "violations": [
+            "a) Điều khiển xe có Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường nhưng đã hết hạn sử dụng dưới 01 tháng",
+            "b) Điều khiển xe không đủ hệ thống hãm hoặc có đủ hệ thống hãm nhưng không có tác dụng, không đúng tiêu chuẩn an toàn kỹ thuật"
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "4000000 - 6000000 VNĐ",
+          "violations": [
+            "a) Điều khiển xe gắn biển số không đúng với Giấy đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp",
+            "b) Sử dụng Giấy đăng ký xe, Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa",
+            "c) Sử dụng Giấy đăng ký xe không đúng số khung, số máy của xe",
+            "d) Điều khiển xe không có Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+            "đ) Điều khiển xe không gắn đủ biển số hoặc gắn biển số không đúng vị trí",
+            "e) Gắn biển số không rõ chữ, số; gắn biển số bị bẻ cong, bị che lấp, bị hỏng",
+            "g) Sơn, dán thêm làm thay đổi chữ, số hoặc thay đổi màu sắc của chữ, số, nền biển"
+          ],
+          "additional_measures": [
+            "a) Tịch thu Giấy chứng nhận, tem kiểm định an toàn kỹ thuật",
+            "b) bảo vệ môi trường, Giấy đăng ký xe, biển số không đúng quy định hoặc bị tẩy xóa",
+            "a) Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "10000000 - 12000000 VNĐ",
+          "violations": [
+            "a) Điều khiển xe đăng ký tạm, xe có phạm vi hoạt động hạn chế hoạt động quá phạm vi, thời hạn cho phép",
+            "b) Điều khiển xe quá niên hạn sử dụng tham gia giao thông",
+            "c) Điều khiển loại xe sản xuất, lắp ráp trái quy định tham gia giao thông"
+          ],
+          "additional_measures": [
+            "a) Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "a) Tịch thu phương tiện",
+            "a) Buộc phải lắp đầy đủ thiết bị hoặc khôi phục lại tính năng kỹ thuật của thiết bị theo quy định"
+          ]
+        }
+      ],
+      "has_detailed_violations": true,
+      "detailed_extraction_date": "2025-11-25 11:17:08"
+    },
+    "dieu_17": {
+      "title": "Vi phạm quy định đối với người điều khiển ô tô và các loại phương tiện tương tự ô tô trong vùng đất cảng",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "800000 - 1000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "6000000 - 8000000 VNĐ",
+          "violations": [
+            "a) Điều khiển ô tô",
+            "b) các loại phương tiện tương tự ô tô chạy quá tốc độ trên 20 km/giờ đến 35 km/giờ",
+            "c) các loại phương tiện tương tự ô tô mà trong máu hoặc hơi thở có nồng độ cồn nhưng chưa vượt quá 50 miligam/100 mililít máu hoặc chưa vượt quá 0,25 miligam/01 lít khí thở."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "10000000 - 12000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "16000000 - 18000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "30000000 - 40000000 VNĐ",
+          "violations": [
+            "a) Vi phạm quy định tại khoản 2 Điều này",
+            "b) Vi phạm quy định tại điểm a khoản 3, khoản 4 Điều này",
+            "c) Vi phạm quy định tại điểm b khoản 3 Điều này",
+            "d) Vi phạm quy định tại khoản 5 Điều này",
+            "đ) Vi phạm quy định tại khoản 6 Điều này.”."
+          ]
+        }
+      ]
+    },
+    "dieu_20": {
+      "title": "Vi phạm quy định về sử dụng giấy chứng nhận đủ điều kiện kinh doanh khai thác cảng biển và điều kiện kinh doanh khai thác cảng biển",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "a) Không có phương án bảo đảm an toàn, vệ sinh lao động theo quy định",
+            "b) Không có đủ điều kiện an toàn về phòng cháy, chữa cháy hoặc không có phương án chữa cháy theo quy định",
+            "c) Không có đủ hồ sơ về bảo vệ môi trường được cơ quan có thẩm quyền phê duyệt theo quy định",
+            "d) Không có đủ cơ sở vật chất, kho, bãi, trang thiết bị cần thiết phù hợp theo quy chuẩn kỹ thuật quốc gia đối với cảng biển hoặc không có hợp đồng thuê kho, bãi đối với trường hợp cảng biển không có đủ kho, bãi theo quy định",
+            "đ) Không có đủ phương tiện tiếp nhận, thu hồi các chất thải từ tàu để xử lý theo quy định",
+            "e) Không có đủ nhân lực hoặc hệ thống, công trình hoặc thiết bị quản lý, xử lý chất thải phát sinh tại khu vực cảng biển theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "a) Kinh doanh khai thác cảng biển không có giấy chứng nhận đủ điều kiện kinh doanh khai thác cảng biển do cơ quan có thẩm quyền cấp theo quy định",
+            "b) Sửa chữa, tẩy xóa làm sai lệch nội dung ghi trong giấy chứng nhận đủ điều kiện kinh doanh khai thác cảng biển",
+            "c) Sử dụng một trong các giấy chứng nhận, giấy xác nhận, giấy phép, văn bản cho phép, chứng chỉ, giấy tờ bị tẩy xóa, sửa chữa làm sai lệch nội dung hoặc không do cơ quan có thẩm quyền cấp trong hồ sơ xin cấp giấy chứng nhận đủ điều kiện kinh doanh khai thác cảng biển",
+            "d) Mua, bán, thuê, cho thuê, mượn, cho mượn giấy chứng nhận đủ điều kiện kinh doanh khai thác cảng biển.",
+            "đ) Vi phạm quy định tại khoản 2 Điều này",
+            "e) Vi phạm quy định tại điểm b",
+            "g) điểm c khoản 3 Điều này.”."
+          ]
+        }
+      ]
+    },
+    "dieu_21": {
+      "title": "Vi phạm quy định về niêm yết thông tin về giá, phụ thu ngoài giá dịch vụ vận chuyển hàng hóa Công-te-nơ bằng đường biển, giá dịch vụ tại cảng biển",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "500000 - 1000000 VNĐ",
+          "violations": [
+            "a) Không niêm yết giá vận chuyển bằng đường biển, phụ thu, giá dịch vụ tại cảng biển tại địa điểm phải niêm yết theo quy định",
+            "b) Niêm yết không đúng đồng tiền quy định đối với giá",
+            "c) phụ thu ngoài giá dịch vụ vận chuyển hàng hóa Công-te-nơ bằng đường biển, giá dịch vụ tại cảng biển",
+            "d) Không thông báo bằng văn bản tới Cục Hàng hải Việt Nam về địa chỉ trang thông tin điện tử nơi niêm yết theo quy định",
+            "đ) không cung cấp kịp thời, chính xác, đầy đủ số liệu, tài liệu có liên quan theo yêu cầu bằng văn bản của cơ quan nhà nước có thẩm quyền khi có yêu cầu."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "1000000 - 3000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        }
+      ]
+    },
+    "dieu_32": {
+      "title": "Vi phạm quy định về thủ tục vào, rời cảng biển hoặc quá cảnh",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "a) Làm thủ tục cho tàu thuyền vào, rời cảng biển hoặc quá cảnh chậm hơn thời gian quy định",
+            "b) Không làm thủ tục cấp lại Giấy phép rời cảng cho tàu thuyền hết hiệu lực theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "a) Trong thời gian quy định, không cung cấp được một trong các giấy chứng nhận, tài liệu, giấy tờ hoặc cung cấp giấy chứng nhận, tài liệu, giấy tờ không phù hợp khi làm thủ tục vào, rời cảng hoặc quá cảnh",
+            "b) Không cung cấp hoặc cung cấp không đầy đủ giấy tờ về hàng hóa nguy hiểm được vận chuyển trên tàu theo quy định",
+            "c) Không cung cấp hoặc cung cấp không đầy đủ các tài liệu, giấy chứng nhận về ngăn ngừa ô nhiễm môi trường",
+            "d) tài liệu, giấy chứng nhận về quản lý nước dằn tàu",
+            "đ) hệ thống chống hà theo quy định",
+            "e) Không có bản chính hoặc bản sao chứng thực bảo lãnh ngân hàng của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài đối với tàu biển để chi trả chi phí hồi hương cho thuyền viên theo quy định",
+            "g) Không cung cấp hoặc cung cấp không đầy đủ thông tin về vũ khí, vật liệu nổ, người trốn trên tàu theo quy định",
+            "h) Tự ý bốc dỡ hàng hóa hoặc cho thuyền viên, hành khách hoặc những người không có nhiệm vụ lên tàu trước khi tàu làm xong thủ tục nhập cảnh hoặc rời tàu sau khi đã làm xong thủ tục xuất cảnh theo quy định.",
+            "i) Không có Giấy chứng nhận bảo hiểm hoặc bảo đảm tài chính còn hiệu lực theo quy định đối với tàu thuyền chở khách, chở dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác sẽ bị xử phạt như sau:",
+            "k) Phạt tiền từ 15.000.000 đồng đến 30.000.000 đồng đối với tàu thuyền chở khách dưới 50 người",
+            "l) tàu thuyền chở dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác có tổng dung tích dưới 200 GT",
+            "m) Phạt tiền từ 30.000.000 đồng đến 50.000.000 đồng đối với tàu thuyền chở khách từ 50 người đến dưới 100 người",
+            "n) tàu thuyền chở dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác có tổng dung tích từ 200 GT đến dưới 500 GT",
+            "o) Phạt tiền từ 50.000.000 đồng đến 80.000.000 đồng đối với tàu thuyền chở khách từ 100 người đến dưới 300 người",
+            "p) tàu thuyền chở dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác có tổng dung tích từ 500 GT đến dưới 3.000 GT",
+            "p) Phạt tiền từ 80.000.000 đồng đến 100.000.000 đồng đối với tàu thuyền chở khách từ 300 người trở lên",
+            "q) tàu thuyền chở dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác có tổng dung tích từ 3.000 GT trở lên.",
+            "r) Không có giấy phép rời cảng cuối cùng theo quy định hoặc rời cảng khi chưa được phép của cơ quan có thẩm quyền sẽ bị xử phạt như sau:",
+            "s) Phạt tiền từ",
+            "t) `) 000 đồng đến",
+            "u) `) 000 đồng đối với tàu thuyền có tổng dung tích dưới 200 GT",
+            "v) `) 000 đồng đối với tàu thuyền có tổng dung tích từ 200 GT đến dưới 500 GT",
+            "w) `) 000 đồng đối với tàu thuyền có tổng dung tích từ 500 GT đến dưới",
+            "x) 000 GT",
+            "y) `) 000 đồng đối với tàu thuyền có tổng dung tích từ",
+            "z) 000 GT trở lên."
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "80000000 - 100000000 VNĐ",
+          "violations": [
+            "a) Vi phạm quy định tại khoản 5 Điều này.",
+            "b) Biện pháp khắc phục hậu quả:",
+            "c) Vi phạm quy định tại khoản 1 Điều này",
+            "d) Vi phạm quy định tại khoản 5 Điều này.”."
+          ]
+        }
+      ]
+    },
+    "dieu_40": {
+      "title": "Vi phạm quy định về đăng ký, xóa đăng ký; sử dụng các giấy chứng nhận của tàu biển, tàu biển công vụ, tàu ngầm, tàu lặn, kho chứa nổi, giàn khoan di động",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "a) Không thực hiện đăng ký thay đổi theo quy định",
+            "b) Không thực hiện đăng ký thay đổi chủ sở hữu sau khi đã được mua, bán, chuyển quyền sở hữu",
+            "c) Không thực hiện thay đổi Giấy chứng nhận định biên an toàn tối thiểu khi thay đổi doanh nghiệp quản lý, khai thác",
+            "d) Khai báo sai lệch thông tin",
+            "đ) sử dụng giấy tờ tẩy xóa, sửa chữa hoặc không do cơ quan có thẩm quyền cấp trong hồ sơ đề nghị cấp giấy chứng nhận",
+            "e) Chủ tàu biển Việt Nam không gửi bản sao Giấy chứng nhận đăng ký về Cơ quan đăng ký tàu biển quốc gia Việt Nam để quản lý khi tàu biển đăng ký mang cờ quốc tịch nước ngoài",
+            "g) Không đăng ký mang cờ quốc tịch Việt Nam theo quy định đối với tàu biển được mua, đóng mới của doanh nghiệp nhà nước hoặc doanh nghiệp có vốn góp của Nhà nước",
+            "h) Không thực hiện xóa đăng ký theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "20000000 - 30000000 VNĐ",
+          "violations": [
+            "a) Khai thác tàu biển, tàu biển công vụ, tàu ngầm, tàu lặn, kho chứa nổi, giàn khoan di động khi chưa được cấp giấy chứng nhận đăng ký",
+            "b) Sử dụng một trong các giấy chứng nhận của tàu biển, tàu biển công vụ, tàu ngầm, tàu lặn, kho chứa nổi, giàn khoan di động khác hoặc giấy chứng nhận bị tẩy xóa, sửa chữa sai lệch nội dung hoặc giấy chứng nhận không do cơ quan có thẩm quyền cấp.",
+            "c) Vi phạm quy định tại điểm d khoản 1",
+            "d) điểm b khoản 2 Điều này.",
+            "đ) Vi phạm tại điểm e khoản 1 Điều này",
+            "e) Vi phạm quy định tại điểm g khoản 1 Điều này.”."
+          ]
+        }
+      ]
+    },
+    "dieu_42": {
+      "title": "Vi phạm quy định về bố trí thuyền viên, sử dụng chứng chỉ chuyên môn, chứng chỉ hành nghề, sổ thuyền viên trên tàu biển",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "1000000 - 5000000 VNĐ",
+          "violations": [
+            "a) Không ghi hoặc ghi không đầy đủ, chính xác thông tin trong sổ thuyền viên theo quy định",
+            "b) Không mang theo đầy đủ chứng chỉ hành nghề, chứng chỉ chuyên môn, sổ thuyền viên khi làm việc trên tàu biển theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "a) Bố trí thuyền viên làm việc trên tàu thuyền không có đủ chứng chỉ chuyên môn, chứng chỉ hành nghề, sổ thuyền viên hoặc có chứng chỉ chuyên môn, chứng chỉ hành nghề nhưng hết hiệu lực hoặc bố trí chức danh thuyền viên không phù hợp với chứng chỉ chuyên môn, chứng chỉ hành nghề của thuyền viên",
+            "b) Giao nhiệm vụ cho thuyền viên làm việc trên tàu biển không phù hợp với chức danh trong sổ thuyền viên trái quy định",
+            "c) Không thực hiện việc khai báo hoặc khai báo không chính xác thông tin xuống, rời tàu",
+            "d) việc bố trí chức danh cho thuyền viên bằng phương thức điện tử vào Cơ sở dữ liệu quản lý thuyền viên của Cục Hàng hải Việt Nam theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "20000000 - 30000000 VNĐ",
+          "violations": [
+            "a) Sử dụng chứng chỉ chuyên môn, chứng chỉ hành nghề, sổ thuyền viên không do cơ quan có thẩm quyền cấp hoặc đã bị sửa chữa, tẩy xóa",
+            "b) Sử dụng chứng chỉ chuyên môn, chứng chỉ hành nghề, sổ thuyền viên của người khác để làm việc trên tàu",
+            "c) Khai báo sai lệch thông tin hoặc sử dụng giấy tờ sửa chữa, hoặc không do cơ quan có thẩm quyền cấp trong hồ sơ đề nghị cấp, cấp lại chứng chỉ hành nghề, chứng chỉ chuyên môn, sổ thuyền viên.",
+            "d) Vi phạm quy định tại khoản 3 Điều này",
+            "đ) Vi phạm quy định tại khoản 4 Điều này.",
+            "e) Vi phạm tại điểm c khoản 2 Điều này.”."
+          ]
+        }
+      ]
+    },
+    "dieu_44": {
+      "title": "Vi phạm quy định về điều động và bố trí hoa tiêu hàng hải",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "2000000 - 5000000 VNĐ",
+          "violations": [
+            "a) Gửi kế hoạch hoa tiêu dẫn tàu hàng ngày chậm hơn thời gian quy định hoặc không thông báo về sự thay đổi đột xuất kế hoạch hoa tiêu dẫn tàu cho Cảng vụ hàng hải",
+            "b) Bố trí hoa tiêu không đúng với kế hoạch điều động của Cảng vụ hàng hải mà không báo trước cho Cảng vụ hàng hải biết."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "6000000 - 10000000 VNĐ",
+          "violations": [
+            "a) Bố trí hoa tiêu hàng hải dẫn tàu có giấy chứng nhận khả năng chuyên môn hoa tiêu hàng hải hoặc giấy chứng nhận vùng hoạt động của hoa tiêu hàng hải không phù hợp",
+            "b) Không cung cấp đầy đủ, kịp thời dịch vụ hoa tiêu dẫn tàu trong vùng hoa tiêu hàng hải bắt buộc hoặc trên tuyến dẫn tàu được giao mà không có lý do chính đáng."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "20000000 - 40000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "30000000 - 50000000 VNĐ",
+          "violations": [
+            "a) Vi phạm tại điểm a khoản 2 Điều này",
+            "b) Vi phạm tại điểm b khoản 2 Điều này",
+            "c) Vi phạm tại khoản 3 Điều này",
+            "d) Vi phạm tại khoản 4 Điều này.”."
+          ]
+        }
+      ]
+    },
+    "dieu_45": {
+      "title": "Vi phạm quy định trong khi dẫn tàu của hoa tiêu hàng hải",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "4000000 - 6000000 VNĐ",
+          "violations": [
+            "a) Không thông báo kịp thời cho Cảng vụ hàng hải khi phát hiện tai nạn, sự cố hay những thay đổi của luồng hàng hải",
+            "b) báo hiệu hàng hải trong thời gian dẫn tàu",
+            "c) Không thông báo, xác báo cho Cảng vụ hàng hải về thời gian, địa điểm lên tàu, rời tàu hoặc tình hình dẫn tàu theo quy định",
+            "d) Không thông báo kịp thời cho Cảng vụ hàng hải việc tàu thuyền chạy quá tốc độ cho phép tại khu vực có quy định giới hạn tốc độ",
+            "đ) chạy ngược chiều tại luồng một chiều hoặc tránh vượt nhau tại khu vực cấm tránh vượt",
+            "e) Lên tàu chậm hơn thời gian quy định hoặc lên, xuống tàu không đúng địa điểm quy định mà không có lý do chính đáng",
+            "g) Dẫn tàu vào, rời cảng hoặc di chuyển không đúng theo kế hoạch điều động tàu của Cảng vụ hàng hải hoặc không đúng với tàu được phân công dẫn mà không có lý do chính đáng",
+            "h) Tự ý rời tàu khi chưa có sự đồng ý của thuyền trưởng",
+            "i) Không sử dụng trang phục hoa tiêu theo quy định khi dẫn tàu."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "6000000 - 8000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "10000000 - 16000000 VNĐ",
+          "violations": [
+            "a) Hoa tiêu hàng hải dẫn tàu vào neo đậu, cập cầu hoặc di chuyển trong vùng nước cảng khi chưa có lệnh điều động hoặc sai vị trí chỉ định của Cảng vụ hàng hải",
+            "b) Từ chối dẫn tàu mà không có lý do chính đáng hoặc không thông báo kịp thời cho Cảng vụ hàng hải hoặc tổ chức hoa tiêu hàng hải về việc từ chối dẫn tàu",
+            "c) Tự ý dẫn tàu không đúng tuyến luồng hàng hải đã được công bố",
+            "d) Hoa tiêu dẫn tàu có lỗi dẫn đến tai nạn hàng hải ít nghiêm trọng."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "16000000 - 18000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "20000000 - 30000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "30000000 - 40000000 VNĐ",
+          "violations": [
+            "a) Hoa tiêu dẫn tàu có lỗi dẫn đến tai nạn hàng hải đặc biệt nghiêm trọng",
+            "b) Hoa tiêu chỉ dẫn cho thuyền trưởng điều động tàu thuyền được dẫn chạy quá tốc độ cho phép trên 02 hải lý/giờ hoặc chạy ngược chiều hoặc tránh vượt nhau tại khu vực cấm tránh vượt",
+            "c) Hoa tiêu có nồng độ cồn trong máu hoặc hơi thở vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/01 lít khí thở khi dẫn tàu.",
+            "d) Tước quyền sử dụng Giấy chứng nhận khả năng chuyên môn hoa tiêu hàng hải có thời hạn từ 03 tháng đến 06 tháng đối với các hành vi vi phạm được quy định tại khoản 2",
+            "đ) điểm a khoản 5 Điều này",
+            "e) Tước quyền sử dụng Giấy chứng nhận khả năng chuyên môn hoa tiêu hàng hải có thời hạn từ 06 tháng đến 09 tháng đối với các hành vi vi phạm được quy định tại khoản 4",
+            "g) điểm a khoản 6 Điều này",
+            "h) Tước quyền sử dụng Giấy chứng nhận khả năng chuyên môn hoa tiêu hàng hải có thời hạn từ 09 tháng đến 12 tháng đối với các hành vi vi phạm được quy định tại điểm c khoản 6 Điều này.”."
+          ]
+        }
+      ]
+    },
+    "dieu_46": {
+      "title": "Vi phạm quy định về điều kiện kinh doanh vận tải biển, vận tải đa phương thức và dịch vụ hỗ trợ vận tải biển",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "a) Kinh doanh vận tải đa phương thức không có giấy phép do cơ quan có thẩm quyền cấp theo quy định",
+            "b) Kinh doanh dịch vụ vận tải biển, dịch vụ đại lý tàu biển, dịch vụ lai dắt tàu biển nhưng không đáp ứng các điều kiện theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "10000000 - 15000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "a) Sửa chữa, tẩy xóa làm sai lệch nội dung ghi trong giấy phép, giấy chứng nhận đủ điều kiện kinh doanh đối với dịch vụ kinh doanh có điều kiện",
+            "b) Sử dụng một trong các giấy tờ bị tẩy xóa, sửa chữa hoặc không do cơ quan có thẩm quyền cấp trong hồ sơ xin cấp giấy phép kinh doanh, giấy chứng nhận đủ điều kiện kinh doanh đối với dịch vụ kinh doanh có điều kiện",
+            "c) Mua, bán, thuê, cho thuê, mượn, cho mượn giấy phép, giấy chứng nhận đủ điều kiện kinh doanh đối với dịch vụ kinh doanh có điều kiện.",
+            "d) Vi phạm quy định tại khoản 2 Điều này trong trường hợp vi phạm nhiều lần hoặc tái phạm",
+            "đ) Vi phạm quy định tại điểm a",
+            "e) điểm b khoản 4 Điều này.”.",
+            "g) Sửa đổi, bổ sung khoản 4 Điều 47 như sau:"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "a) Sửa chữa, tẩy xóa làm sai lệch nội dung ghi trong giấy phép nhập khẩu pháo hiệu hàng hải",
+            "b) Sử dụng một trong các giấy tờ bị tẩy xóa, sửa chữa hoặc không do cơ quan có thẩm quyền cấp trong hồ sơ đề nghị giao tuyến dẫn tàu hoặc hồ sơ đề nghị cấp giấy phép nhập khẩu pháo hiệu hàng hải",
+            "c) Mua, bán, thuê, cho thuê, mượn, cho mượn giấy phép nhập khẩu pháo hiệu hàng hải.”.",
+            "d) Sửa đổi, bổ sung điểm b khoản 5 Điều 47 như sau:",
+            "đ) Vi phạm quy định tại điểm a",
+            "e) điểm b khoản 4 Điều này.”.",
+            "g) Bổ sung điểm e vào sau điểm đ khoản 2 Điều 48 như sau:",
+            "h) Không bố trí cho thuyền viên hồi hương đúng theo thời gian quy định.”",
+            "i) Bổ sung điểm e vào sau điểm đ khoản 5 Điều 48 như sau:",
+            "k) Buộc bố trí đưa thuyền viên hồi hương theo thời gian quy định tại điểm e khoản 2 Điều này.”."
+          ]
+        },
+        {
+          "section": "Khoản 1",
+          "fine_range": "30000000 - 60000000 VNĐ",
+          "violations": [
+            "a) Không thực hiện phá dỡ tàu biển trong thời hạn quy định",
+            "b) Phá dỡ từng tàu biển khi chưa được cơ quan có thẩm quyền phê duyệt phương án phá dỡ tàu biển theo quy định.”."
+          ]
+        }
+      ]
+    },
+    "dieu_57": {
+      "title": "Vi phạm quy định về hoạt động ứng phó sự cố tràn dầu",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "a) Để xảy ra sự cố tràn dầu hoặc phát hiện sự cố tràn dầu mà không báo cáo kịp thời đến cơ quan có thẩm quyền tiếp nhận thông tin về sự cố tràn dầu theo quy định",
+            "b) Không cập nhật, bổ sung kế hoạch ứng phó sự cố tràn dầu theo quy định",
+            "c) Không thông báo Kế hoạch ứng phó sự cố tràn dầu được cấp có thẩm quyền phê duyệt đến các cơ quan, đơn vị",
+            "d) địa phương liên quan để phối hợp triển khai."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "10000000 - 30000000 VNĐ",
+          "violations": [
+            "a) Không tổ chức tập huấn hoặc cử cán bộ, nhân viên trực tiếp tham gia ứng phó đi tập huấn để nâng cao kỹ năng ứng phó sự cố tràn dầu",
+            "b) Không triển khai thực hành huấn luyện ứng phó sự cố tràn dầu theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "30000000 - 50000000 VNĐ",
+          "violations": [
+            "a) Không có Kế hoạch ứng phó sự cố tràn dầu đã được phê duyệt tới Ủy ban nhân dân cấp huyện để phối hợp thực hiện",
+            "b) Không đầu tư hoặc không ký hợp đồng sẵn sàng ứng phó sự cố tràn dầu với các cơ sở có phương tiện, trang thiết bị ứng phó hay với Trung tâm ứng phó sự cố tràn dầu khu vực ở mức độ tương ứng với khả năng tràn dầu có thể xảy ra trong khu vực thuộc trách nhiệm để huy động kịp thời phương tiện, trang thiết bị, vật tư triển khai hoạt động ứng phó khi xảy ra sự cố tràn dầu theo quy định",
+            "c) Không sẵn sàng huy động phương tiện, trang thiết bị, vật tư tham gia phối hợp ứng phó, khắc phục sự cố tràn dầu theo yêu cầu của cơ quan có thẩm quyền",
+            "d) Không có Kế hoạch ứng phó sự cố tràn dầu được Ủy ban nhân dân cấp huyện hoặc cơ quan chủ quản phê duyệt theo quy định",
+            "đ) Không xây dựng Kế hoạch khẩn cấp ứng phó sự cố tràn dầu",
+            "e) tổ chức lực lượng bảo đảm ngăn ngừa, ứng phó kịp thời, hiệu quả sự cố tràn dầu ở mức độ tương ứng với khả năng tràn dầu do hoạt động của mình gây ra theo quy định.",
+            "g) Không tổ chức, chỉ huy lực lượng, phương tiện, thiết bị của mình hoặc lực lượng, phương tiện, thiết bị trong hợp đồng ứng phó sự cố tràn dầu để triển khai thực hiện ứng phó kịp thời",
+            "h) không sẵn sàng huy động phương tiện, trang thiết bị, vật tư tham gia phối hợp ứng phó, khắc phục sự cố tràn dầu theo yêu cầu của cơ quan có thẩm quyền",
+            "i) Không có Kế hoạch ứng phó sự cố tràn dầu được Ủy ban Quốc gia Ứng phó sự cố, thiên tai",
+            "k) Tìm kiếm cứu nạn phê duyệt theo quy định",
+            "l) tổ chức lực lượng",
+            "m) Không có Kế hoạch ứng phó sự cố tràn dầu được Ủy ban nhân dân cấp tỉnh phê duyệt theo quy định",
+            "n) Không đầu tư hoặc không hợp đồng sẵn sàng ứng phó sự cố tràn dầu với các cơ sở có phương tiện, trang thiết bị ứng phó hay với Trung tâm ứng phó sự cố tràn dầu khu vực ở mức độ tương ứng với khả năng tràn dầu có thể xảy ra trong khu vực thuộc trách nhiệm để huy động kịp thời phương tiện, trang thiết bị, vật tư triển khai hoạt động ứng phó khi xảy ra sự cố tràn dầu theo quy định",
+            "o) không tổ chức giám sát các hoạt động có nguy cơ tràn dầu cao trong địa bàn hoạt động của mình để kịp thời triển khai các biện pháp ứng phó phù hợp",
+            "p) không thực hiện đầy đủ các yêu cầu, hướng dẫn của cơ quan nhà nước có thẩm quyền nhằm ngăn chặn hoặc giảm thiểu thiệt hại do ô nhiễm dầu gây ra khi xảy ra sự cố tràn dầu",
+            "p) không lập lại kế hoạch ứng phó sự cố tràn dầu trình cấp có thẩm quyền phê duyệt theo quy định",
+            "q) Không thông báo Kế hoạch ứng phó sự cố tràn dầu được phê duyệt đến Ủy ban nhân dân các tỉnh có nguy cơ bị ảnh hưởng khi xảy ra sự cố tại cơ sở, dự án",
+            "r) Không thông báo kế hoạch chuyển tải dầu giữa tàu với tàu trên biển để cơ quan nhà nước có thẩm quyền giám sát",
+            "s) có biện pháp ứng phó kịp thời khi xảy ra sự cố tràn dầu theo quy định",
+            "t) Không có Kế hoạch ứng cứu ô nhiễm dầu của tàu được cơ quan có thẩm quyền của Bộ Giao thông vận tải phê duyệt đối với các tàu chở dầu mang cờ quốc tịch Việt Nam có tổng dung tích từ 150 GT trở lên, các tàu khác không phải tàu chở dầu có tổng dung tích từ 400 GT trở lên theo quy định",
+            "u) Không có Kế hoạch ứng cứu ô nhiễm dầu của tàu được cơ quan có thẩm quyền của Bộ Giao thông vận tải phê duyệt đối với các tàu chở dầu mang cờ quốc tịch Việt Nam có tổng dung tích từ 150 GT trở lên tham gia vào việc chuyển tải dầu giữa tàu với tàu trên biển",
+            "v) Thực hiện chuyển tải dầu giữa tàu với tàu trên biển khi chưa sự đồng ý của Đầu mối liên lạc quốc gia hoặc Cảng vụ theo quy định",
+            "w) Không mua bảo hiểm hoặc các bảo đảm tài chính khác theo mức trách nhiệm dân sự được pháp luật quy định để bồi thường thiệt hại đối với ô nhiễm dầu theo quy định.",
+            "x) Buộc chi trả kinh phí trưng cầu giám định, kiểm định, đo đạc",
+            "y) phân tích mẫu môi trường trong trường hợp có vi phạm để xảy ra tràn dầu hoặc gây ô nhiễm môi trường theo định mức, đơn giá hiện hành đối với các hành vi vi phạm quy định tại Điều này",
+            "z) Buộc phải thực hiện các biện pháp khắc phục tình trạng ô nhiễm môi trường",
+            "{) báo cáo kết quả đã khắc phục xong hậu quả vi phạm, buộc phải bồi thường thiệt hại do ô nhiễm dầu gây ra theo quy định trong thời hạn do người có thẩm quyền xử phạt ấn định trong quyết định xử phạt vi phạm hành chính đối với các hành vi vi phạm quy định tại các khoản 8",
+            "|) khoản 9 Điều này gây ra.”."
+          ]
+        },
+        {
+          "section": "Khoản 1",
+          "fine_range": "500000 - 1000000 VNĐ",
+          "violations": [
+            "a) Không niêm yết hoặc niêm yết không đúng danh sách tổ chức, cá nhân đã ký hợp đồng cung ứng dịch vụ thu gom",
+            "b) xử lý chất thải từ tàu thuyền tại cảng biển",
+            "c) giá dịch vụ thu gom, xử lý chất thải theo quy định",
+            "d) Không báo cáo về quản lý thu gom",
+            "đ) xử lý chất thải từ tàu thuyền tại cảng biển theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "5000000 - 8000000 VNĐ",
+          "violations": [
+            "a) Tàu thuyền có nhu cầu xử lý chất thải không thực hiện khai báo hoặc khai báo không đúng với Cảng vụ hàng hải về chất thải theo quy định",
+            "b) Làm rơi vãi, gây phát tán, rò rỉ chất thải trong quá trình thu gom chất thải từ tàu thuyền."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "20000000 - 30000000 VNĐ",
+          "violations": [
+            "a) Vi phạm tại điểm a khoản 1 Điều này",
+            "b) Vi phạm tại điểm b khoản 1 Điều này",
+            "c) Vi phạm tại điểm a khoản 2 Điều này",
+            "d) Vi phạm tại điểm b khoản 2 Điều này.”."
+          ]
+        },
+        {
+          "section": "Khoản 1",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "a) Không trang bị các thiết bị chứa, phân loại rác theo quy định hoặc không chứa rác đúng nơi quy định",
+            "b) Gõ rỉ, sơn tàu thuyền khi chưa được phép của Cảng vụ hàng hải",
+            "c) Không bố trí người thường trực ở trên boong",
+            "d) ngay tại nơi tiếp nhận nhiên liệu khi tàu thuyền nhận nhiên liệu",
+            "đ) Đổ rác hoặc vứt các đồ vật khác từ tàu xuống nước hoặc cầu cảng."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "a) Tiến hành bơm chuyển hoặc tiếp nhận nhiên liệu giữa tàu thuyền",
+            "b) phương tiện khác khi chưa được phép của Cảng vụ hàng hải theo quy định",
+            "c) Không có thiết bị phân ly dầu nước, thiết bị lọc dầu hoặc có thiết bị nhưng không sử dụng được",
+            "d) Không chấp hành một trong những quy trình, quy tắc an toàn kỹ thuật khi tiếp nhận nhiên liệu",
+            "đ) Cho tàu thuyền khác cập mạn khi đang trong quá trình tiếp nhận nhiên liệu giữa hai tàu",
+            "e) Sử dụng lò đốt rác, lò đốt chất thải trong khu vực cảng biển hoặc sử dụng dầu nhiên liệu chạy máy chính, máy đèn có hàm lượng lưu huỳnh vượt quá mức cho phép",
+            "g) Không ghi nhật ký bơm, xả dầu hoặc các chất nguy hiểm khác theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "90000000 - 100000000 VNĐ",
+          "violations": [
+            "a) Vi phạm quy định tại các khoản 1, khoản 2",
+            "b) khoản 3 Điều này.”."
+          ]
+        },
+        {
+          "section": "Khoản 1",
+          "fine_range": "90000000 - 100000000 VNĐ",
+          "violations": [
+            "a) Sử dụng các hệ thống chống hà độc hại tại các cảng, cơ sở đóng mới, sửa chữa tàu",
+            "b) Đổ các loại phế thải từ việc sử dụng hoặc loại bỏ hệ thống chống hà không phù hợp với quy định ra môi trường.",
+            "c) Vi phạm tại khoản 1 Điều này."
+          ]
+        },
+        {
+          "section": "Khoản 1",
+          "fine_range": "90000000 - 100000000 VNĐ",
+          "violations": [
+            "a) Không thực hiện chế độ bơm xả nước dằn tàu theo quy định",
+            "b) chỉ dẫn của Cảng vụ hàng hải",
+            "c) Xả nước dằn tàu",
+            "d) cặn nước dằn tàu có chứa các loài sinh vật thủy sinh có hại",
+            "đ) mầm bệnh hoặc chất độc hại trong vùng nước cảng biển",
+            "e) vùng biển Việt Nam."
+          ]
+        },
+        {
+          "section": "Khoản 1",
+          "fine_range": "90000000 - 100000000 VNĐ",
+          "violations": [
+            "a) Đổ chất nạo vét không đúng vị trí quy định",
+            "b) Bốc, xếp vật chất được nhận chìm không phù hợp với nội dung Giấy phép nhận chìm ở biển.",
+            "c) Vi phạm tại điểm b khoản 1 Điều này.",
+            "d) Vi phạm quy định tại khoản 1 Điều này.”.",
+            "đ) Sử dụng lao động với hành vi không giao kết hợp đồng lao động, hợp đồng lao động thuyền viên bằng văn bản đối với công việc có thời hạn từ đủ 03 tháng trở lên",
+            "e) giao kết hợp đồng lao động, hợp đồng lao động thuyền viên không đầy đủ các nội dung chủ yếu của hợp đồng theo một trong các mức sau đây:"
+          ]
+        },
+        {
+          "section": "Khoản 1",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "30000000 - 45000000 VNĐ",
+          "violations": [
+            "a) Vi phạm tại khoản 1 Điều này",
+            "b) Vi phạm tại khoản 2 Điều này.",
+            "c) Vi phạm không khai báo tai nạn lao động hàng hải theo quy định.”."
+          ]
+        },
+        {
+          "section": "Khoản 1",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "a) Không xây dựng phương án ứng phó thiên tai theo quy định",
+            "b) Không thực hiện chế độ báo cáo trước, trong",
+            "c) sau khi thiên tai xảy ra gửi Cảng vụ hàng hải theo quy định.",
+            "d) Vi phạm tại điểm a khoản 1 Điều này."
+          ]
+        },
+        {
+          "section": "Khoản 1",
+          "fine_range": "15000000 - 25000000 VNĐ",
+          "violations": [
+            "a) Cung cấp thông tin sai lệch về vị trí, tình trạng của tàu thuyền đang hoạt động khi có thiên tai",
+            "b) Không tuân thủ quy định về phòng, chống thiên tai đối với tàu thuyền",
+            "c) Không chuẩn bị hoặc chuẩn bị không đầy đủ nhân lực, vật tư, phương tiện, trang thiết bị, nhu yếu phẩm phục vụ ứng phó thiên tai theo phương án ứng phó thiên tai được phê duyệt."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "25000000 - 35000000 VNĐ",
+          "violations": [
+            "a) Vi phạm theo quy định tại điểm a khoản 1 Điều này.”."
+          ]
+        },
+        {
+          "section": "Khoản 1",
+          "fine_range": "1000000 - 3000000 VNĐ",
+          "violations": [
+            "a) Không thông báo",
+            "b) thông báo không chính xác hoặc không kịp thời các thông tin về phòng, chống dịch bệnh truyền nhiễm cho người lao động, thuyền viên, hành khách theo yêu cầu của cơ quan có thẩm quyền",
+            "c) Không thực hiện các biện pháp đảm bảo vệ sinh, bảo vệ cá nhân ngăn ngừa dịch bệnh truyền nhiễm trên tàu, thuyền theo yêu cầu của cơ quan có thẩm quyền",
+            "d) Không thực hiện xét nghiệm theo yêu cầu của cơ quan có thẩm quyền trong quá trình thực hiện giám sát bệnh truyền nhiễm."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "a) Không liên lạc ngay với tổ chức kiểm dịch y tế trong trường hợp hành khách hoặc thuyền viên trên tàu thuyền có triệu chứng hoặc có dấu hiệu mắc bệnh truyền nhiễm trước khi tàu thuyền cập cảng",
+            "b) Tự ý lên hoặc xuống tàu thuyền, tiến hành bốc dỡ hoặc tiếp nhận hàng hóa trong thời gian tàu thuyền chờ kiểm dịch y tế hoặc đang thực hiện kiểm dịch y tế, trừ trường hợp tàu thuyền đang gặp tai nạn."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "5000000 - 7000000 VNĐ",
+          "violations": [
+            "a) Không chấp hành việc kiểm tra y tế, xử lý y tế của tổ chức kiểm dịch y tế theo quy định của pháp luật trừ trường hợp quy định tại điểm b khoản 5 Điều này",
+            "b) Không thực hiện đúng quy định về tín hiệu kiểm dịch y tế cho tàu thuyền khi nhập cảnh",
+            "c) Không khai báo y tế hoặc khai báo không trung thực về kiểm dịch y tế biên giới theo quy định của pháp luật."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "Nội dung vi phạm không được chỉ định cụ thể"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "15000000 - 20000000 VNĐ",
+          "violations": [
+            "a) Tự ý rời tàu khi chưa thực hiện các thủ tục kiểm dịch y tế hoặc chưa được phép của cơ quan có thẩm quyền",
+            "b) , tàu thuyền, hàng hóa",
+            "c) các đối tượng phải kiểm dịch khác mang tác nhân gây bệnh truyền nhiễm theo quy định hoặc khi cơ quan có thẩm quyền yêu cầu.",
+            "d) Quy định tại điểm a khoản 3 Điều này",
+            "đ) Quy định tại điểm a khoản 5 Điều này",
+            "e) , tàu thuyền, hàng hóa mang tác nhân gây bệnh truyền nhiễm được quy định tại điểm b khoản 5 Điều này.”."
+          ]
+        }
+      ]
+    },
+    "dieu_59": {
+      "title": "Thẩm quyền lập biên bản vi phạm hành chính",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "content": "Người có thẩm quyền xử phạt vi phạm hành chính và công chức, viên chức, người thuộc lực lượng Quân đội nhân dân, Công an nhân dân đang thi hành công vụ, nhiệm vụ thuộc quyền quản lý của người có thẩm quyền xử phạt vi phạm hành chính quy định tại các Điều 60, Điều 61, Điều 62, Điều 63, Điều 64, Điều 65 và Điều 66 của Nghị định này đang thi hành công vụ, nhiệm vụ thuộc phạm vi trách nhiệm của mình, phát hiện hành vi vi phạm hành chính trong lĩnh vực hàng hải phải kịp thời ngăn chặn và lập biên bản vi phạm hành chính theo quy định. Đối với hành vi vi phạm hành chính xảy ra trên tàu biển, phương tiện thủy nội địa thì thuyền trưởng, người lái phương tiện thủy nội địa có trách nhiệm tổ chức lập biên bản và chuyển ngay cho người có thẩm quyền xử phạt vi phạm hành chính khi tàu biển về đến bến cảng.”.\n36. Sửa đổi, bổ sung một số điểm, khoản của Điều 60 như sau:\na) Sửa đổi, bổ sung điểm c và điểm d khoản 1 Điều 60 như sau:\nc) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 1.000.000 đồng;\nd) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính.”;\nb) Sửa đổi, bổ sung điểm d và điểm đ khoản 2 Điều 60 như sau:\nd) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 100.000.000 đồng;\nđ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính và các biện pháp khắc phục hậu quả khác quy định tại khoản 3 Điều 4 của Nghị định này.”;\nc) Sửa đổi, bổ sung điểm d và điểm đ khoản 3 Điều 60 như sau:\nd) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 140.000.000 đồng;\nđ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính và các biện pháp khắc phục hậu quả khác quy định tại khoản 3 Điều 4 của Nghị định này.”;\nd) Sửa đổi, bổ sung điểm đ khoản 4 Điều 60 như sau:\nđ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính và các biện pháp khắc phục hậu quả khác quy định tại khoản 3 Điều 4 của Nghị định này.”.\n37. Sửa đổi, bổ sung một số điểm, khoản của Điều 61 như sau:\na) Sửa đổi, bổ sung điểm c khoản 1 Điều 61 như sau:\nc) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 20.000.000 đồng.”;\nb) Sửa đổi, bổ sung khoản 2 Điều 61 như sau:\n“2. Giám đốc Cảng vụ hàng hải, Trưởng đoàn thanh tra chuyên ngành của Cục Hàng hải Việt Nam có quyền:\nb) Phạt tiền đến 50.000.000 đồng;\nc) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;\nd) Tịch thu tang vật, phương tiện vi phạm hành chính;\nđ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính và các biện pháp khắc phục hậu quả khác quy định tại khoản 3 Điều 4 của Nghị định này.”.\n38. Sửa đổi, bổ sung khoản 5 Điều 62 như sau:\n“5. Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính và các biện pháp khắc phục hậu quả khác quy định tại khoản 3 Điều 4 của Nghị định này.”.\n39. Sửa đổi, bổ sung khoản 5 Điều 63 như sau:\n“5. Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính và các biện pháp khắc phục hậu quả khác quy định tại khoản 3 Điều 4 của Nghị định này.”.\n40. Sửa đổi, bổ sung Điều 64 như sau:\n“Điều 64. Thẩm quyền xử phạt vi phạm hành chính của Công an nhân dân\n1. Chiến sỹ Công an nhân dân đang thi hành công vụ có quyền:\nb) Phạt tiền đến 500.000 đồng.\n2. Đội trưởng của Chiến sỹ công an đang thi hành công vụ có quyền:\nb) Phạt tiền đến 1.500.000 đồng.\n3. Trưởng Công an cấp xã, Trưởng đồn Công an, Thủy đội trưởng có quyền:\nb) Phạt tiền đến 2.500.000 đồng;\nc) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 5.000.000 đồng; d) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a và điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính.\n4. Trưởng Công an cấp huyện; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ; Trưởng phòng Công an cấp tỉnh gồm: Trưởng phòng Cảnh sát đường thủy, Trưởng phòng Cảnh sát phòng, chống tội phạm về môi trường, Trưởng phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ, Trưởng phòng An ninh kinh tế, Thủy đoàn trưởng có quyền:\nb) Phạt tiền đến 20.000.000 đồng;\nc) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;\nd) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không quá 40.000.000 đồng;\nđ) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này.\n5. Giám đốc Công an cấp tỉnh có quyền:\nb) Phạt tiền đến 50.000.000 đồng;\nc) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;\nd) Tịch thu tang vật, phương tiện vi phạm hành chính;\nđ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này.\n6. Cục trưởng Cục An ninh kinh tế, Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội, Cục trưởng Cục Cảnh sát điều tra tội phạm về tham nhũng, kinh tế, buôn lậu, Cục trưởng Cục Cảnh sát giao thông, Cục trưởng Cục Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ, Cục trưởng Cục Cảnh sát phòng, chống tội phạm về môi trường có quyền:\nb) Phạt tiền đến 100.000.000 đồng;\nc) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;\nd) Tịch thu tang vật, phương tiện vi phạm hành chính;\nđ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này.\n7. Phân định thẩm quyền xử phạt vi phạm hành chính của Công an nhân dân\na) Chiến sỹ Công an nhân dân đang thi hành công vụ xử phạt đối với những hành vi vi phạm hành chính của phương tiện thủy nội địa hoạt động trong vùng nước cảng biển hoặc ngoài vùng nước cảng biển nơi phương tiện thủy nội địa được phép hoạt động có liên quan trực tiếp đến lĩnh vực ngành mình quản lý theo thẩm quyền xử lý vi phạm hành chính và hành vi vi phạm hành chính quy định tại khoản 1 Điều 33 Nghị định này;\nb) Đội trưởng của chiến sỹ Công an nhân dân đang thi hành công vụ xử phạt đối với những hành vi vi phạm hành chính của phương tiện thủy nội địa hoạt động trong vùng nước cảng biển hoặc ngoài vùng nước cảng biển nơi phương tiện thủy nội địa được phép hoạt động có liên quan trực tiếp đến lĩnh vực ngành mình quản lý theo thẩm quyền xử lý vi phạm hành chính và các hành vi vi phạm hành chính quy định tại khoản 1 Điều 13; khoản 1 Điều 30; khoản 1 và khoản 2 Điều 33 Nghị định này;\nc) Trưởng Công an cấp xã, Trưởng đồn Công an, Thủy đội trưởng xử phạt đối với những hành vi vi phạm hành chính của phương tiện thủy nội địa hoạt động trong vùng nước cảng biển hoặc ngoài vùng nước cảng biển nơi phương tiện thủy nội địa được phép hoạt động có liên quan trực tiếp đến lĩnh vực ngành mình quản lý theo thẩm quyền xử lý vi phạm hành chính và các hành vi vi phạm hành chính quy định tại khoản 1 Điều 13; khoản 1 Điều 30; khoản 1, khoản 2 Điều 33 Nghị định này;\nd) Trưởng Công an cấp huyện; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ; Trưởng phòng Công an cấp tỉnh gồm: Trưởng phòng Cảnh sát đường thủy, Trưởng phòng Cảnh sát phòng, chống tội phạm về môi trường, Trưởng phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ, Trưởng phòng An ninh kinh tế, Thủy đoàn trưởng xử phạt đối với những hành vi vi phạm hành chính của phương tiện thủy nội địa hoạt động trong vùng nước cảng biển hoặc ngoài vùng nước cảng biển nơi phương tiện thủy nội địa được phép hoạt động có liên quan trực tiếp đến lĩnh vực ngành mình quản lý theo thẩm quyền xử lý vi phạm hành chính và các hành vi vi phạm hành chính quy định tại điểm d, điểm e, điểm g khoản 2 Điều 12; khoản 1, khoản 2 và khoản 3 Điều 13; khoản 1, khoản 2 Điều 28; khoản 1, khoản 2, khoản 3 Điều 30; khoản 1, khoản 2, điểm a khoản 3, điểm a, điểm b khoản 10 Điều 33 Nghị định này;\nđ) Giám đốc Công an cấp tỉnh xử phạt đối với những hành vi vi phạm hành chính của phương tiện thủy nội địa hoạt động trong vùng nước cảng biển hoặc ngoài vùng nước cảng biển nơi phương tiện thủy nội địa được phép hoạt động có liên quan trực tiếp đến lĩnh vực ngành mình quản lý theo thẩm quyền xử lý vi phạm hành chính và các hành vi vi phạm hành chính quy định tại các điểm d, điểm e và điểm g khoản 2 Điều 12; khoản 1, khoản 2 và khoản 3 Điều 13; Điều 28; Điều 30; khoản 1, khoản 2, điểm a khoản 3, khoản 10 Điều 33 của Nghị định này;\ne) Cục trưởng Cục An ninh kinh tế, Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội, Cục trưởng Cục Cảnh sát điều tra tội phạm về tham nhũng, kinh tế, buôn lậu, Cục trưởng Cục Cảnh sát giao thông, Cục trưởng Cục Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ, Cục trưởng Cục Cảnh sát phòng, chống tội phạm về môi trường xử phạt đối với những hành vi vi phạm hành chính của phương tiện thủy nội địa hoạt động trong vùng nước cảng biển hoặc ngoài vùng nước cảng biển nơi phương tiện thủy nội địa được phép hoạt động có liên quan trực tiếp đến lĩnh vực ngành mình quản lý theo thẩm quyền xử lý vi phạm hành chính và các hành vi vi phạm hành chính quy định tại các điểm d, điểm e và điểm g khoản 2 Điều 12; các Điều 13; Điều 28; Điều 30; khoản 1 và khoản 2, điểm a khoản 3, khoản 10 Điều 33; điểm a khoản 1 Điều 58đ của Nghị định này.”.\n41. Sửa đổi, bổ sung Điều 65 như sau:\n“Điều 65. Thẩm quyền của lực lượng Bộ đội biên phòng\n1. Chiến sĩ Bộ đội biên phòng đang thi hành công vụ có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến 500.000 đồng.\n2. Trạm trưởng, Đội trưởng của người được quy định tại khoản 1 Điều này có quyền:\nb) Phạt tiền đến 2.500.000 đồng.\n3. Đồn trưởng Đồn biên phòng, Hải đội trưởng Hải đội biên phòng, Chỉ huy trưởng Ban chỉ huy biên phòng Cửa khẩu cảng có quyền:\nb) Phạt tiền đến 20.000.000 đồng;\nc) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 40.000.000 đồng;\nd) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này.\n4. Chỉ huy trưởng Bộ đội biên phòng cấp tỉnh, Hải đoàn trưởng Hải đoàn biên phòng trực thuộc Bộ Tư lệnh Bộ đội biên phòng có quyền:\nb) Phạt tiền đến mức tối đa đối với những hành vi liên quan trực tiếp đến lĩnh vực ngành mình quản lý;\nc) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;\nd) Tịch thu tang vật, phương tiện vi phạm hành chính;\nđ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 của Nghị định này.\n5. Phân định thẩm quyền xử phạt vi phạm hành chính của Bộ đội biên phòng\na) Chiến sĩ Bộ đội biên phòng xử phạt đối với các hành vi vi phạm hành chính quy định tại khoản 1 Điều 33; khoản 1 Điều 34; điểm a khoản 5, điểm a khoản 6, điểm a khoản 7, điểm a khoản 8 Điều 36 của Nghị định này;\nb) Trạm trưởng, Đội trưởng của người được quy định tại điểm a khoản 5 Điều này xử phạt đối với các hành vi vi phạm hành chính quy định tại các khoản 1 Điều 33; khoản 1 Điều 34; điểm a khoản 5, điểm a khoản 6, điểm a khoản 7, điểm a khoản 8 Điều 36; khoản 1 Điều 58l của Nghị định này;\nc) Đồn trưởng Đồn biên phòng, Hải đội trưởng Hải đội biên phòng, Chỉ huy trưởng Ban chỉ huy biên phòng Cửa khẩu cảng xử phạt đối với các hành vi vi phạm hành chính quy định tại khoản 1, khoản 2 Điều 12; khoản 1, khoản 2, điểm a, điểm b, điểm đ, điểm e khoản 3; điểm a, điểm b khoản 5, khoản 7, khoản 8 Điều 32; khoản 1, khoản 3, điểm e khoản 5, điểm a khoản 10 Điều 33; khoản 1, khoản 2, khoản 3 Điều 34; khoản 1, khoản 2, khoản 3, điểm a, điểm b khoản 4, khoản 5, khoản 6, điểm a, điểm b khoản 7, điểm a khoản 8, khoản 9, khoản 10, điểm a, điểm b khoản 11 Điều 36; khoản 1, khoản 2, điểm a, điểm b khoản 3,\nkhoản 8 Điều 37; khoản 1, khoản 3, khoản 4 Điều 40; khoản 1, khoản 3 Điều 42; điểm a, điểm b khoản 1, điểm a, điểm b, điểm c, điểm d, điểm đ khoản 2 Điều 58b; khoản 1, điểm a khoản 3 Điều 58g; Điều 58l của Nghị định này;\nd) Chỉ huy trưởng Bộ đội biên phòng cấp tỉnh, Hải đoàn trưởng Hải đoàn biên phòng trực thuộc Bộ Tư lệnh Bộ đội biên phòng xử phạt đối với các hành vi vi phạm hành chính quy định tại Điều 12; khoản 3, khoản 4 Điều 19; khoản 1, khoản 2, điểm a, điểm đ, điểm e khoản 3, khoản 5, khoản 6, khoản 7, khoản 8 Điều 32; khoản 1, khoản 3, điểm e khoản 5 và khoản 10 Điều 33; Điều 34; Điều 36; Điều 37; Điều 40; khoản 1, khoản 3, điểm a, điểm b, điểm c khoản 4 Điều 42; điểm a, điểm b khoản 1, điểm a, điểm b, điểm c, điểm d, điểm đ khoản 2 Điều 58b; điểm a khoản 1 Điều 58đ; Điều 58g; Điều 58l của Nghị định này.”.\n42. Sửa đổi, bổ sung Điều 66 như sau:\n“Điều 66. Thẩm quyền của lực lượng Cảnh sát biển\n1. Cảnh sát viên Cảnh sát biển đang thi hành công vụ có quyền:\nb) Phạt tiền đến 1.500.000 đồng.\n2. Tổ trưởng Tổ nghiệp vụ Cảnh sát biển có quyền:\nb) Phạt tiền đến 5.000.000 đồng.\n3. Đội trưởng Đội nghiệp vụ Cảnh sát biển, Trạm trưởng Trạm Cảnh sát biển có quyền:\nb) Phạt tiền đến 10.000.000 đồng;\nc) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a và điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính.\n4. Hải đội trưởng Hải đội Cảnh sát biển có quyền:\nb) Phạt tiền đến 20.000.000 đồng;\nc) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 40.000.000 đồng;\nd) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này.\n5. Hải đoàn trưởng Hải đoàn Cảnh sát biển; Đoàn trưởng Đoàn trinh sát, Đoàn trưởng Đoàn đặc nhiệm phòng chống tội phạm ma túy thuộc Bộ Tư lệnh Cảnh sát biển Việt Nam có quyền:\nb) Phạt tiền đến 30.000.000 đồng;\nc) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 60.000.000 đồng;\nd) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này.\n6. Tư lệnh Vùng Cảnh sát biển, Cục trưởng Cục Nghiệp vụ và Pháp luật thuộc Bộ Tư lệnh Cảnh sát biển Việt Nam có quyền:\nb) Phạt tiền đến 50.000.000 đồng;\nc) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt 100.000.000 đồng; d) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này.\n7. Tư lệnh Cảnh sát biển Việt Nam có quyền:\nb) Phạt tiền đến 100.000.000 đồng;\nc) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;\nd) Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này.\n8. Phân định thẩm quyền xử phạt vi phạm hành chính của Cảnh sát biển\na) Cảnh sát viên Cảnh sát biển xử phạt đối với các hành vi vi phạm hành chính phát hiện ngoài vùng nước cảng biển có liên quan trực tiếp đến lĩnh vực\nngành mình quản lý được quy định tại khoản 1 Điều 34; điểm a khoản 5, điểm a khoản 6, điểm a khoản 7, điểm a khoản 8 Điều 36 của Nghị định này;\nb) Tổ trưởng Tổ nghiệp vụ Cảnh sát biển xử phạt đối với các hành vi vi phạm hành chính phát hiện ngoài vùng nước cảng biển có liên quan trực tiếp đến lĩnh vực ngành mình quản lý được quy định tại khoản 3, khoản 4 Điều 33; khoản 1, khoản 2 Điều 34; khoản 1, điểm a, điểm b khoản 5, điểm a, điểm b khoản 6, điểm a khoản 7, điểm a khoản 8, điểm a khoản 9 Điều 36; khoản 1 Điều 37; khoản 1 Điều 42 của Nghị định này;\nc) Đội trưởng Đội nghiệp vụ Cảnh sát biển, Trạm trưởng Trạm Cảnh sát biển xử phạt đối với các hành vi vi phạm hành chính phát hiện ngoài vùng nước cảng biển có liên quan trực tiếp đến lĩnh vực ngành mình quản lý được quy định tại khoản 3, khoản 4, điểm e khoản 5 Điều 33; khoản 1, khoản 2 và khoản 3 Điều 34; khoản 1, khoản 2, điểm a khoản 4, khoản 5, điểm a, điểm b, điểm c khoản 6, điểm a khoản 7, điểm a khoản 8, điểm a, điểm b khoản 9, điểm a khoản 10 Điều 36; khoản 1, khoản 2, điểm a khoản 3, khoản 8 Điều 37; khoản 1, khoản 2, khoản 3 Điều 42 của Nghị định này;\nd) Hải đội trưởng Hải đội Cảnh sát biển xử phạt đối với các hành vi vi phạm hành chính phát hiện ngoài vùng nước cảng biển có liên quan trực tiếp đến lĩnh vực ngành mình quản lý được quy định tại khoản 3, khoản 4, điểm e khoản 5, khoản 6 Điều 33; khoản 1, khoản 2, khoản 3 Điều 34; khoản 1, khoản 2, khoản 3, điểm a, điểm b khoản 4, khoản 5, khoản 6, điểm a, điểm b khoản 7, điểm a khoản 8, khoản 9, khoản 10, điểm a, điểm b khoản 11 Điều 36; khoản 1, khoản 2, điểm a, điểm b khoản 3, khoản 8 Điều 37; khoản 1, khoản 3, điểm a khoản 4 Điều 40; khoản 1, khoản 2, khoản 3 Điều 42; điểm a, điểm b, điểm c, điểm d, điểm đ khoản 2 Điều 58b; khoản 1, điểm a khoản 3 Điều 58g của Nghị định này;\nđ) Hải đoàn trưởng Hải đoàn Cảnh sát biển; Đoàn trưởng Đoàn trinh sát, Đoàn trưởng Đoàn đặc nhiệm phòng chống tội phạm ma túy thuộc Bộ Tư lệnh Cảnh sát biển Việt Nam xử phạt đối với các hành vi vi phạm hành chính phát hiện ngoài vùng nước cảng biển có liên quan trực tiếp đến lĩnh vực ngành mình quản lý được quy định tại khoản 3, khoản 4, điểm e khoản 5, khoản 6 Điều 33; Điều 34; khoản 1, khoản 2, khoản 3, điểm a, điểm b, điểm c khoản 4, khoản 5, khoản 6, điểm a, điểm b, điểm c khoản 7, điểm a khoản 8, khoản 9, khoản 10, khoản 11 Điều 36; khoản 1, khoản 2, điểm a, điểm b khoản 3, khoản 8 Điều 37; Điều 40; Điều 42; điểm a, điểm b, điểm c, điểm d, điểm đ khoản 2 Điều 58b; khoản 1, điểm a khoản 3 Điều 58g của Nghị định này;\ne) Tư lệnh Vùng Cảnh sát biển, Cục trưởng Cục Nghiệp vụ và Pháp luật thuộc Bộ Tư lệnh Cảnh sát biển Việt Nam xử phạt đối với các hành vi vi phạm hành chính phát hiện ngoài vùng nước cảng biển có liên quan trực tiếp đến lĩnh vực ngành mình quản lý được quy định tại khoản 3, khoản 4, điểm e khoản 5, khoản 6 Điều 33; Điều 34; khoản 1, khoản 2, khoản 3, khoản 4, khoản 5, khoản 6, khoản 7, điểm a, điểm b khoản 8, khoản 9, khoản 10, khoản 11, điểm a khoản 12 Điều 36; khoản 1, khoản 2, điểm a, điểm b, điểm c khoản 3, khoản 4, khoản 5, khoản 6, khoản 8 Điều 37; Điều 40; Điều 42; điểm a, điểm b, điểm c, điểm d, điểm đ khoản 2 Điều 58b; Điều 58g của Nghị định này;\ng) Tư lệnh Cảnh sát biển Việt Nam xử phạt đối với các hành vi vi phạm hành chính phát hiện ngoài vùng nước cảng biển có liên quan trực tiếp đến lĩnh vực ngành mình quản lý được quy định tại điểm a khoản 3, khoản 4, điểm e khoản 5 và khoản 6 Điều 33; Điều 34; Điều 36; Điều 37; Điều 40, Điều 42; điểm a, điểm b, điểm c, điểm d, điểm đ khoản 2 Điều 58b; điểm a khoản 1 Điều 58đ, Điều 58g của Nghị định này.”.\n43. Bãi bỏ Điều 6, Điều 9, Điều 18, Điều 22, Điều 23, Điều 27, Điều 35, Điều 41, khoản 1 Điều 43, khoản 1 Điều 47, Điều 58.\n44. Thay cụm từ “tháo dỡ” bằng cụm từ “phá dỡ” tại khoản 5 Điều 24."
+    },
+    "dieu_23": {
+      "title": "Xử phạt vi phạm quy định về điều kiện của người điều khiển, điều kiện của phương tiện tham gia giao thông đường bộ",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-25",
+      "amendments": [
+        {
+          "location": "Điểm p khoản 5 Điều 23",
+          "instruction": "sua_doi",
+          "instruction_text": "Sửa đổi điểm p khoản 5 Điều 23 như sau",
+          "content": "Điều khiển xe ô tô kinh doanh vận tải hành khách không lắp camera theo quy định hoặc có lắp camera nhưng không ghi, không lưu trữ được hình ảnh trên xe trong quá trình xe tham gia giao thông theo quy định hoặc sử dụng biện pháp kỹ thuật, trang thiết bị ngoại vi, các biện pháp khác làm sai lệch dữ liệu của camera lắp trên xe ô tô",
+          "old_content": "Điều khiển xe ô tô kinh doanh vận tải hành khách không lắp camera theo quy định",
+          "new_content": "Điều khiển xe ô tô kinh doanh vận tải hành khách không lắp camera theo quy định hoặc có lắp camera nhưng không ghi, không lưu trữ được hình ảnh trên xe trong quá trình xe tham gia giao thông theo quy định hoặc sử dụng biện pháp kỹ thuật, trang thiết bị ngoại vi, các biện pháp khác làm sai lệch dữ liệu của camera lắp trên xe ô tô",
+          "impact": "high",
+          "priority": 5,
+          "affects_violations": true,
+          "reference_article": "Điều 23 ND100/2019",
+          "raw_text": "Sửa đổi điểm p khoản 5 Điều 23 như sau: p) Điều khiển xe ô tô kinh doanh vận tải hành khách không lắp camera..."
+        }
+      ],
+      "has_amendments": true,
+      "amendment_count": 1
+    },
+    "dieu_2": {
+      "title": "Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 100/2019/NĐ-CP",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "Không áp dụng",
+          "violations": [
+            "a) Sửa đổi điểm h khoản 2 Điều 2 như sau: h) Tổ hợp tác"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "Không áp dụng",
+          "violations": [
+            "a) Bổ sung Điều 4a vào sau Điều 4 như sau: Điều 4a. Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện",
+            "b) Hành vi vi phạm hành chính đã kết thúc gồm những hành vi vi phạm sau đây:",
+            "c) Hành vi vi phạm hành chính được phát hiện trong quá trình triển khai thực hiện phương án khẩn nguy",
+            "d) Các hành vi vi phạm hành chính trong lĩnh vực hàng không dân dụng về an ninh, trật tự và an toàn xã hội tại các khu vực công cộng ở cảng hàng không, sân bay hoặc do các cơ quan trong ngành hàng không dân duyng chuyển giao"
+          ]
+        }
+      ],
+      "amendments": [
+        {
+          "location": "Điểm h khoản 2 Điều 2",
+          "instruction": "sua_doi",
+          "instruction_text": "Sửa đổi điểm h khoản 2 Điều 2 như sau",
+          "content": "Tổ hợp tác;",
+          "old_content": "Tổ hợp tác",
+          "new_content": "Tổ hợp tác;",
+          "impact": "high",
+          "priority": 4,
+          "affects_violations": true,
+          "reference_article": "Điều 2 ND100/2019",
+          "raw_text": "1. Sửa đổi điểm h khoản 2 Điều 2 như sau: h) Tổ hợp tác;"
+        },
+        {
+          "location": "Điều 4a",
+          "instruction": "bo_sung",
+          "instruction_text": "Bổ sung Điều 4a vào sau Điều 4 như sau",
+          "content": "Điều 4a. Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện",
+          "old_content": null,
+          "new_content": "Điều 4a với các quy định về hành vi vi phạm đã kết thúc và đang thực hiện",
+          "impact": "medium",
+          "priority": 3,
+          "affects_violations": true,
+          "reference_article": "Sau Điều 4 ND100/2019",
+          "raw_text": "2. Bổ sung Điều 4a vào sau Điều 4 như sau: Điều 4a. Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện"
+        }
+      ],
+      "has_amendments": true,
+      "amendment_count": 2,
+      "has_detailed_violations": true,
+      "detailed_extraction_date": "2025-11-25 11:17:08"
+    },
+    "dieu_4": {
+      "title": "Hiệu lực thi hành",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "content": "Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2022."
+    },
+    "dieu_5": {
+      "title": "Điều khoản chuyển tiếp",
+      "source_document": "ND123-2021.docx",
+      "extraction_date": "2025-11-24",
+      "content": "Đối với các hành vi vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng xảy ra trước ngày Nghị định này có hiệu lực thi hành mà sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng các quy định có lợi cho tổ chức, cá nhân vi phạm"
+    }
+  }
+}

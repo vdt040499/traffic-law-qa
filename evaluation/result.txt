@@ -1,0 +1,3 @@
+Accuracy@1: 55.00%
+Accuracy@5: 82.50%
+Accuracy@10: 90.00%

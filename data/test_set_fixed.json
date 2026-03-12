@@ -1,0 +1,2027 @@
+[
+    {
+        "question": "Lái xe ô tô chạy quá tốc độ mà gây ra tai nạn thì bị phạt như thế nào?",
+        "id": 56,
+        "description": "Không chú ý quan sát, điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông",
+        "category": "Xe ô tô",
+        "penalty": {
+            "fine_min": 10000000,
+            "fine_max": 12000000,
+            "currency": "VNĐ",
+            "fine_text": "10000000 - 12000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 5",
+            "section": "Khoản 7",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 5, Khoản 7"
+        },
+        "severity": "Nặng",
+        "keywords": [
+            "tốc độ"
+        ],
+        "search_text": "Không chú ý quan sát, điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông Xe ô tô Điều 5 Xử phạt người điều khiển xe ô tô và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.103178",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Mức phạt cho hành vi quay đầu xe ô tô trên đường cao tốc là bao nhiêu?",
+        "id": 54,
+        "description": "Quay đầu xe trên đường cao tốc",
+        "category": "Xe ô tô",
+        "penalty": {
+            "fine_min": 6000000,
+            "fine_max": 8000000,
+            "currency": "VNĐ",
+            "fine_text": "6000000 - 8000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 5",
+            "section": "Khoản 6",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 5, Khoản 6"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Quay đầu xe trên đường cao tốc Xe ô tô Điều 5 Xử phạt người điều khiển xe ô tô và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.103178",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Đi xe hơi trong thành phố, khu đông dân mà dùng đèn chiếu xa hoặc còi hơi thì bị phạt không?",
+        "id": 19,
+        "description": "Bấm còi hơi, sử dụng đèn chiếu xa trong đô thị, khu đông dân cư",
+        "category": "Xe ô tô",
+        "penalty": {
+            "fine_min": 800000,
+            "fine_max": 1000000,
+            "currency": "VNĐ",
+            "fine_text": "800000 - 1000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 5",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 5, Khoản 3"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Bấm còi hơi, sử dụng đèn chiếu xa trong đô thị, khu đông dân cư Xe ô tô Điều 5 Xử phạt người điều khiển xe ô tô và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.084436",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Xe chở khách không có số thứ tự ghế ngồi thì bị xử lý như thế nào?",
+        "id": 563,
+        "description": "Không đánh số thứ tự ghế ngồi trên xe ô tô chở hành khách theo quy định",
+        "category": "Xe ô tô",
+        "penalty": {
+            "fine_min": 1000000,
+            "fine_max": 2000000,
+            "currency": "VNĐ",
+            "fine_text": "1000000 - 2000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 28",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 28, Khoản 2"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Không đánh số thứ tự ghế ngồi trên xe ô tô chở hành khách theo quy định Xe ô tô Điều 28 Xử phạt các hành vi vi phạm quy định về vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Chở hàng hóa cồng kềnh hơn giấy phép lưu hành thì tài xế ô tô bị phạt lỗi gì?",
+        "id": 723,
+        "description": "Chở hàng vượt khổ giới hạn của cầu, đường ghi trong Giấy phép lưu hành",
+        "category": "Xe ô tô",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 5000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 5000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 33",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 33, Khoản 3"
+        },
+        "severity": "Nặng",
+        "keywords": [
+            "giấy phép",
+            "chở hàng"
+        ],
+        "search_text": "Chở hàng vượt khổ giới hạn của cầu, đường ghi trong Giấy phép lưu hành Xe ô tô Điều 33 Xử phạt người điều khiển xe bánh xích; xe quá tải trọng, quá khổ giới hạn của cầu, đường (kế cả xe ô tô chở hành khách)",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.162966",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Tài xế ô tô bấm còi liên tục, rú ga inh ỏi trong khu dân cư bị phạt bao nhiêu tiền?",
+        "id": 19,
+        "description": "Bấm còi, rú ga liên tục",
+        "category": "Xe ô tô",
+        "penalty": {
+            "fine_min": 800000,
+            "fine_max": 1000000,
+            "currency": "VNĐ",
+            "fine_text": "800000 - 1000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 5",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 5, Khoản 3"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Bấm còi, rú ga liên tục Xe ô tô Điều 5 Xử phạt người điều khiển xe ô tô và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.084436",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Xe ô tô chở hàng quá tải trọng cho phép của cầu đường từ 50% đến 100% sẽ bị xử phạt ra sao?",
+        "id": 727,
+        "description": "Điều khiển xe mà tổng trọng lượng của xe hoặc tải trọng trục xe vượt quá tải trọng cho phép của cầu, đường trên 50 đến 100",
+        "category": "Xe ô tô",
+        "penalty": {
+            "fine_min": 5000000,
+            "fine_max": 7000000,
+            "currency": "VNĐ",
+            "fine_text": "5000000 - 7000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 33",
+            "section": "Khoản 4",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 33, Khoản 4"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Điều khiển xe mà tổng trọng lượng của xe hoặc tải trọng trục xe vượt quá tải trọng cho phép của cầu, đường trên 50 đến 100 Xe ô tô Điều 33 Xử phạt người điều khiển xe bánh xích; xe quá tải trọng, quá khổ giới hạn của cầu, đường (kế cả xe ô tô chở hành khách)",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.162966",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Nếu xếp hàng hóa trên xe khách làm xe bị nghiêng thì bị phạt không?",
+        "id": 505,
+        "description": "Xếp hành lý, hàng hóa trên xe làm lệch xe",
+        "category": "Xe ô tô",
+        "penalty": {
+            "fine_min": 1000000,
+            "fine_max": 2000000,
+            "currency": "VNĐ",
+            "fine_text": "1000000 - 2000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 23",
+            "section": "Khoản 5",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 23, Khoản 5"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Xếp hành lý, hàng hóa trên xe làm lệch xe Xe ô tô Điều 23 Xử phạt người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách, chở người vi phạm quy định về vận tải đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Chở hành lý trên nóc xe du lịch vượt quá kích thước của xe thì mức phạt là bao nhiêu?",
+        "id": 498,
+        "description": "Chở hành lý, hàng hóa vượt quá kích thước bao ngoài của xe",
+        "category": "Xe ô tô",
+        "penalty": {
+            "fine_min": 600000,
+            "fine_max": 800000,
+            "currency": "VNĐ",
+            "fine_text": "600000 - 800000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 23",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 23, Khoản 3"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Chở hành lý, hàng hóa vượt quá kích thước bao ngoài của xe Xe ô tô Điều 23 Xử phạt người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách, chở người vi phạm quy định về vận tải đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Lái ô tô ở đoạn đường hẹp mà không nhường đường cho xe ngược chiều thì bị phạt lỗi gì?",
+        "id": 49,
+        "description": "Tránh xe đi ngược chiều không đúng quy định không nhường đường cho xe đi ngược chiều theo quy định tại nơi đường hẹp, đường dốc, nơi có chướng ngại vật",
+        "category": "Xe ô tô",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 5000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 5000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 5",
+            "section": "Khoản 5",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 5, Khoản 5"
+        },
+        "severity": "Nặng",
+        "keywords": [
+            "ngược chiều"
+        ],
+        "search_text": "Tránh xe đi ngược chiều không đúng quy định không nhường đường cho xe đi ngược chiều theo quy định tại nơi đường hẹp, đường dốc, nơi có chướng ngại vật Xe ô tô Điều 5 Xử phạt người điều khiển xe ô tô và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.103178",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Rơ moóc có hệ thống lái không đạt chuẩn kỹ thuật mà vẫn chạy thì bị phạt không?",
+        "id": 449,
+        "description": "Điều khiển xe có hệ thống chuyển hướng không bảo đảm tiêu chuẩn kỹ thuật",
+        "category": "Rơ moóc, sơ mi rơ moóc",
+        "penalty": {
+            "fine_min": 300000,
+            "fine_max": 400000,
+            "currency": "VNĐ",
+            "fine_text": "300000 - 400000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 19",
+            "section": "Khoản 1",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 19, Khoản 1"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Điều khiển xe có hệ thống chuyển hướng không bảo đảm tiêu chuẩn kỹ thuật Rơ moóc, sơ mi rơ moóc Điều 19 Xử phạt người điều khiển máy kéo (kể cả rơ moóc được kéo theo), xe máy chuyên dùng vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Tự ý sơn lại màu của biển số rơ moóc có bị coi là vi phạm không?",
+        "id": 448,
+        "description": "Sơn, dán thêm làm thay đổi chữ, số hoặc thay đổi màu sắc của chữ, số, nền biển",
+        "category": "Rơ moóc, sơ mi rơ moóc",
+        "penalty": {
+            "fine_min": 300000,
+            "fine_max": 400000,
+            "currency": "VNĐ",
+            "fine_text": "300000 - 400000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 19",
+            "section": "Khoản 1",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 19, Khoản 1"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Sơn, dán thêm làm thay đổi chữ, số hoặc thay đổi màu sắc của chữ, số, nền biển Rơ moóc, sơ mi rơ moóc Điều 19 Xử phạt người điều khiển máy kéo (kể cả rơ moóc được kéo theo), xe máy chuyên dùng vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Xe máy lắp biển số không đúng với đăng ký xe (cà vẹt) thì bị phạt lỗi gì?",
+        "id": 440,
+        "description": "Gắn biển số không đúng với Giấy đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp.",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 300000,
+            "fine_max": 400000,
+            "currency": "VNĐ",
+            "fine_text": "300000 - 400000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 17",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 17, Khoản 2"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Gắn biển số không đúng với Giấy đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp. Xe mô tô, xe máy Điều 17 Xử phạt người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Đi xe máy mà buông cả hai tay thì bị phạt bao nhiêu tiền?",
+        "id": 118,
+        "description": "Buông cả hai tay khi đang điều khiển xe",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 6000000,
+            "fine_max": 8000000,
+            "currency": "VNĐ",
+            "fine_text": "6000000 - 8000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 6",
+            "section": "Khoản 8",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 6, Khoản 8"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Buông cả hai tay khi đang điều khiển xe Xe mô tô, xe máy Điều 6 Xử phạt người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ.",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.111760",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Lái xe máy không tuân theo sự chỉ dẫn của cảnh sát giao thông thì bị phạt thế nào?",
+        "id": 110,
+        "description": "Không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 1000000,
+            "fine_max": 2000000,
+            "currency": "VNĐ",
+            "fine_text": "1000000 - 2000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 7",
+            "section": "Khoản 5",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 7, Khoản 5"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông Xe mô tô, xe máy Điều 7 Xử phạt người điều khiển máy kéo, xe máy chuyên dùng (sau đây gọi chung là xe) vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.117703",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Khi vượt xe khác, xe máy không có tín hiệu báo trước thì bị phạt không?",
+        "id": 67,
+        "description": "Không có báo hiệu xin vượt trước khi vượt",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 100000,
+            "fine_max": 200000,
+            "currency": "VNĐ",
+            "fine_text": "100000 - 200000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 6",
+            "section": "Khoản 1",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 6, Khoản 1"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Không có báo hiệu xin vượt trước khi vượt Xe mô tô, xe máy Điều 6 Xử phạt người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ.",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.105177",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Lỗi đi xe máy sai làn đường bị phạt bao nhiêu?",
+        "id": 145,
+        "description": "Đi không đúng phần đường, làn đường quy định (làn cùng chiều hoặc làn ngược chiều)",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 400000,
+            "fine_max": 600000,
+            "currency": "VNĐ",
+            "fine_text": "400000 - 600000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 6",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 6, Khoản 3"
+        },
+        "severity": "Nhẹ",
+        "keywords": [
+            "ngược chiều"
+        ],
+        "search_text": "Đi không đúng phần đường, làn đường quy định (làn cùng chiều hoặc làn ngược chiều) Xe mô tô, xe máy Điều 6 Xử phạt người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ.",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.109761",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Tránh xe máy khác không đúng quy định bị phạt thế nào?",
+        "id": 77,
+        "description": "Tránh xe không đúng quy định",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 100000,
+            "fine_max": 200000,
+            "currency": "VNĐ",
+            "fine_text": "100000 - 200000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 6",
+            "section": "Khoản 1",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 6, Khoản 1"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Tránh xe không đúng quy định Xe mô tô, xe máy Điều 6 Xử phạt người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ.",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.106724",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Mức phạt cho xe máy đi ngược chiều trên đường cao tốc là bao nhiêu?",
+        "id": 252,
+        "description": "Đi ngược chiều trên đường cao tốc",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 10000000,
+            "fine_max": 12000000,
+            "currency": "VNĐ",
+            "fine_text": "10000000 - 12000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 7",
+            "section": "Khoản 8",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 7, Khoản 8"
+        },
+        "severity": "Nặng",
+        "keywords": [
+            "ngược chiều"
+        ],
+        "search_text": "Đi ngược chiều trên đường cao tốc Xe mô tô, xe máy Điều 7 Xử phạt người điều khiển máy kéo, xe máy chuyên dùng (sau đây gọi chung là xe) vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.119709",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Trên cao tốc, xe máy không giữ khoảng cách an toàn với xe trước thì bị phạt không?",
+        "id": 233,
+        "description": "Không tuân thủ quy định về khoảng cách an toàn đối với xe chạy liền trước khi chạy trên đường cao tốc",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 800000,
+            "fine_max": 1000000,
+            "currency": "VNĐ",
+            "fine_text": "800000 - 1000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 7",
+            "section": "Khoản 4",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 7, Khoản 4"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Không tuân thủ quy định về khoảng cách an toàn đối với xe chạy liền trước khi chạy trên đường cao tốc Xe mô tô, xe máy Điều 7 Xử phạt người điều khiển máy kéo, xe máy chuyên dùng (sau đây gọi chung là xe) vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.117703",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Chạy xe máy vào làn dừng khẩn cấp trên cao tốc thì bị xử lý ra sao?",
+        "id": 231,
+        "description": "Điều khiển xe chạy ở làn dừng xe khẩn cấp hoặc phần lề đường của đường cao tốc",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 800000,
+            "fine_max": 1000000,
+            "currency": "VNĐ",
+            "fine_text": "800000 - 1000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 7",
+            "section": "Khoản 4",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 7, Khoản 4"
+        },
+        "severity": "Trung bình",
+        "keywords": [
+            "dừng xe"
+        ],
+        "search_text": "Điều khiển xe chạy ở làn dừng xe khẩn cấp hoặc phần lề đường của đường cao tốc Xe mô tô, xe máy Điều 7 Xử phạt người điều khiển máy kéo, xe máy chuyên dùng (sau đây gọi chung là xe) vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.117703",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Mở cửa xe máy không an toàn gây nguy hiểm bị phạt lỗi gì?",
+        "id": 212,
+        "description": "Mở cửa xe, để cửa xe mở không bảo đảm an toàn",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 200000,
+            "fine_max": 400000,
+            "currency": "VNĐ",
+            "fine_text": "200000 - 400000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 7",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 7, Khoản 2"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Mở cửa xe, để cửa xe mở không bảo đảm an toàn Xe mô tô, xe máy Điều 7 Xử phạt người điều khiển máy kéo, xe máy chuyên dùng (sau đây gọi chung là xe) vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.115696",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Sử dụng giấy đăng ký xe máy bị làm giả thì mức phạt là gì?",
+        "id": 439,
+        "description": "Sử dụng Giấy đăng ký xe không đúng số khung, số máy của xe hoặc không do cơ quan có thẩm quyền cấp",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 300000,
+            "fine_max": 400000,
+            "currency": "VNĐ",
+            "fine_text": "300000 - 400000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 17",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 17, Khoản 2"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Sử dụng Giấy đăng ký xe không đúng số khung, số máy của xe hoặc không do cơ quan có thẩm quyền cấp Xe mô tô, xe máy Điều 17 Xử phạt người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Buộc phải dừng xe máy trên cao tốc nhưng không đặt biển báo hiệu thì có bị phạt không?",
+        "id": 245,
+        "description": "Không có báo hiệu để người lái xe khác biết khi buộc phải dừng xe, đỗ xe trên đường cao tốc không đúng nơi quy định",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 5000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 5000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 7",
+            "section": "Khoản 6",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 7, Khoản 6"
+        },
+        "severity": "Nặng",
+        "keywords": [
+            "dừng xe",
+            "đỗ xe"
+        ],
+        "search_text": "Không có báo hiệu để người lái xe khác biết khi buộc phải dừng xe, đỗ xe trên đường cao tốc không đúng nơi quy định Xe mô tô, xe máy Điều 7 Xử phạt người điều khiển máy kéo, xe máy chuyên dùng (sau đây gọi chung là xe) vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.117703",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Xe máy đậu trên dải phân cách cứng thì bị phạt bao nhiêu?",
+        "id": 198,
+        "description": "Dừng xe, đỗ xe trên dải phân cách cố định ở giữa hai phần đường xe chạy",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 200000,
+            "fine_max": 400000,
+            "currency": "VNĐ",
+            "fine_text": "200000 - 400000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 7",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 7, Khoản 2"
+        },
+        "severity": "Nhẹ",
+        "keywords": [
+            "dừng xe",
+            "đỗ xe"
+        ],
+        "search_text": "Dừng xe, đỗ xe trên dải phân cách cố định ở giữa hai phần đường xe chạy Xe mô tô, xe máy Điều 7 Xử phạt người điều khiển máy kéo, xe máy chuyên dùng (sau đây gọi chung là xe) vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.113600",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Dừng xe máy dưới lòng đường ở ngoài đô thị dù lề đường rộng có bị phạt không?",
+        "id": 195,
+        "description": "Dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường rộng",
+        "category": "Xe mô tô, xe máy",
+        "penalty": {
+            "fine_min": 200000,
+            "fine_max": 400000,
+            "currency": "VNĐ",
+            "fine_text": "200000 - 400000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 7",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 7, Khoản 2"
+        },
+        "severity": "Nhẹ",
+        "keywords": [
+            "dừng xe",
+            "đỗ xe"
+        ],
+        "search_text": "Dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường rộng Xe mô tô, xe máy Điều 7 Xử phạt người điều khiển máy kéo, xe máy chuyên dùng (sau đây gọi chung là xe) vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.113600",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Người đi bộ vượt đèn đỏ hoặc không tuân thủ hiệu lệnh của cảnh sát giao thông thì bị phạt không?",
+        "id": 213,
+        "description": "Không chấp hành hiệu lệnh hoặc chỉ dẫn của đèn tín hiệu, biển báo hiệu, vạch kẻ đường",
+        "category": "Người đi bộ",
+        "penalty": {
+            "fine_min": 60000,
+            "fine_max": 100000,
+            "currency": "VNĐ",
+            "fine_text": "60000 - 100000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 9",
+            "section": "Khoản 1",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 9, Khoản 1"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Không chấp hành hiệu lệnh hoặc chỉ dẫn của đèn tín hiệu, biển báo hiệu, vạch kẻ đường Người đi bộ Điều 9 Xử phạt người đi bộ vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.121350",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Người điều khiển xe bò kéo không chấp hành hiệu lệnh của người điều khiển giao thông thì bị phạt thế nào?",
+        "id": 311,
+        "description": "Không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông",
+        "category": "Xe thô sơ",
+        "penalty": {
+            "fine_min": 100000,
+            "fine_max": 200000,
+            "currency": "VNĐ",
+            "fine_text": "100000 - 200000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 10",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 10, Khoản 2"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông Xe thô sơ Điều 10 Xử phạt người điều khiển, dẫn dắt súc vật, điều khiển xе súc vật kéo vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.121350",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Người dắt xe súc vật kéo đi không đúng phần đường quy định bị phạt bao nhiêu?",
+        "id": 181,
+        "description": "Không đi bên phải theo chiều đi của mình, đi không đúng phần đường quy định",
+        "category": "Xe thô sơ",
+        "penalty": {
+            "fine_min": 80000,
+            "fine_max": 100000,
+            "currency": "VNĐ",
+            "fine_text": "80000 - 100000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 8",
+            "section": "Khoản 1",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 8, Khoản 1"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Không đi bên phải theo chiều đi của mình, đi không đúng phần đường quy định Xe thô sơ Điều 8 Xử phạt người điều khiển xe đạp, xe đạp máy (kể cả xe đạp điện), người điều khiển xe thô sơ khác vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.120716",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Người đi xe đạp phanh gấp không có lý do có bị phạt không?",
+        "id": 182,
+        "description": "Dừng xe đột ngột",
+        "category": "Xe thô sơ",
+        "penalty": {
+            "fine_min": 80000,
+            "fine_max": 100000,
+            "currency": "VNĐ",
+            "fine_text": "80000 - 100000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 8",
+            "section": "Khoản 1",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 8, Khoản 1"
+        },
+        "severity": "Nhẹ",
+        "keywords": [
+            "dừng xe"
+        ],
+        "search_text": "Dừng xe đột ngột Xe thô sơ Điều 8 Xử phạt người điều khiển xe đạp, xe đạp máy (kể cả xe đạp điện), người điều khiển xe thô sơ khác vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.120716",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Người đi xe đạp từ chối kiểm tra nồng độ cồn sẽ bị xử lý thế nào?",
+        "id": 211,
+        "description": "Không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ.",
+        "category": "Xe thô sơ",
+        "penalty": {
+            "fine_min": 400000,
+            "fine_max": 600000,
+            "currency": "VNĐ",
+            "fine_text": "400000 - 600000 VNĐ"
+        },
+        "additional_measures": [
+            "Tịch thu phương tiện"
+        ],
+        "legal_basis": {
+            "article": "Điều 8",
+            "section": "Khoản 4",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 8, Khoản 4"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ. Xe thô sơ Điều 8 Xử phạt người điều khiển xe đạp, xe đạp máy (kể cả xe đạp điện), người điều khiển xe thô sơ khác vi phạm quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.121350",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Treo biển quảng cáo trên đất của đường bộ ở ngoài thành phố thì bị phạt ra sao?",
+        "id": 339,
+        "description": "Đặt, treo biển hiệu, biển quảng cáo trên đất của đường bộ ở đoạn đường ngoài đô thị",
+        "category": "Vi phạm khác",
+        "penalty": {
+            "fine_min": 500000,
+            "fine_max": 1000000,
+            "currency": "VNĐ",
+            "fine_text": "500000 - 1000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 12",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 12, Khoản 3"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Đặt, treo biển hiệu, biển quảng cáo trên đất của đường bộ ở đoạn đường ngoài đô thị Vi phạm khác Điều 12 Xử phạt các hành vi vi phạm quy định về sử dụng, khai thác trong phạm vi đất dành cho đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.121350",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Mở bãi giữ xe trái phép chiếm dụng một phần lòng đường ngoài đô thị bị phạt không?",
+        "id": 352,
+        "description": "Chiếm dụng phần đường xe chạy hoặc lề đường của đường ngoài đô thị dưới 20 m² làm nơi trông, giữ xe.",
+        "category": "Vi phạm khác",
+        "penalty": {
+            "fine_min": 2000000,
+            "fine_max": 3000000,
+            "currency": "VNĐ",
+            "fine_text": "2000000 - 3000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 12",
+            "section": "Khoản 5",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 12, Khoản 5"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Chiếm dụng phần đường xe chạy hoặc lề đường của đường ngoài đô thị dưới 20 m² làm nơi trông, giữ xe. Vi phạm khác Điều 12 Xử phạt các hành vi vi phạm quy định về sử dụng, khai thác trong phạm vi đất dành cho đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.121350",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Tự ý mở lối đi từ nhà ra đường chính có bị phạt không?",
+        "id": 365,
+        "description": "Mở đường nhánh đấu nối trái phép vào đường chính.",
+        "category": "Vi phạm khác",
+        "penalty": {
+            "fine_min": 15000000,
+            "fine_max": 20000000,
+            "currency": "VNĐ",
+            "fine_text": "15000000 - 20000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 12",
+            "section": "Khoản 9",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 12, Khoản 9"
+        },
+        "severity": "Rất nặng",
+        "keywords": [],
+        "search_text": "Mở đường nhánh đấu nối trái phép vào đường chính. Vi phạm khác Điều 12 Xử phạt các hành vi vi phạm quy định về sử dụng, khai thác trong phạm vi đất dành cho đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.121350",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Xe mang biển số nước ngoài hoạt động tại Việt Nam quá thời hạn cho phép bị phạt thế nào?",
+        "id": 659,
+        "description": "Lưu hành phương tiện trên lãnh thổ Việt Nam quá thời hạn quy định",
+        "category": "Vi phạm khác",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 5000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 5000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 35",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 35, Khoản 2"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Lưu hành phương tiện trên lãnh thổ Việt Nam quá thời hạn quy định Vi phạm khác Điều 35 Xử phạt người điều khiển phương tiện giao thông cơ giới đường bộ gắn biển số nước ngoài",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.162966",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Trung tâm đăng kiểm không lưu trữ dữ liệu theo quy định thì bị phạt lỗi gì?",
+        "id": 730,
+        "description": "Không lưu trữ dữ liệu kiểm định theo quy định.",
+        "category": "Vi phạm khác",
+        "penalty": {
+            "fine_min": 8000000,
+            "fine_max": 12000000,
+            "currency": "VNĐ",
+            "fine_text": "8000000 - 12000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 38",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 38, Khoản 3"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Không lưu trữ dữ liệu kiểm định theo quy định. Vi phạm khác Điều 38 Xử phạt các hành vi vi phạm quy định về hoạt động kiểm định an toàn kỹ thuật và bảo vệ môi trường xe cơ giới",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Lái tàu hỏa sử dụng chất kích thích bị cấm thì bị xử lý như thế nào?",
+        "id": 976,
+        "description": "Khi làm nhiệm vụ mà trong cơ thể có chất kích thích khác mà pháp luật cầm sử dụng.",
+        "category": "Vi phạm khác",
+        "penalty": {
+            "fine_min": 30000000,
+            "fine_max": 40000000,
+            "currency": "VNĐ",
+            "fine_text": "30000000 - 40000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 66",
+            "section": "Khoản 7",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 66, Khoản 7"
+        },
+        "severity": "Rất nặng",
+        "keywords": [],
+        "search_text": "Khi làm nhiệm vụ mà trong cơ thể có chất kích thích khác mà pháp luật cầm sử dụng. Vi phạm khác Điều 66 Xử phạt đối với lái tàu, phụ lái tàu",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.184628",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Đặt máy tuốt lúa dưới lòng đường có phải là hành vi vi phạm không?",
+        "id": 329,
+        "description": "Đặt máy tuốt lúa trên đường bộ.",
+        "category": "Vi phạm khác",
+        "penalty": {
+            "fine_min": 100000,
+            "fine_max": 200000,
+            "currency": "VNĐ",
+            "fine_text": "100000 - 200000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 12",
+            "section": "Khoản 1",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 12, Khoản 1"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Đặt máy tuốt lúa trên đường bộ. Vi phạm khác Điều 12 Xử phạt các hành vi vi phạm quy định về sử dụng, khai thác trong phạm vi đất dành cho đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.121350",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Bán vé tàu giả bị xử phạt như thế nào?",
+        "id": 1014,
+        "description": "Bán vé tàu giả",
+        "category": "Vi phạm khác",
+        "penalty": {
+            "fine_min": 10000000,
+            "fine_max": 15000000,
+            "currency": "VNĐ",
+            "fine_text": "10000000 - 15000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 72",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 72, Khoản 3"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Bán vé tàu giả Vi phạm khác Điều 72 Xử phạt các hành vi vi phạm về sử dụng vé tàu giả và bán vé tàu trái quy định",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.184628",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Công trình đường bộ bị hỏng gây mất an toàn mà đơn vị quản lý không sửa chữa kịp thời thì bị phạt không?",
+        "id": 395,
+        "description": "Không có biện pháp khắc phục kịp thời theo quy định các hư hỏng của công trình đường bộ gây mất an toàn giao thông",
+        "category": "Vi phạm khác",
+        "penalty": {
+            "fine_min": 6000000,
+            "fine_max": 8000000,
+            "currency": "VNĐ",
+            "fine_text": "6000000 - 8000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 15",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 15, Khoản 3"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Không có biện pháp khắc phục kịp thời theo quy định các hư hỏng của công trình đường bộ gây mất an toàn giao thông Vi phạm khác Điều 15 Xử phạt các hành vi vi phạm quy định về quản lý, khai thác, bảo trì, bảo vệ kết cấu hạ tầng giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.121350",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Người ngồi sau xe đạp bám vào xe khác có bị phạt không?",
+        "id": 318,
+        "description": "Người được chở trên xe đạp, xe đạp máy bám, kéo, đẩy xe khác, vật khác, mang vác vật cồng kềnh.",
+        "category": "Xe đạp",
+        "penalty": {
+            "fine_min": 100000,
+            "fine_max": 200000,
+            "currency": "VNĐ",
+            "fine_text": "100000 - 200000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 11",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 11, Khoản 2"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Người được chở trên xe đạp, xe đạp máy bám, kéo, đẩy xe khác, vật khác, mang vác vật cồng kềnh. Xe đạp Điều 11 Xử phạt các hành vi vi phạm khác về quy tắc giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.121350",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Tôi có bằng lái xe quốc tế nhưng quên mang bằng lái xe quốc gia thì bị phạt bao nhiêu?",
+        "id": 477,
+        "description": "Có Giấy phép lái xe quốc tế do các nước tham gia Công ước về Giao thông đường bộ năm 1968 cấp (trừ Giấy phép lái xe quốc tế do Việt Nam cấp) nhưng không mang theo Giấy phép lái xe quốc gia",
+        "category": "Vi phạm giấy tờ",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 4000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 4000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 21",
+            "section": "Khoản 7",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 21, Khoản 7"
+        },
+        "severity": "Trung bình",
+        "keywords": [
+            "giấy phép"
+        ],
+        "search_text": "Có Giấy phép lái xe quốc tế do các nước tham gia Công ước về Giao thông đường bộ năm 1968 cấp (trừ Giấy phép lái xe quốc tế do Việt Nam cấp) nhưng không mang theo Giấy phép lái xe quốc gia Vi phạm giấy tờ Điều 21 Xử phạt các hành vi vi phạm quy định về điều kiện của người điều khiển xe cơ giới",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Sử dụng bằng lái xe máy giả bị phạt như thế nào?",
+        "id": 476,
+        "description": "Không có Giấy phép lái xe hoặc sử dụng Giấy phép lái xe không do cơ quan có thẩm quyền cấp, Giấy phép lái xe bị tẩy xóa",
+        "category": "Vi phạm giấy tờ",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 4000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 4000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 21",
+            "section": "Khoản 7",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 21, Khoản 7"
+        },
+        "severity": "Trung bình",
+        "keywords": [
+            "giấy phép"
+        ],
+        "search_text": "Không có Giấy phép lái xe hoặc sử dụng Giấy phép lái xe không do cơ quan có thẩm quyền cấp, Giấy phép lái xe bị tẩy xóa Vi phạm giấy tờ Điều 21 Xử phạt các hành vi vi phạm quy định về điều kiện của người điều khiển xe cơ giới",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Chủ xe ô tô cho người không có bằng lái mượn xe thì có bị phạt không?",
+        "id": 654,
+        "description": "Giao xe hoặc để cho người không đủ điều kiện theo quy định tại khoản 1 Điều 58 của Luật Giao thông đường bộ điều khiển xe tham gia giao thông (bao gồm cả trường hợp người điều khiển phương tiện có Giấy phép lái xe nhưng đã hết hạn sử dụng hoặc đang trong thời gian bị tước quyền sử dụng)",
+        "category": "Vi phạm giấy tờ",
+        "penalty": {
+            "fine_min": 800000,
+            "fine_max": 2000000,
+            "currency": "VNĐ",
+            "fine_text": "800000 - 2000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 30",
+            "section": "Khoản 5",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 30, Khoản 5"
+        },
+        "severity": "Trung bình",
+        "keywords": [
+            "giấy phép"
+        ],
+        "search_text": "Giao xe hoặc để cho người không đủ điều kiện theo quy định tại khoản 1 Điều 58 của Luật Giao thông đường bộ điều khiển xe tham gia giao thông (bao gồm cả trường hợp người điều khiển phương tiện có Giấy phép lái xe nhưng đã hết hạn sử dụng hoặc đang trong thời gian bị tước quyền sử dụng) Vi phạm giấy tờ Điều 30 Xử phạt chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.156946",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Dùng bằng lái xe quốc tế có cần mang theo bằng lái gốc của Việt Nam không?",
+        "id": 473,
+        "description": "Có Giấy phép lái xe quốc tế do các nước tham gia Công ước về Giao thông đường bộ năm 1968 cấp (trừ Giấy phép lái xe quốc tế do Việt Nam cấp) nhưng không mang theo Giấy phép lái xe quốc gia",
+        "category": "Vi phạm giấy tờ",
+        "penalty": {
+            "fine_min": 800000,
+            "fine_max": 1200000,
+            "currency": "VNĐ",
+            "fine_text": "800000 - 1200000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 21",
+            "section": "Khoản 5",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 21, Khoản 5"
+        },
+        "severity": "Trung bình",
+        "keywords": [
+            "giấy phép"
+        ],
+        "search_text": "Có Giấy phép lái xe quốc tế do các nước tham gia Công ước về Giao thông đường bộ năm 1968 cấp (trừ Giấy phép lái xe quốc tế do Việt Nam cấp) nhưng không mang theo Giấy phép lái xe quốc gia Vi phạm giấy tờ Điều 21 Xử phạt các hành vi vi phạm quy định về điều kiện của người điều khiển xe cơ giới",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Xe tải không niêm yết hành trình chạy xe theo quy định thì chủ xe bị phạt thế nào?",
+        "id": 567,
+        "description": "Không thực hiện việc đăng ký, niêm yết hoặc niêm yết không chính xác, đầy đủ theo quy định về: Hành trình chạy xe",
+        "category": "Xe tải, container",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 4000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 4000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 28",
+            "section": "Khoản 4",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 28, Khoản 4"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Không thực hiện việc đăng ký, niêm yết hoặc niêm yết không chính xác, đầy đủ theo quy định về: Hành trình chạy xe Xe tải, container Điều 28 Xử phạt các hành vi vi phạm quy định về vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Ghép toa xe chở hàng hôi thối vào tàu chở khách bị phạt không?",
+        "id": 829,
+        "description": "Lập tàu có ghép nối toa xe vận tải động vật, hàng hóa có mùi hôi thối, chất dễ cháy, dễ nổ, độc hại, hàng nguy hiểm khác vào tàu khách.",
+        "category": "Xe tải, container",
+        "penalty": {
+            "fine_min": 1000000,
+            "fine_max": 2000000,
+            "currency": "VNĐ",
+            "fine_text": "1000000 - 2000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 40",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 40, Khoản 3"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Lập tàu có ghép nối toa xe vận tải động vật, hàng hóa có mùi hôi thối, chất dễ cháy, dễ nổ, độc hại, hàng nguy hiểm khác vào tàu khách. Xe tải, container Điều 40 Xử phạt các hành vi vi phạm quy định về khám, sửa chữa toa xe, lập tàu, thử hãm",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Xe container không truyền dữ liệu từ thiết bị giám sát hành trình bị phạt ra sao?",
+        "id": 592,
+        "description": "Không thực hiện việc cung cấp, cập nhật, truyền, lưu trữ, quản lý các thông tin từ thiết bị giám sát hành trình theo quy định",
+        "category": "Xe tải, container",
+        "penalty": {
+            "fine_min": 5000000,
+            "fine_max": 6000000,
+            "currency": "VNĐ",
+            "fine_text": "5000000 - 6000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 28",
+            "section": "Khoản 6",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 28, Khoản 6"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Không thực hiện việc cung cấp, cập nhật, truyền, lưu trữ, quản lý các thông tin từ thiết bị giám sát hành trình theo quy định Xe tải, container Điều 28 Xử phạt các hành vi vi phạm quy định về vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Doanh nghiệp vận tải xe tải không có bãi đỗ xe theo quy định thì bị phạt không?",
+        "id": 581,
+        "description": "Không có nơi đỗ xe theo quy định",
+        "category": "Xe tải, container",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 4000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 4000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 28",
+            "section": "Khoản 4",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 28, Khoản 4"
+        },
+        "severity": "Trung bình",
+        "keywords": [
+            "đỗ xe"
+        ],
+        "search_text": "Không có nơi đỗ xe theo quy định Xe tải, container Điều 28 Xử phạt các hành vi vi phạm quy định về vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Neo thuyền dưới gầm cầu có vi phạm luật không?",
+        "id": 391,
+        "description": "Neo đậu tàu, thuyền dưới gầm cầu hoặc trong phạm vi hành lang an toàn cầu",
+        "category": "Tàu thủy, thuyền",
+        "penalty": {
+            "fine_min": 200000,
+            "fine_max": 300000,
+            "currency": "VNĐ",
+            "fine_text": "200000 - 300000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 15",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 15, Khoản 2"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Neo đậu tàu, thuyền dưới gầm cầu hoặc trong phạm vi hành lang an toàn cầu Tàu thủy, thuyền Điều 15 Xử phạt các hành vi vi phạm quy định về quản lý, khai thác, bảo trì, bảo vệ kết cấu hạ tầng giao thông đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.121350",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Xe taxi không gắn mào \"TAXI\" trên nóc xe bị phạt bao nhiêu tiền?",
+        "id": 572,
+        "description": "Sử dụng xe taxi chở hành khách không gắn hộp đèn với chữ TAXI trên nóc xe và không niêm yết cụm từ XE TAXI trên kính phía trước, kính phía sau xe theo quy định hoặc có gắn hộp đèn, có niêm yết cụm từ XE TAXI nhưng không cố định, không đúng kích thước, không làm bằng vật liệu phản quang theo quy định",
+        "category": "Taxi, xe du lịch",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 4000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 4000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 28",
+            "section": "Khoản 4",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 28, Khoản 4"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Sử dụng xe taxi chở hành khách không gắn hộp đèn với chữ TAXI trên nóc xe và không niêm yết cụm từ XE TAXI trên kính phía trước, kính phía sau xe theo quy định hoặc có gắn hộp đèn, có niêm yết cụm từ XE TAXI nhưng không cố định, không đúng kích thước, không làm bằng vật liệu phản quang theo quy định Taxi, xe du lịch Điều 28 Xử phạt các hành vi vi phạm quy định về vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.137264",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Xe buýt không cung cấp thông tin trên Lệnh vận chuyển bị xử phạt như thế nào?",
+        "id": 615,
+        "description": "Không thực hiện việc cung cấp các thông tin trên Lệnh vận chuyển của từng chuyến xe buýt, xe chạy tuyến cố định theo quy định",
+        "category": "Xe khách, xe buýt",
+        "penalty": {
+            "fine_min": 7000000,
+            "fine_max": 10000000,
+            "currency": "VNĐ",
+            "fine_text": "7000000 - 10000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 28",
+            "section": "Khoản 7",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 28, Khoản 7"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Không thực hiện việc cung cấp các thông tin trên Lệnh vận chuyển của từng chuyến xe buýt, xe chạy tuyến cố định theo quy định Xe khách, xe buýt Điều 28 Xử phạt các hành vi vi phạm quy định về vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.152935",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Tụ tập reo hò, cổ vũ cho đoàn xe lạng lách đánh võng có bị phạt không?",
+        "id": 735,
+        "description": "Tụ tập để cổ vũ, kích động hành vi điều khiển xe chạy quá tốc độ quy định, lạng lách, đánh võng, đuổi nhau trên đường hoặc đua xe trái phép",
+        "category": "Vi phạm tốc độ",
+        "penalty": {
+            "fine_min": 1000000,
+            "fine_max": 2000000,
+            "currency": "VNĐ",
+            "fine_text": "1000000 - 2000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 34",
+            "section": "Khoản 1",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 34, Khoản 1"
+        },
+        "severity": "Trung bình",
+        "keywords": [
+            "tốc độ"
+        ],
+        "search_text": "Tụ tập để cổ vũ, kích động hành vi điều khiển xe chạy quá tốc độ quy định, lạng lách, đánh võng, đuổi nhau trên đường hoặc đua xe trái phép Vi phạm tốc độ Điều 34 Xử phạt người đua xe trái phép, cổ vũ đua xe trái phép",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.162966",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Trung tâm dạy lái xe đào tạo sai hạng bằng lái được cấp phép thì bị phạt gì?",
+        "id": 784,
+        "description": "Cơ sở đào tạo lái xe tổ chức tuyển sinh, đào tạo không đúng hạng Giấy phép lái xe được phép đào tạo",
+        "category": "Đào tạo lái xe",
+        "penalty": {
+            "fine_min": 10000000,
+            "fine_max": 15000000,
+            "currency": "VNĐ",
+            "fine_text": "10000000 - 15000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 37",
+            "section": "Khoản 5",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 37, Khoản 5"
+        },
+        "severity": "Nặng",
+        "keywords": [
+            "giấy phép"
+        ],
+        "search_text": "Cơ sở đào tạo lái xe tổ chức tuyển sinh, đào tạo không đúng hạng Giấy phép lái xe được phép đào tạo Đào tạo lái xe Điều 37 Xử phạt các hành vi vi phạm quy định về đào tạo, sát hạch lái xe",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Trung tâm sát hạch lái xe không công khai giá dịch vụ thì bị phạt thế nào?",
+        "id": 780,
+        "description": "Trung tâm sát hạch lái xe không niêm yết mức thu phí sát hạch, giá các dịch vụ khác theo quy định",
+        "category": "Đào tạo lái xe",
+        "penalty": {
+            "fine_min": 5000000,
+            "fine_max": 10000000,
+            "currency": "VNĐ",
+            "fine_text": "5000000 - 10000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 37",
+            "section": "Khoản 4",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 37, Khoản 4"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Trung tâm sát hạch lái xe không niêm yết mức thu phí sát hạch, giá các dịch vụ khác theo quy định Đào tạo lái xe Điều 37 Xử phạt các hành vi vi phạm quy định về đào tạo, sát hạch lái xe",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Trường dạy lái nhận học viên không đủ tuổi hoặc sức khỏe thì bị xử lý ra sao?",
+        "id": 766,
+        "description": "Cơ sở đào tạo lái xe tuyển sinh học viên không đủ điều kiện về độ tuổi, sức khỏe, trình độ văn hóa, thâm niên, số km lái xe an toàn tương ứng với từng hạng đào tạo; tuyển sinh học viên không đủ hồ sơ theo quy định",
+        "category": "Đào tạo lái xe",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 5000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 5000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 37",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 37, Khoản 3"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Cơ sở đào tạo lái xe tuyển sinh học viên không đủ điều kiện về độ tuổi, sức khỏe, trình độ văn hóa, thâm niên, số km lái xe an toàn tương ứng với từng hạng đào tạo; tuyển sinh học viên không đủ hồ sơ theo quy định Đào tạo lái xe Điều 37 Xử phạt các hành vi vi phạm quy định về đào tạo, sát hạch lái xe",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Giáo viên dạy lái xe thực hành quên mang giấy phép xe tập lái thì có bị phạt không?",
+        "id": 759,
+        "description": "Giáo viên dạy thực hành không mang theo Giấy phép xe tập lái hoặc mang theo Giấy phép xe tập lái đã hết giá trị sử dụng.",
+        "category": "Đào tạo lái xe",
+        "penalty": {
+            "fine_min": 600000,
+            "fine_max": 800000,
+            "currency": "VNĐ",
+            "fine_text": "600000 - 800000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 37",
+            "section": "Khoản 1",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 37, Khoản 1"
+        },
+        "severity": "Nhẹ",
+        "keywords": [
+            "giấy phép"
+        ],
+        "search_text": "Giáo viên dạy thực hành không mang theo Giấy phép xe tập lái hoặc mang theo Giấy phép xe tập lái đã hết giá trị sử dụng. Đào tạo lái xe Điều 37 Xử phạt các hành vi vi phạm quy định về đào tạo, sát hạch lái xe",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.162966",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Doanh nghiệp kinh doanh đường sắt không có giải pháp an toàn ở những đoạn dốc lớn thì bị phạt thế nào?",
+        "id": 908,
+        "description": "Không có giải pháp kỹ thuật đảm bảo an toàn giao thông vận tải đường sắt trong quá trình khai thác, kinh doanh kết cấu hạ tầng đường sắt đối với tuyến đường được phép sử dụng độ dốc lớn hơn dốc hạn chế",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 15000000,
+            "fine_max": 20000000,
+            "currency": "VNĐ",
+            "fine_text": "15000000 - 20000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 49",
+            "section": "Khoản 7",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 49, Khoản 7"
+        },
+        "severity": "Rất nặng",
+        "keywords": [],
+        "search_text": "Không có giải pháp kỹ thuật đảm bảo an toàn giao thông vận tải đường sắt trong quá trình khai thác, kinh doanh kết cấu hạ tầng đường sắt đối với tuyến đường được phép sử dụng độ dốc lớn hơn dốc hạn chế Tàu hỏa, đường sắt Điều 49 Xử phạt các hành vi vi phạm quy định về bảo đảm an toàn giao thông đường sắt",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Mang vật liệu dễ nổ lên tàu hỏa bị phạt không?",
+        "id": 1108,
+        "description": "Mang chất dễ cháy, dễ nổ, vũ khí, hàng nguy hiểm vào ga, lên tàu trái quy định",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 300000,
+            "fine_max": 500000,
+            "currency": "VNĐ",
+            "fine_text": "300000 - 500000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 73",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 73, Khoản 2"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Mang chất dễ cháy, dễ nổ, vũ khí, hàng nguy hiểm vào ga, lên tàu trái quy định Tàu hỏa, đường sắt Điều 73 Xử phạt các hành vi vi phạm quy định khác có liên quan đến an ninh, trật tự, an toàn giao thông đường sắt",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.184628",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Phát hiện công trình đang thi công gần đường sắt có nguy cơ gây tai nạn nhưng không có biện pháp xử lý thì bị phạt thế nào?",
+        "id": 1000,
+        "description": "Không kịp thời có biện pháp xử lý, biện pháp ngăn ngừa tai nạn khi phát hiện công trình đường sắt đang thi công đe dọa an toàn chạy tàu",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 5000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 5000000 VNĐ"
+        },
+        "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 01 đến 03 tháng"
+        ],
+        "legal_basis": {
+            "article": "Điều 56",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 56, Khoản 2"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Không kịp thời có biện pháp xử lý, biện pháp ngăn ngừa tai nạn khi phát hiện công trình đường sắt đang thi công đe dọa an toàn chạy tàu Tàu hỏa, đường sắt Điều 56 Xử phạt các hành vi vi phạm quy định về thi công công trình đường sắt trên đường sắt đang khai thác",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.184628",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Lái tàu đã thấy tín hiệu dừng nhưng vẫn cho tàu chạy tiếp thì bị phạt ra sao?",
+        "id": 869,
+        "description": "Lái tàu tiếp tục cho tàu chạy khi đã nhận được tín hiệu dừng tàu.",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 2000000,
+            "fine_max": 3000000,
+            "currency": "VNĐ",
+            "fine_text": "2000000 - 3000000 VNĐ"
+        },
+        "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 01 đến 03 tháng"
+        ],
+        "legal_basis": {
+            "article": "Điều 44",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 44, Khoản 3"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Lái tàu tiếp tục cho tàu chạy khi đã nhận được tín hiệu dừng tàu. Tàu hỏa, đường sắt Điều 44 Xử phạt các hành vi vi phạm quy định về chấp hành tín hiệu giao thông đường sắt",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Khi đèn tín hiệu ở đường ngang bị hỏng, nhân viên đường sắt không báo cho cảnh sát giao thông để điều tiết thì bị phạt không?",
+        "id": 821,
+        "description": "Không thông báo kịp thời, không phối hợp với lực lượng chức năng điều hành giao thông để bảo đảm an toàn giao thông qua đường ngang khi xảy ra sự cố hư hỏng đèn báo hiệu trên đường bộ tại đường ngang thuộc phạm vi quản lý",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 8000000,
+            "fine_max": 10000000,
+            "currency": "VNĐ",
+            "fine_text": "8000000 - 10000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 39",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 39, Khoản 3"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Không thông báo kịp thời, không phối hợp với lực lượng chức năng điều hành giao thông để bảo đảm an toàn giao thông qua đường ngang khi xảy ra sự cố hư hỏng đèn báo hiệu trên đường bộ tại đường ngang thuộc phạm vi quản lý Tàu hỏa, đường sắt Điều 39 Xử phạt các hành vi vi phạm quy định về lắp đặt hệ thống báo hiệu, thiết bị tại đường ngang, cầu chung; kết nối tín hiệu đèn giao thông đường bộ với tín hiệu đèn báo hiệu trên đường bộ tại đường ngang, cầu chung; cung cấp thông tin hỗ trợ cảnh giới tại các điểm giao cắt giữa đường bộ và đường sắt",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Phơi rơm rạ trên đường ray tàu hỏa có bị phạt không?",
+        "id": 899,
+        "description": "Phơi rơm, rạ, nông sản, để các vật phẩm khác trên đường sắt hoặc các công trình đường sắt khác",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 300000,
+            "fine_max": 500000,
+            "currency": "VNĐ",
+            "fine_text": "300000 - 500000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 49",
+            "section": "Khoản 1",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 49, Khoản 1"
+        },
+        "severity": "Nhẹ",
+        "keywords": [],
+        "search_text": "Phơi rơm, rạ, nông sản, để các vật phẩm khác trên đường sắt hoặc các công trình đường sắt khác Tàu hỏa, đường sắt Điều 49 Xử phạt các hành vi vi phạm quy định về bảo đảm an toàn giao thông đường sắt",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Lái xe lu đi qua đường ngang dân sinh mà không báo cho đơn vị quản lý thì bị phạt như thế nào?",
+        "id": 877,
+        "description": "Điều khiển xe bánh xích, xe lu bánh sắt, các phương tiện vận chuyển hàng siêu trường, siêu trọng, quá khổ giới hạn đi qua đường ngang mà không thông báo cho tổ chức quản lý đường ngang, không thực hiện đúng các biện pháp bảo đảm an toàn.",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 5000000,
+            "fine_max": 7000000,
+            "currency": "VNĐ",
+            "fine_text": "5000000 - 7000000 VNĐ"
+        },
+        "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 01 đến 03 tháng",
+            "Buộc khôi phục lại tình trạng ban đầu"
+        ],
+        "legal_basis": {
+            "article": "Điều 47",
+            "section": "Khoản 9",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 47, Khoản 9"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Điều khiển xe bánh xích, xe lu bánh sắt, các phương tiện vận chuyển hàng siêu trường, siêu trọng, quá khổ giới hạn đi qua đường ngang mà không thông báo cho tổ chức quản lý đường ngang, không thực hiện đúng các biện pháp bảo đảm an toàn. Tàu hỏa, đường sắt Điều 47 Xử phạt các hành vi vi phạm quy định về quy tắc giao thông tại đường ngang, cầu chung, hầm đường sắt",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Để vật liệu xây dựng trong hành lang an toàn đường sắt bị phạt bao nhiêu?",
+        "id": 947,
+        "description": "Để phương tiện, thiết bị, vật liệu, hàng hóa, chất phế thải hoặc các vật phẩm khác trái phép trong phạm vi bảo vệ công trình đường sắt, hành lang an toàn giao thông đường sắt hoặc trong khu vực ga, đề-pô, nhà ga đường sắt",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 2000000,
+            "fine_max": 3000000,
+            "currency": "VNĐ",
+            "fine_text": "2000000 - 3000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 53",
+            "section": "Khoản 3",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 53, Khoản 3"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Để phương tiện, thiết bị, vật liệu, hàng hóa, chất phế thải hoặc các vật phẩm khác trái phép trong phạm vi bảo vệ công trình đường sắt, hành lang an toàn giao thông đường sắt hoặc trong khu vực ga, đề-pô, nhà ga đường sắt Tàu hỏa, đường sắt Điều 53 Xử phạt các hành vi vi phạm quy định về sử dụng, khai thác trong phạm vi đất dành cho đường sắt",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.184628",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Xây lò gạch cách hành lang an toàn đường sắt dưới 10 mét có được phép không?",
+        "id": 939,
+        "description": "Xây dựng lò vôi, lò gốm, lò gạch, lò nấu gang, thép, xi măng, thủy tinh cách ngoài chỉ giới hành lang an toàn giao thông đường sắt nhỏ hơn 10 m",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 6000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 6000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 52",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 52, Khoản 2"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Xây dựng lò vôi, lò gốm, lò gạch, lò nấu gang, thép, xi măng, thủy tinh cách ngoài chỉ giới hành lang an toàn giao thông đường sắt nhỏ hơn 10 m Tàu hỏa, đường sắt Điều 52 Xử phạt các hành vi vi phạm quy định về xây dựng công trình, khai thác tài nguyên và các hoạt động khác ở vùng lân cận phạm vi bảo vệ công trình đường sắt",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.184628",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Xây nhà tạm bằng vật liệu dễ cháy cách hành lang an toàn đường sắt 4 mét bị phạt thế nào?",
+        "id": 940,
+        "description": "Xây dựng nhà bằng vật liệu dễ cháy cách ngoài chỉ giới hành lang an toàn giao thông đường sắt nhỏ hơn 05 m",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 6000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 6000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 52",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 52, Khoản 2"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Xây dựng nhà bằng vật liệu dễ cháy cách ngoài chỉ giới hành lang an toàn giao thông đường sắt nhỏ hơn 05 m Tàu hỏa, đường sắt Điều 52 Xử phạt các hành vi vi phạm quy định về xây dựng công trình, khai thác tài nguyên và các hoạt động khác ở vùng lân cận phạm vi bảo vệ công trình đường sắt",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.184628",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Công trình điện lực gây nhiễu sóng tín hiệu đường sắt mà không có biện pháp khắc phục thì bị phạt không?",
+        "id": 906,
+        "description": "Không thực hiện biện pháp bảo đảm an toàn để công trình điện lực, đường dây tải điện gây nhiễu hệ thống thông tin, tín hiệu đường sắt",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 5000000,
+            "fine_max": 8000000,
+            "currency": "VNĐ",
+            "fine_text": "5000000 - 8000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 49",
+            "section": "Khoản 4",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 49, Khoản 4"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Không thực hiện biện pháp bảo đảm an toàn để công trình điện lực, đường dây tải điện gây nhiễu hệ thống thông tin, tín hiệu đường sắt Tàu hỏa, đường sắt Điều 49 Xử phạt các hành vi vi phạm quy định về bảo đảm an toàn giao thông đường sắt",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Để hàng hóa vi phạm khổ giới hạn gần đường ray có bị phạt không?",
+        "id": 902,
+        "description": "Để phương tiện giao thông đường bộ, thiết bị, vật liệu, hàng hóa vi phạm khổ giới hạn tiếp giáp kiến trúc đường sắt, trừ hành vi vi phạm quy định tại điểm b khoản 3 Điều này.",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 2000000,
+            "fine_max": 3000000,
+            "currency": "VNĐ",
+            "fine_text": "2000000 - 3000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 49",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 49, Khoản 2"
+        },
+        "severity": "Trung bình",
+        "keywords": [],
+        "search_text": "Để phương tiện giao thông đường bộ, thiết bị, vật liệu, hàng hóa vi phạm khổ giới hạn tiếp giáp kiến trúc đường sắt, trừ hành vi vi phạm quy định tại điểm b khoản 3 Điều này. Tàu hỏa, đường sắt Điều 49 Xử phạt các hành vi vi phạm quy định về bảo đảm an toàn giao thông đường sắt",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Toa tàu chở hàng vượt quá tải trọng cho phép khoảng 10% thì bị phạt bao nhiêu?",
+        "id": 1040,
+        "description": "Vận chuyển hàng hóa trên mỗi toa xe vượt quá tải trọng cho phép chở của toa xe trên 5 đến 40",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 5000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 5000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 65",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 65, Khoản 2"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Vận chuyển hàng hóa trên mỗi toa xe vượt quá tải trọng cho phép chở của toa xe trên 5 đến 40 Tàu hỏa, đường sắt Điều 65 Xử phạt hành vi vi phạm quy định về số người được phép chở, tải trọng cho phép chở của phương tiện giao thông đường sắt, tải trọng cho phép khai thác của cầu đường",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.184628",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Đổ chất thải bẩn lên đường ray tàu hỏa bị xử lý thế nào?",
+        "id": 918,
+        "description": "Đổ, để chất độc hại, chất phế thải lên đường sắt hoặc xả chất thải không bảo đảm vệ sinh môi trường lên đường sắt",
+        "category": "Tàu hỏa, đường sắt",
+        "penalty": {
+            "fine_min": 3000000,
+            "fine_max": 5000000,
+            "currency": "VNĐ",
+            "fine_text": "3000000 - 5000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 51",
+            "section": "Khoản 2",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 51, Khoản 2"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Đổ, để chất độc hại, chất phế thải lên đường sắt hoặc xả chất thải không bảo đảm vệ sinh môi trường lên đường sắt Tàu hỏa, đường sắt Điều 51 Xử phạt các hành vi vi phạm quy định về bảo vệ công trình đường sắt",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.168629",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Lái tàu hỏa có nồng độ cồn nhưng chưa đến mức 0,25 miligam/1 lít khí thở thì có bị phạt không?",
+        "id": 1056,
+        "description": "Khi làm nhiệm vụ mà trong máu hoặc hơi thở có nồng độ cồn nhưng chưa vượt quá 50 miligam/100 mililít máu hoặc chưa vượt quá 0,25 miligam/1 lít khí thở.",
+        "category": "Vi phạm về rượu bia",
+        "penalty": {
+            "fine_min": 6000000,
+            "fine_max": 8000000,
+            "currency": "VNĐ",
+            "fine_text": "6000000 - 8000000 VNĐ"
+        },
+        "additional_measures": [],
+        "legal_basis": {
+            "article": "Điều 66",
+            "section": "Khoản 5",
+            "document": "Nghị định 100/2019/NĐ-CP",
+            "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 66, Khoản 5"
+        },
+        "severity": "Nặng",
+        "keywords": [],
+        "search_text": "Khi làm nhiệm vụ mà trong máu hoặc hơi thở có nồng độ cồn nhưng chưa vượt quá 50 miligam/100 mililít máu hoặc chưa vượt quá 0,25 miligam/1 lít khí thở. Vi phạm về rượu bia Điều 66 Xử phạt đối với lái tàu, phụ lái tàu",
+        "metadata": {
+            "source": "ND100-2019.docx",
+            "processed_date": "2025-11-19T22:37:21.184628",
+            "categorization_method": "enhanced_vehicle_detection_v3"
+        }
+    },
+    {
+        "question": "Chạy xe máy vượt đèn xanh bị phạt bao nhiêu tiền?",
+        "id": -1
+    },
+    {
+        "question": "Mức phạt cho lỗi dừng xe ô tô trước vạch kẻ đường khi có đèn đỏ là gì?",
+        "id": -1
+    },
+    {
+        "question": "Lái xe trên đường cao tốc đúng tốc độ tối đa cho phép thì bị phạt thế nào?",
+        "id": -1
+    },
+    {
+        "question": "Không đội mũ bảo hiểm khi đi bộ có bị phạt không?",
+        "id": -1
+    },
+    {
+        "question": "Bật xi nhan trước khi chuyển làn đường sẽ bị phạt bao nhiêu?",
+        "id": -1
+    },
+    {
+        "question": "Khi tham gia giao thông mang đầy đủ giấy tờ xe theo quy định thì bị xử phạt ra sao?",
+        "id": -1
+    },
+    {
+        "question": "Nhường đường cho xe cứu thương đang làm nhiệm vụ bị phạt lỗi gì?",
+        "id": -1
+    },
+    {
+        "question": "Dừng xe lại để cho người đi bộ qua đường ở đúng vạch kẻ quy định thì bị phạt bao nhiêu tiền?",
+        "id": -1
+    }
+]
